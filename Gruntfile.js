@@ -89,6 +89,17 @@ module.exports = function(grunt){
         }]
       }
     },
+
+    /* watch */
+    watch: {
+      less: {
+        files: ['**/*.less','*.html'],
+        tasks: ['clean', 'copy', 'less' ],
+        options: {
+          spawn: false,
+        },
+      },
+    }
   });
 
   // proj.registerTask("default",
