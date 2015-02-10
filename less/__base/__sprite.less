@@ -4,8 +4,12 @@
   height: @height;
 }
 
+.get-sprite(@x: 0, @y: 0){
+  background-position: @x @y;
+}
+
 .sprite {
-  background-image: url(spritesheet.png);
+  background-image: url("../img/context/sprite.png");
   background-repeat: no-repeat;
   display: block;
 

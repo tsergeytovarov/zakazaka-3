@@ -7,13 +7,29 @@ select,
 input[type='password']{ /* поля */
   box-sizing: border-box;
   outline: none;
+  display: block;
   width: 100%;
-  font-size: 18px;
+  font-size: 13px;
   line-height: 20px;
-  font-family: 'Gotham', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
 
   &:focus{
 
+  }
+}
+
+.search{
+  padding: 6px 35px 6px 15px;
+  border: 1px solid #ececec;
+  border-radius: 50px;
+  color: #909090;
+  background-image: url("../img/context/sprite.png");
+  background-size: 416px 273px;
+  background-repeat: no-repeat;
+  background-position: 230px -188px;
+
+  &:focus{
+    border: 1px solid #c7c7c7;
   }
 }
 
