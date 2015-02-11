@@ -195,8 +195,67 @@
 
         <!-- блок входа или внутри входа -->
         <div class="main-header_user to-right">
-          <a href="#" class="btn btn--header">Регистрация</a>
-          <a href="#" class="btn btn--header btn--header--border">Вход</a>
+
+          <!-- тултип избранных-->
+          <div class="tooltip">
+            <!-- заголово тултипа -->
+            <a href="#" class="tooltip_title tooltip_title--star js-toggle-tooltip">Избранное<span class="notice">1</span>></a>
+            <!-- контент тултипа -->
+            <div class="tooltip_content tooltip_content--medium">
+                <!-- Элемент нотификации с картинкой -->
+                <div class="notice-item clearfix">
+                  <div class="notice-item_image">
+                    <img src="img/restoran-small.jpg" height="43" width="43" alt="">
+                  </div>
+                  <a href="#" class="notice-item_title">Якитория</a>
+                  <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
+                  <button class="notice-item_delete">удалить</button>
+                </div>
+                <!-- Элемент нотификации с картинкой -->
+                <div class="notice-item clearfix">
+                  <div class="notice-item_image">
+                    <img src="img/restoran-small.jpg" height="43" width="43" alt="">
+                  </div>
+                  <a href="#" class="notice-item_title">Якитория</a>
+                  <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
+                  <button class="notice-item_delete">удалить</button>
+                </div>
+                <!-- Элемент нотификации с картинкой -->
+                <div class="notice-item notice-item--last clearfix">
+                  <div class="notice-item_image">
+                    <img src="img/restoran-small.jpg" height="43" width="43" alt="">
+                  </div>
+                  <a href="#" class="notice-item_title">Якитория</a>
+                  <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
+                  <button class="notice-item_delete">удалить</button>
+                </div>
+
+                <a href="#" class="btn btn--notice">показать больше уведомлений</a>
+            </div>
+          </div>
+
+          <!-- тултип оповещений-->
+          <div class="tooltip">
+            <!-- заголово тултипа -->
+            <a href="#" class="tooltip_title tooltip_title--message js-toggle-tooltip">Сообщения</a>
+            <!-- контент тултипа -->
+            <div class="tooltip_content tooltip_content--medium">
+            </div>
+          </div>
+
+          <!-- тултип блок пользователя -->
+          <div class="tooltip user-info">
+            <!-- заголово тултипа -->
+            <a href="#" class="tooltip_title js-toggle-tooltip">
+              <img src="img/user-small.jpg" class="user-info_image" alt="">
+              <p class="user-info_name">Фёдор</p>
+              <p class="user-info_ball">500 баллов</p>
+            </a>
+            <!-- контент тултипа -->
+            <div class="tooltip_content tooltip-content--small">
+
+            </div>
+          </div>
         </div>
       </div>
     </div>

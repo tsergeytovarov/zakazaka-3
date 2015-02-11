@@ -17,6 +17,16 @@
   .tooltip{
     margin: 8px 10px 0 20px;
   }
+
+  &_user{
+    .tooltip{
+      margin: 4px 14px 0 0;
+    }
+
+    .user-info.tooltip{
+      margin: 0;
+    }
+  }
 }
 
 /* logo */
@@ -82,5 +92,38 @@
     font-size: 8px;
     line-height: 25px;
     text-transform: uppercase;
+  }
+}
+
+/* user-info */
+.user-info{
+  margin-top: 0;
+
+  .tooltip_title::after{
+    display: none;
+  }
+
+  &_image{
+    width: 39px;
+    height: 39px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  &_name{
+    padding-left: 50px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "proxima", "Arial", sans-serif;
+    font-weight: 700;
+  }
+
+  &_ball{
+    padding-left: 50px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    opacity: .5;
   }
 }

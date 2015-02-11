@@ -30,7 +30,7 @@ module.exports = function(grunt){
     less:{
       build:{
         files: {
-          "build/css/style.css": "less/style.less"
+          "css/style.css": "less/style.less"
         }
       }
     },
@@ -95,7 +95,7 @@ module.exports = function(grunt){
     watch: {
       less: {
         files: ['**/*.less','*.html','**/*.js'],
-        tasks: ['clean', 'copy', 'less' ],
+        tasks: ['less' ],
         options: {
           spawn: false,
         },
