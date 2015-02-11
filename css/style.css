@@ -896,6 +896,21 @@ body {
   color: #fff;
   opacity: .5;
 }
+/* user-nav */
+.user-nav a {
+  font-size: 13px;
+  line-height: 20px;
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+.user-nav a:hover {
+  color: #8dc63f;
+}
+.user-nav a:last-child {
+  margin: 0;
+}
 /* шапка */
 .tooltip {
   position: relative;
@@ -976,6 +991,16 @@ body {
   left: -13px;
 }
 .tooltip_content--medium::before {
+  left: 20px;
+}
+.tooltip_content--small {
+  width: 175px;
+  padding: 20px;
+  top: 55px;
+  left: -7px;
+  box-sizing: border-box;
+}
+.tooltip_content--small::before {
   left: 20px;
 }
 .tooltip--open .tooltip_content {
