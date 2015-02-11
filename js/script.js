@@ -4,8 +4,16 @@ $(function(){
 
   // откртие и закрытие по ссылке
     $(".js-toggle-tooltip").on("click", function(){
-      $(".tooltip").removeClass("tooltip--open");
-      $(this).parents(".tooltip").toggleClass("tooltip--open");
+
+      var current = $(this).parents(".tooltip");
+
+      if (current.hasClass("tooltip--open")){
+        current.removeClass("tooltip--open");
+      } else {
+        $(".tooltip").removeClass("tooltip--open");
+        current.addClass("tooltip--open");
+      }
+
       return false;
     })
 
@@ -23,13 +31,15 @@ $(function(){
     })
 
   /* Обработчик табов */
-  $(".js-tab-control").on("click", function(){
-    var parent = $(this).parents(".js-tab-container");
-    parent.find(".js-tab-control").removeClass("active");
-    $(this).addClass("active");
-    parent.find(".js-tab").removeClass("js-tab--open");
-    parent.find("." + $(this).attr("data-tab") ).addClass("js-tab--open");
-    return false;
-  })
+
+    // универстальный обработчки
+    $(".js-tab-control").on("click", function(){
+      var parent = $(this).parents(".js-tab-container");
+      parent.find(".js-tab-control").removeClass("active");
+      $(this).addClass("active");
+      parent.find(".js-tab").removeClass("js-tab--open");
+      parent.find("." + $(this).attr("data-tab") ).addClass("js-tab--open");
+      return false;
+    })
 
 })
