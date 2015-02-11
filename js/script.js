@@ -15,4 +15,21 @@ $(function(){
       return false;
     })
 
+  /* Нотификации */
+
+    // сокрытие  и удаление
+    $(".js-delete-notice").on("click", function(){
+      $(this).parents(".notice-item").slideUp(200);
+    })
+
+  /* Обработчик табов */
+  $(".js-tab-control").on("click", function(){
+    var parent = $(this).parents(".js-tab-container");
+    parent.find(".js-tab-control").removeClass("active");
+    $(this).addClass("active");
+    parent.find(".js-tab").removeClass("js-tab--open");
+    parent.find("." + $(this).attr("data-tab") ).addClass("js-tab--open");
+    return false;
+  })
+
 })

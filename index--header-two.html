@@ -209,7 +209,7 @@
                   </div>
                   <a href="#" class="notice-item_title">Якитория</a>
                   <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
-                  <button class="notice-item_delete">удалить</button>
+                  <button class="notice-item_delete js-delete-notice">удалить</button>
                 </div>
                 <!-- Элемент нотификации с картинкой -->
                 <div class="notice-item clearfix">
@@ -218,7 +218,7 @@
                   </div>
                   <a href="#" class="notice-item_title">Якитория</a>
                   <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
-                  <button class="notice-item_delete">удалить</button>
+                  <button class="notice-item_delete js-delete-notice">удалить</button>
                 </div>
                 <!-- Элемент нотификации с картинкой -->
                 <div class="notice-item notice-item--last clearfix">
@@ -227,7 +227,7 @@
                   </div>
                   <a href="#" class="notice-item_title">Якитория</a>
                   <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
-                  <button class="notice-item_delete">удалить</button>
+                  <button class="notice-item_delete js-delete-notice">удалить</button>
                 </div>
 
                 <a href="#" class="btn btn--notice">показать больше уведомлений</a>
@@ -240,6 +240,64 @@
             <a href="#" class="tooltip_title tooltip_title--message js-toggle-tooltip">Сообщения</a>
             <!-- контент тултипа -->
             <div class="tooltip_content tooltip_content--medium">
+              <div class="tooltip-tab js-tab-container">
+                <div class="tooltip-tab_header">
+                  <a href="#" class="js-tab-control active" data-tab="js-tab-notice">уведомления</a>
+                  <a href="#" class="js-tab-control" data-tab="js-tab-system">системные</a>
+                </div>
+
+                <!-- первый таб -->
+                <div class="tooltip-tab_content js-tab js-tab-notice js-tab--open">
+                  <!-- Элемент нотификации с иконкой -->
+                  <div class="notice-item notice-item--gift clearfix">
+                    <div class="notice-item_image"></div>
+                    <a href="#" class="notice-item_title">Мой профиль</a>
+                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
+                    <button class="notice-item_delete js-delete-notice">удалить</button>
+                  </div>
+                  <!-- Элемент нотификации с иконкой -->
+                  <div class="notice-item notice-item--message clearfix">
+                    <div class="notice-item_image"></div>
+                    <a href="#" class="notice-item_title">Ответ на отзыв</a>
+                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
+                    <button class="notice-item_delete js-delete-notice">удалить</button>
+                  </div>
+                  <!-- Элемент нотификации с иконкой -->
+                  <div class="notice-item notice-item--message notice-item--last clearfix">
+                    <div class="notice-item_image"></div>
+                    <a href="#" class="notice-item_title">Ответ на отзыв</a>
+                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
+                    <button class="notice-item_delete js-delete-notice">удалить</button>
+                  </div>
+                  <a href="#" class="btn btn--notice">показать больше уведомлений</a>
+                </div>
+
+                <!-- второй таб -->
+                <div class="tooltip-tab_content js-tab js-tab-system">
+                  <!-- Элемент нотификации с иконкой -->
+                  <div class="notice-item notice-item--message clearfix">
+                    <div class="notice-item_image"></div>
+                    <a href="#" class="notice-item_title">Ответ на отзыв 2</a>
+                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
+                    <button class="notice-item_delete js-delete-notice">удалить</button>
+                  </div>
+                  <!-- Элемент нотификации с иконкой -->
+                  <div class="notice-item notice-item--gift clearfix">
+                    <div class="notice-item_image"></div>
+                    <a href="#" class="notice-item_title">Мой профиль 2</a>
+                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
+                    <button class="notice-item_delete js-delete-notice">удалить</button>
+                  </div>
+                  <!-- Элемент нотификации с иконкой -->
+                  <div class="notice-item notice-item--message notice-item--last clearfix">
+                    <div class="notice-item_image"></div>
+                    <a href="#" class="notice-item_title">Ответ на отзыв</a>
+                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
+                    <button class="notice-item_delete js-delete-notice">удалить</button>
+                  </div>
+                  <a href="#" class="btn btn--notice">показать больше уведомлений</a>
+                </div>
+              </div>
             </div>
           </div>
 

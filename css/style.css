@@ -784,6 +784,13 @@ body {
   margin: 0 auto;
 }
 /* контролирующие классы */
+.js-tab {
+  display: none;
+}
+.js-tab--open {
+  display: block;
+}
+/* подвал */
 .main-header_top {
   padding: 25px 10px;
 }
@@ -964,7 +971,7 @@ body {
 }
 .tooltip_content--medium {
   width: 270px;
-  padding: 20px 0;
+  padding: 0 0 20px;
   top: 55px;
   left: -13px;
 }
@@ -1100,6 +1107,61 @@ body {
 }
 .notice-item:hover .notice-item_delete {
   display: block;
+}
+.notice-item--gift {
+  position: relative;
+}
+.notice-item--gift::before {
+  content: "";
+  display: block;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -347px -393px;
+  width: 32px;
+  height: 30px;
+  position: absolute;
+  top: 16px;
+  left: 25px;
+}
+.notice-item--message {
+  position: relative;
+}
+.notice-item--message::before {
+  content: "";
+  display: block;
+  width: 33px;
+  height: 30px;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -466px -285px;
+  position: absolute;
+  top: 15px;
+  left: 24px;
+}
+/* tooltip-tab*/
+.tooltip-tab_header {
+  font-size: 0;
+}
+.tooltip-tab_header a {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 11px;
+  color: #000;
+  line-height: 38px;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  border-bottom: 1px solid #eee;
+}
+.tooltip-tab_header a:first-child {
+  border-right: 1px solid #eee;
+}
+.tooltip-tab_header a:hover,
+.tooltip-tab_header a.active {
+  background: #fafafa;
 }
 /* тулптипы */
 /* подвал */

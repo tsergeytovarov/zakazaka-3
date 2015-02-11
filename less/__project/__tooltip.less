@@ -80,7 +80,7 @@
 
     &--medium{
       width: 270px;
-      padding: 20px 0;
+      padding: 0 0 20px;
       top: 55px;
       left: -13px;
 
@@ -240,6 +240,73 @@
 
     .notice-item_delete{
       display: block;
+    }
+  }
+
+  &--gift{
+    position: relative;
+
+    &::before{
+      content: "";
+      display: block;
+      background-image: url("../img/context/sprite.png");
+      background-repeat: no-repeat;
+      background-position: -347px -393px;
+      width: 32px;
+      height: 30px;
+      position: absolute;
+      top: 16px;
+      left: 25px;
+    }
+  }
+
+  &--message{
+    position: relative;
+
+    &::before{
+      content: "";
+      display: block;
+      width: 33px;
+      height: 30px;
+      background-image: url("../img/context/sprite.png");
+      background-repeat: no-repeat;
+      background-position: -466px -285px;
+      position: absolute;
+      top: 15px;
+      left: 24px;
+    }
+  }
+}
+
+/* tooltip-tab*/
+.tooltip-tab{
+
+  &_header{
+    font-size: 0;
+
+    a{
+      display: inline-block;
+      vertical-align: top;
+      font-size: 11px;
+      color: #000;
+      line-height: 38px;
+      text-align: center;
+      box-sizing: border-box;
+      width: 50%;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 700;
+      border-bottom: 1px solid #eee;
+
+      &:first-child{
+        border-right: 1px solid #eee;
+      }
+
+      &:hover,
+      &.active{
+        background: #fafafa;
+      }
     }
   }
 }
