@@ -18,6 +18,7 @@ module.exports = function(grunt){
           src: [
             'font/**',
             'img/**',
+            'js/**',
             '*.html'
           ],
           dest: 'build'
@@ -93,7 +94,7 @@ module.exports = function(grunt){
     /* watch */
     watch: {
       less: {
-        files: ['**/*.less','*.html'],
+        files: ['**/*.less','*.html','**/*.js'],
         tasks: ['clean', 'copy', 'less' ],
         options: {
           spawn: false,
