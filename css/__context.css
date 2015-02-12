@@ -1,0 +1,7 @@
+/* Медиа запросы */
+@media (min-width: 1100px) {
+  /* Для 404-ой страницы */
+  .page-error_navigation .btn {
+    min-width: 110px;
+  }
+}
