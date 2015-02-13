@@ -49,7 +49,6 @@ $(function(){
       $(".modal-overlay").addClass("modal-overlay--open");
       $(".modal").removeClass("modal--open");
       $("." + $(this).attr("data-modal")).addClass("modal--open");
-      $("body").addClass("body--hidden");
       return false;
     })
 
@@ -57,7 +56,6 @@ $(function(){
     $(".js-close-modal").on("click", function(){
       $(this).parents(".modal").removeClass("modal--open");
       $(".modal-overlay").removeClass("modal-overlay--open");
-      $("body").removeClass("body--hidden");
       return false;
     })
 
@@ -67,7 +65,6 @@ $(function(){
       if (event.keyCode == 27) {
         $(".modal").removeClass("modal--open");
         $(".modal-overlay").removeClass("modal-overlay--open");
-      $("body").removeClass("body--hidden");
       }
     })
 
