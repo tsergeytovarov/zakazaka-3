@@ -717,6 +717,15 @@ b {
 .btn--grey--active {
   border: 1px solid #ececec;
 }
+.btn--grey--image {
+  line-height: 20px;
+  padding: 7px 10px;
+  margin-right: 13px;
+  margin-top: 10px;
+}
+.btn--grey--image img {
+  display: block;
+}
 /* кнопки */
 /*=====================
   Формы
@@ -1238,7 +1247,7 @@ body {
   margin: 60px auto 0;
 }
 .mobile-app_left {
-  width: 45%;
+  width: 40%;
   float: left;
   margin-top: 50px;
 }
