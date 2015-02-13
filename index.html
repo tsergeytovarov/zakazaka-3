@@ -195,7 +195,7 @@
 
         <!-- блок входа или внутри входа -->
         <div class="main-header_user to-right">
-          <a href="#" class="btn btn--header">Регистрация</a>
+          <a href="#" class="btn btn--header js-get-modal" data-modal="modal-register">Регистрация</a>
           <a href="#" class="btn btn--header btn--header--border">Вход</a>
         </div>
       </div>
@@ -310,6 +310,21 @@
       </div>
     </div>
   </footer>
+
+
+  <!-- модальные окна -->
+
+  <!-- задний фон окон -->
+  <div class="modal-overlay"></div>
+
+  <!-- сами окна -->
+  <div class="modal modal-register">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+      </div>
+    </div>
+  </div>
 
   <script src='js/library.js'></script>
   <script src='js/script.js'></script>
