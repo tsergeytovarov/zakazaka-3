@@ -240,7 +240,7 @@
     display: inline-block;
     vertical-align: top;
     list-style: none;
-    width: 250px;
+    width: 230px;
 
 
     a{
@@ -254,4 +254,86 @@
       }
     }
   }
+
+  &_ico-link{
+    line-height: 42px;
+    position: relative;
+    font-size: 14px;
+    color: #4f555d;
+    text-decoration: inderline;
+    padding-left: 46px;
+    display: inline-block;
+    vertical-align: top;
+
+    &:hover{
+      text-decoration: none;
+
+      &::after{
+        opacity: .7;
+      }
+    }
+
+    &::after{
+      content: "";
+      display: block;
+      position: absolute;
+      background-image: url("../img/context/sprite.png");
+      background-size: 416px 273px;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &_founders{
+    display: inline-block;
+    vertical-align: top;
+    width: 270px;
+    margin-top: 25px;
+    margin-right: 38px;
+    text-align: left;
+    padding-left: 0;
+
+    p{
+      font-size: 14px;
+      color: #4f555d;
+      line-height: 22px;
+    }
+  }
+}
+
+p.main-footer_founders{
+  padding-left: 0;
+}
+
+.icon-portal{
+  margin-right: 75px;
+}
+
+.icon-portal::after{
+  width: 33px;
+  height: 32px;
+  top: 6px;
+  left: 0;
+  background-position: -5px -142px;
+}
+
+.icon-gift::after{
+  width: 33px;
+  height: 43px;
+  top: -5px;
+  left: 0;
+  background-position: -89px -196px;
+}
+
+.ico-convert{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-image: url("../img/context/sprite.png");
+  background-size: 416px 273px;
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 15px;
+  background-position: -259px -41px;
+  position: relative;
+  top: -3px;
 }
