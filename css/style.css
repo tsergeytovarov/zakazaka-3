@@ -1544,6 +1544,75 @@ p.main-footer_founders {
   position: relative;
   top: -3px;
 }
+/* социо кнопки */
+.socio-btn {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 0;
+  margin-left: 10px;
+}
+.socio-btn::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: url("../img/context/sprite.png");
+  background-size: 416px 273px;
+  background-repeat: no-repeat;
+}
+.socio-btn:first-child {
+  margin-left: 0;
+}
+.socio-btn:hover {
+  opacity: .7;
+}
+.socio-btn--instagram {
+  border-color: #427096;
+}
+.socio-btn--instagram::after {
+  background-position: -66px -41px;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  margin-left: -8px;
+}
+.socio-btn--twitter {
+  border-color: #1292e3;
+}
+.socio-btn--twitter::after {
+  background-position: -357px -138px;
+  width: 21px;
+  height: 16px;
+  margin-top: -8px;
+  margin-left: -9px;
+}
+.socio-btn--facebook {
+  border-color: #335794;
+}
+.socio-btn--facebook::after {
+  background-position: -233px -167px;
+  width: 10px;
+  height: 19px;
+  margin-top: -10px;
+  margin-left: -4px;
+}
+.socio-btn--vk {
+  border-color: #3f70b1;
+}
+.socio-btn--vk::after {
+  background-position: -323px -153px;
+  width: 19px;
+  height: 11px;
+  margin-top: -5px;
+  margin-left: -9px;
+}
 /* подвал */
 /* Стили для 404-ой страницы */
 .page-error {

@@ -337,3 +337,84 @@ p.main-footer_founders{
   position: relative;
   top: -3px;
 }
+
+/* социо кнопки */
+.socio-btn{
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 0;
+  margin-left: 10px;
+
+  &::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-image: url("../img/context/sprite.png");
+    background-size: 416px 273px;
+    background-repeat: no-repeat;
+  }
+
+  &:first-child{
+    margin-left: 0;
+  }
+
+  &:hover{
+    opacity: .7;
+  }
+
+  &--instagram{
+    border-color: #427096;
+
+    &::after{
+      background-position: -66px -41px;
+      width: 16px;
+      height: 16px;
+      margin-top: -8px;
+      margin-left: -8px;
+    }
+  }
+
+  &--twitter{
+    border-color: #1292e3;
+
+    &::after{
+      background-position: -357px -138px;
+      width: 21px;
+      height: 16px;
+      margin-top: -8px;
+      margin-left: -9px;
+    }
+  }
+
+  &--facebook{
+    border-color: #335794;
+
+    &::after{
+      background-position: -233px -167px;
+      width: 10px;
+      height: 19px;
+      margin-top: -10px;
+      margin-left: -4px;
+    }
+  }
+
+  &--vk{
+    border-color: #3f70b1;
+
+    &::after{
+      background-position: -323px -153px;
+      width: 19px;
+      height: 11px;
+      margin-top: -5px;
+      margin-left: -9px;
+    }
+  }
+}
