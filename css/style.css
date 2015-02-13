@@ -2319,7 +2319,7 @@ p.main-footer_founders {
   font-family: "proxima-light", Arial, sans-serif;
 }
 /* карточки продуктов */
-/* Стили для страницы патнеров */
+/* Стили для промо со слайдером */
 .promo {
   width: 100%;
   padding-top: 45px;
@@ -2346,6 +2346,333 @@ p.main-footer_founders {
 }
 .promo .bx-viewport {
   height: 361px!important;
+}
+/* Преимущества партнерства */
+.advantages {
+  padding: 70px 0;
+  text-align: center;
+}
+.advantages_title {
+  text-align: left;
+  font-size: 24px;
+  line-height: 25px;
+  margin-bottom: 25px;
+  font-family: "proxima-light", Arial, sans-serif;
+}
+.advantages_list {
+  text-align: left;
+  margin-bottom: 70px;
+}
+.advantages_list li {
+  color: #656565;
+  font-size: 14px;
+  list-style: none;
+  line-height: 21px;
+  margin-bottom: 35px;
+  position: relative;
+  padding-left: 45px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.advantages_list li:before {
+  content: "";
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: -776px -307px;
+  width: 30px;
+  height: 29px;
+  position: absolute;
+  left: 0;
+}
+.advantages_list li:before.sprite-ico-appstore {
+  background-position: -10px -10px;
+  width: 238px;
+  height: 52px;
+}
+.advantages_list li:before.sprite-ico-arrow-bottom {
+  background-position: -268px -10px;
+  width: 8px;
+  height: 5px;
+}
+.advantages_list li:before.sprite-ico-arrow-left {
+  background-position: -296px -10px;
+  width: 61px;
+  height: 20px;
+}
+.advantages_list li:before.sprite-ico-big-gift {
+  background-position: -268px -50px;
+  width: 230px;
+  height: 215px;
+}
+.advantages_list li:before.sprite-ico-book {
+  background-position: -10px -285px;
+  width: 65px;
+  height: 64px;
+}
+.advantages_list li:before.sprite-ico-breadcrumbs-end {
+  background-position: -518px -10px;
+  width: 11px;
+  height: 32px;
+}
+.advantages_list li:before.sprite-ico-cart {
+  background-position: -95px -285px;
+  width: 79px;
+  height: 62px;
+}
+.advantages_list li:before.sprite-ico-cart-footer {
+  background-position: -194px -285px;
+  width: 32px;
+  height: 25px;
+}
+.advantages_list li:before.sprite-ico-checkbox {
+  background-position: -377px -10px;
+  width: 11px;
+  height: 9px;
+}
+.advantages_list li:before.sprite-ico-clock--big {
+  background-position: -246px -285px;
+  width: 64px;
+  height: 64px;
+}
+.advantages_list li:before.sprite-ico-clock-orange {
+  background-position: -408px -10px;
+  width: 19px;
+  height: 19px;
+}
+.advantages_list li:before.sprite-ico-close-pop-up {
+  background-position: -330px -285px;
+  width: 32px;
+  height: 32px;
+}
+.advantages_list li:before.sprite-ico-cloud {
+  background-position: -382px -285px;
+  width: 64px;
+  height: 56px;
+}
+.advantages_list li:before.sprite-ico-comment-top {
+  background-position: -466px -285px;
+  width: 33px;
+  height: 30px;
+}
+.advantages_list li:before.sprite-ico-convert {
+  background-position: -447px -10px;
+  width: 12px;
+  height: 8px;
+}
+.advantages_list li:before.sprite-ico-cross {
+  background-position: -479px -10px;
+  width: 8px;
+  height: 8px;
+}
+.advantages_list li:before.sprite-ico-cross-blue {
+  background-position: -194px -335px;
+  width: 24px;
+  height: 24px;
+}
+.advantages_list li:before.sprite-ico-facebook {
+  background-position: -466px -335px;
+  width: 20px;
+  height: 38px;
+}
+.advantages_list li:before.sprite-ico-find {
+  background-position: -10px -393px;
+  width: 32px;
+  height: 32px;
+}
+.advantages_list li:before.sprite-ico-find-content {
+  background-position: -62px -393px;
+  width: 96px;
+  height: 96px;
+}
+.advantages_list li:before.sprite-ico-gift {
+  background-position: -178px -393px;
+  width: 65px;
+  height: 86px;
+}
+.advantages_list li:before.sprite-ico-gift-big {
+  background-position: -263px -393px;
+  width: 64px;
+  height: 61px;
+}
+.advantages_list li:before.sprite-ico-gift-top {
+  background-position: -347px -393px;
+  width: 32px;
+  height: 30px;
+}
+.advantages_list li:before.sprite-ico-googleplay {
+  background-position: -549px -10px;
+  width: 272px;
+  height: 52px;
+}
+.advantages_list li:before.sprite-ico-half {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.advantages_list li:before.sprite-ico-info {
+  background-position: -48px -82px;
+  width: 64px;
+  height: 64px;
+}
+.advantages_list li:before.sprite-ico-instagram {
+  background-position: -132px -82px;
+  width: 32px;
+  height: 32px;
+}
+.advantages_list li:before.sprite-ico-mail {
+  background-position: -184px -82px;
+  width: 16px;
+  height: 15px;
+}
+.advantages_list li:before.sprite-ico-message {
+  background-position: -518px -82px;
+  width: 38px;
+  height: 30px;
+}
+.advantages_list li:before.sprite-ico-minus {
+  background-position: -220px -82px;
+  width: 8px;
+  height: 2px;
+}
+.advantages_list li:before.sprite-ico-pizza {
+  background-position: -576px -82px;
+  width: 88px;
+  height: 94px;
+}
+.advantages_list li:before.sprite-ico-plus {
+  background-position: -684px -82px;
+  width: 8px;
+  height: 8px;
+}
+.advantages_list li:before.sprite-ico-point {
+  background-position: -712px -82px;
+  width: 31px;
+  height: 36px;
+}
+.advantages_list li:before.sprite-ico-point-map {
+  background-position: -763px -82px;
+  width: 44px;
+  height: 54px;
+}
+.advantages_list li:before.sprite-ico-rocket {
+  background-position: -132px -156px;
+  width: 65px;
+  height: 64px;
+}
+.advantages_list li:before.sprite-ico-rocket-w {
+  background-position: -10px -156px;
+  width: 16px;
+  height: 16px;
+}
+.advantages_list li:before.sprite-ico-setting {
+  background-position: -217px -156px;
+  width: 24px;
+  height: 24px;
+}
+.advantages_list li:before.sprite-ico-slider-arrow--next {
+  background-position: -518px -156px;
+  width: 16px;
+  height: 28px;
+}
+.advantages_list li:before.sprite-ico-slider-arrow--next--small {
+  background-position: -684px -156px;
+  width: 5px;
+  height: 8px;
+}
+.advantages_list li:before.sprite-ico-slider-arrow--prev {
+  background-position: -709px -156px;
+  width: 17px;
+  height: 28px;
+}
+.advantages_list li:before.sprite-ico-slider-arrow--prev--small {
+  background-position: -746px -156px;
+  width: 5px;
+  height: 8px;
+}
+.advantages_list li:before.sprite-ico-stack {
+  background-position: -771px -156px;
+  width: 14px;
+  height: 16px;
+}
+.advantages_list li:before.sprite-ico-star {
+  background-position: -805px -156px;
+  width: 17px;
+  height: 16px;
+}
+.advantages_list li:before.sprite-ico-support {
+  background-position: -10px -192px;
+  width: 6px;
+  height: 9px;
+}
+.advantages_list li:before.sprite-ico-tel {
+  background-position: -36px -192px;
+  width: 44px;
+  height: 44px;
+}
+.advantages_list li:before.sprite-ico-timer {
+  background-position: -746px -192px;
+  width: 57px;
+  height: 64px;
+}
+.advantages_list li:before.sprite-ico-timer-2 {
+  background-position: -519px -276px;
+  width: 15px;
+  height: 16px;
+}
+.advantages_list li:before.sprite-ico-touch {
+  background-position: -554px -276px;
+  width: 72px;
+  height: 96px;
+}
+.advantages_list li:before.sprite-ico-tr-bottom {
+  background-position: -646px -276px;
+  width: 14px;
+  height: 8px;
+}
+.advantages_list li:before.sprite-ico-tr-top {
+  background-position: -680px -276px;
+  width: 14px;
+  height: 8px;
+}
+.advantages_list li:before.sprite-ico-twitter {
+  background-position: -714px -276px;
+  width: 42px;
+  height: 32px;
+}
+.advantages_list li:before.sprite-ico-viza {
+  background-position: -776px -276px;
+  width: 16px;
+  height: 11px;
+}
+.advantages_list li:before.sprite-ico-vkontakte {
+  background-position: -646px -307px;
+  width: 38px;
+  height: 22px;
+}
+.advantages_list li:before.sprite-ico-with-arrow {
+  background-position: -776px -307px;
+  width: 30px;
+  height: 29px;
+}
+.advantages_list li:before.sprite-lenta-green {
+  background-position: -646px -356px;
+  width: 80px;
+  height: 80px;
+}
+.advantages_list li:before.sprite-lenta-orange {
+  background-position: -347px -456px;
+  width: 80px;
+  height: 80px;
+}
+.advantages_list li:before.sprite-star-full {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.advantages_btn {
+  font-size: 14px;
+  min-width: 420px;
+  padding: 12px 19px;
 }
 /* информация о партнерах */
 /* Косметический слой */
