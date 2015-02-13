@@ -949,7 +949,6 @@ html {
   position: relative;
   margin: 0 auto;
 }
-<<<<<<< HEAD
 .modal_close {
   position: absolute;
   top: 24px;
@@ -965,8 +964,6 @@ html {
 .modal_close:hover {
   opacity: .6;
 }
-/* хлебные крошки */
-=======
 /* модальные окна*/
 .bx-wrapper {
   position: relative;
@@ -1105,7 +1102,6 @@ html {
   padding: 10px;
 }
 /* слайдер */
->>>>>>> 4562ca84ae6674d7aa3264bad6077a392f72c712
 /* Проектный слой */
 /*=====================
   Базовый каркас
@@ -2342,7 +2338,6 @@ p.main-footer_founders {
   font-family: "proxima-light", Arial, sans-serif;
 }
 /* карточки продуктов */
-<<<<<<< HEAD
 .catalog {
   margin: 10px auto;
 }
@@ -2415,7 +2410,7 @@ p.main-footer_founders {
   border: 1px solid #ececec;
 }
 /* карточки продуктов */
-=======
+/* карточки продуктов */
 /* Стили для промо со слайдером */
 .promo {
   width: 100%;
@@ -2772,7 +2767,6 @@ p.main-footer_founders {
   padding: 12px 19px;
 }
 /* информация о партнерах */
->>>>>>> 4562ca84ae6674d7aa3264bad6077a392f72c712
 /* Косметический слой */
 /* косметический слой */
 /* Медиа запросы */
