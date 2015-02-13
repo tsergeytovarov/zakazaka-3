@@ -1,0 +1,30 @@
+/* Хлебные крошки */
+.breadcrumbs {
+  font-size: 0;
+  margin: 20px 0;
+}
+.breadcrumbs a {
+  color: #959595;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #f4f4f4;
+  padding: 10px 25px;
+  position: relative;
+}
+.breadcrumbs a::after {
+  content: '';
+  right: -15px;
+  top: -1px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 15px;
+  border-color: transparent transparent transparent #f4f4f4;
+}
+.breadcrumbs a:last-child,
+.breadcrumbs a.active {
+  color: #5d5d5d;
+}

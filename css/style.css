@@ -796,6 +796,45 @@ input[type="radio"]:checked + label::before {
 }
 /* формы */
 /* таблицы */
+/* Хлебные крошки */
+.breadcrumbs {
+  font-size: 0;
+  margin: 20px 0;
+}
+.breadcrumbs a {
+  color: #959595;
+  font-size: 13px;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #f4f4f4;
+  padding: 10px 25px;
+  position: relative;
+  /* Треугольник, сделать без заливки */
+}
+.breadcrumbs a span {
+  transition: 0.3s ease border;
+  border-bottom: 1px solid transparent;
+}
+.breadcrumbs a::after {
+  content: '';
+  right: -16px;
+  top: -1px;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 15px;
+  border-color: transparent transparent transparent #f4f4f4;
+}
+.breadcrumbs a:last-child,
+.breadcrumbs a.active {
+  color: #5d5d5d;
+}
+.breadcrumbs a:hover span {
+  border-color: #5d5d5d;
+}
+/* хлебные крошки */
 /* Проектный слой */
 /*=====================
   Базовый каркас

@@ -1,0 +1,43 @@
+/* Хлебные крошки */ 
+
+@grey-color: #5d5d5d;
+
+.breadcrumbs{
+  font-size: 0;
+  margin: 20px 0;
+  a{
+    color: #959595;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #f4f4f4;
+    padding: 10px 25px;
+    position: relative;
+
+    span{ 
+      transition: 0.3s ease border;
+      border-bottom: 1px solid transparent; 
+    }
+    
+    /* Треугольник, сделать без заливки */ 
+    &::after {
+      content: ''; 
+      right: -16px; top: -1px;
+      position: absolute;
+      width: 0; height: 0;
+      border-style: solid;
+      border-width: 20px 0 20px 15px;
+      border-color: transparent transparent transparent #f4f4f4;
+   }
+
+   &:last-child, &.active{
+    color: @grey-color;
+   }
+
+   &:hover span{
+    border-color: @grey-color;
+   }
+
+  }
+}
