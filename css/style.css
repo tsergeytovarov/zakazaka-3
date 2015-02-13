@@ -896,6 +896,10 @@ input[type="radio"]:checked + label::before {
   }
 }
 /* стили */
+body,
+html {
+  height: 100%;
+}
 .body--hidden {
   overflow: hidden;
 }
