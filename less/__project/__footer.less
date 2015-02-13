@@ -1,0 +1,182 @@
+/* мобильные приложения */
+
+.big-header{
+  text-align: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 20px 0;
+
+  &::before{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #f0f0f0;
+    z-index: -1;
+  }
+
+  span{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 30px;
+    font-size: 32px;
+    line-height: 32px;
+    color: #333;
+    font-family: "proxima", "Arial", sans-serif;
+    background: #fff;
+  }
+}
+
+.mobile-app{
+  margin: 60px auto 0;
+
+  &_left{
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+  }
+
+  &_right{
+    width: 570px;
+    float: right;
+    text-align: center;
+    font-size: 0;
+  }
+
+  &_advantage{
+    font-size: 0;
+    margin-bottom: 50px;
+  }
+
+  &_ico{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+    i{
+      display: inline-block;
+      vertical-align: top;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      border: 2px solid @orange;
+    }
+  }
+
+  &_text{
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &_adv-title{
+    font-family: "proxima", "Arial", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 300;
+  }
+
+  &_adv-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(101,101,101,.6);
+  }
+}
+
+
+.ico-cloud{
+  position: relative;
+
+  &::before{
+    content: "";
+    background-image: url("../img/context/sprite.png");
+    background-size: 416px 273px;
+    background-repeat: no-repeat;
+    background-position: -191px -143px;
+    width: 32px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -14px;
+  }
+}
+
+.ico-timer{
+  position: relative;
+
+  &::before{
+    content: "";
+    background-image: url("../img/context/sprite.png");
+    background-size: 416px 273px;
+    background-repeat: no-repeat;
+    background-position: -373px -96px;
+    width: 29px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -13px;
+    margin-top: -16px;
+  }
+}
+
+.ico-rocket{
+  position: relative;
+
+  &::before{
+    content: "";
+    background-image: url("../img/context/sprite.png");
+    background-size: 416px 273px;
+    background-repeat: no-repeat;
+    background-position: -66px -78px;
+    width: 33px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -16px;
+    margin-top: -16px;
+  }
+}
+
+
+/* мок ап */
+.mock-up{
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 0 10px;
+
+  &--iphone{
+    width: 240px;
+    height: 507px;
+    padding: 78px 20px 73px 23px;
+    background: url("../img/context/mockup-iphone.png") no-repeat center;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &--samsung{
+    width: 220px;
+    height: 425px;
+    padding: 40px 11px 39px 13px;
+    background: url("../img/context/mockup-samsung.png") no-repeat center;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
