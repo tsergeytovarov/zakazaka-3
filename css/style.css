@@ -949,6 +949,21 @@ html {
   position: relative;
   margin: 0 auto;
 }
+.modal_close {
+  position: absolute;
+  top: 24px;
+  right: 31px;
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: -330px -285px;
+  font-size: 0;
+}
+.modal_close:hover {
+  opacity: .6;
+}
 /* хлебные крошки */
 /* Проектный слой */
 /*=====================
