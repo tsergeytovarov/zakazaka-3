@@ -1,0 +1,76 @@
+/* Стили для промо со слайдером */ 
+.promo{
+  width: 100%;
+  padding-top: 45px;
+  min-height: 575px;
+  min-width: 1170px;
+  text-align: center;
+  box-sizing: border-box;
+  background: url(../../img/context/bg-about.jpg) no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+  &_title{
+    color: #fff;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    font-family: "proxima-light", Arial, sans-serif;
+  }
+
+  /* Слайдер */ 
+  .bx-wrapper{
+    width: 640px;
+    margin: 0 auto;
+    box-shadow: 0 0 35px 0px rgba(0,0,0,.7);
+  }
+  .bx-viewport{
+    height: 361px!important;
+  }
+}
+
+
+
+/* Преимущества партнерства */ 
+.advantages{
+  padding: 70px 0;
+  text-align: center;
+
+  &_title{
+    text-align: left;
+    font-size: 24px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-family: "proxima-light", Arial, sans-serif;
+  }
+  
+  &_list{
+    text-align: left;
+    margin-bottom: 70px;
+
+    li{
+      color: #656565;
+      font-size: 14px;
+      list-style: none;
+      line-height: 21px;
+      margin-bottom: 35px;
+      position: relative;
+      padding-left: 45px;
+      font-family: "Open Sans", Arial, sans-serif;
+
+      &:before{
+        content: "";
+        .sprite; .sprite-ico-with-arrow;
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+
+  &_btn{
+    font-size: 14px;
+    min-width: 420px;
+    padding: 12px 19px;
+  }
+
+}
