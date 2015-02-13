@@ -2201,6 +2201,78 @@ p.main-footer_founders {
   font-family: "proxima-light", Arial, sans-serif;
 }
 /* карточки продуктов */
+.catalog {
+  margin: 10px auto;
+}
+.catalog a {
+  text-decoration: none;
+}
+.catalog_container {
+  margin-bottom: 40px;
+}
+.catalog_control {
+  font-size: 0;
+  text-align: center;
+}
+.catalog_control a {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 11px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding: 8px 24px;
+  border: 1px solid #ededed;
+  border-right: none;
+  text-decoration: none;
+}
+.catalog_control a.active {
+  background: #fafafa;
+}
+.catalog_control a.active:hover {
+  background: #fafafa;
+}
+.catalog_control a:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.catalog_control a:last-child {
+  border-right: 1px solid #ededed;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.catalog_control a:hover {
+  background: #fafafa;
+}
+.catalog-item {
+  box-sizing: border-box;
+  padding: 22px 0;
+  border: 1px solid #fff;
+}
+.catalog-item_image {
+  height: 215px;
+  overflow: hidden;
+}
+.catalog-item_image img {
+  width: auto;
+  max-height: 215px;
+  display: block;
+  margin: 0 auto;
+}
+.catalog-item_title {
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "proxima", "Arial", sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+.catalog-item:hover {
+  border: 1px solid #ececec;
+}
+/* карточки продуктов */
 /* Косметический слой */
 /* косметический слой */
 /* Медиа запросы */
