@@ -1,5 +1,47 @@
 /* Стили для страницы бонусов */
 
 .bonus{
-  
+
+  &_title{
+    margin: 40px 0;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: "proxima", Arial, sans-serif;
+  }
+
+  &_gift{
+    margin: 20px auto 0;
+  }
+
+  &_list{
+
+    li{
+      color: #333;
+      font-size: 22px;
+      list-style: none;
+      line-height: 26px;
+      margin-bottom: 50px;
+      position: relative;
+      padding-left: 50px;
+      font-family: "proxima", Arial, sans-serif;
+
+      span{
+        display: block;
+        color: #656565;
+        font-size: 14px;
+        line-height: 21px;
+        padding-top: 10px;
+        font-family: "Open Sans", sans-serif;        
+      }
+
+      &:before{
+        content: "";
+        .sprite; .sprite-ico-with-arrow;
+        position: absolute;
+        left: 0;
+      }
+
+    }
+  }
+
 }
