@@ -2238,7 +2238,7 @@ p.main-footer_founders {
 .product-item_image {
   width: 100%;
   display: table;
-  min-height: 209px;
+  height: 209px;
 }
 .product-item_image_wrapper {
   display: table-cell;
@@ -2252,7 +2252,7 @@ p.main-footer_founders {
   width: 100%;
   color: #333;
   display: table;
-  min-height: 70px;
+  height: 70px;
   font-size: 16px;
   line-height: 22px;
   background: #fafafa;
