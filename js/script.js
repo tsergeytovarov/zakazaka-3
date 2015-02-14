@@ -71,4 +71,13 @@ $(function(){
       }
     })
 
+  // карусель на главной
+    $(".carousel").bxSlider({
+      slideWidth: 5000,
+      minSlides: 3,
+      maxSlides: 3,
+      slideMargin: 90,
+      pager: false
+    });
+
 })
