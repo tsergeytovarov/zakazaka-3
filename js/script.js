@@ -77,7 +77,8 @@ $(function(){
       minSlides: 3,
       maxSlides: 3,
       slideMargin: 90,
-      pager: false
+      pager: false,
+      moveSlides: 1
     });
 
 })

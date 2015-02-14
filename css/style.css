@@ -1010,7 +1010,7 @@ html {
 }
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-  left: -80px;
+  left: -60px;
   background-position: -148px -5px;
 }
 .bx-wrapper .bx-prev::after {
@@ -1028,7 +1028,7 @@ html {
   margin-left: -4px;
 }
 .bx-wrapper .bx-next {
-  right: -80px;
+  right: -60px;
 }
 .bx-wrapper .bx-next::after {
   content: "";
