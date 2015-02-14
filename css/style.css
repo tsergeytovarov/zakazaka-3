@@ -468,6 +468,11 @@ th {
   width: 17px;
   height: 16px;
 }
+.sprite-ico-clocker {
+  background: url("../img/context/sprite/ico-clock-gray.png") no-repeat center;
+  width: 19px;
+  height: 19px;
+}
 /* контролирующие классы */
 /*=====================
   Маленькие управляющие классы
@@ -2328,6 +2333,51 @@ p.main-footer_founders {
 .product-item:hover .product-item_description {
   display: inherit;
 }
+.product-item--buy .product-item_description {
+  display: none;
+}
+.product-item--buy .product-item_title {
+  text-align: left;
+  min-height: 110px;
+}
+.product-item--buy .product-item_title p {
+  font-size: 13px;
+  font-weight: 700;
+  color: #959595;
+  line-height: 20px;
+}
+.product-item--buy .product-item_title p strong {
+  font-size: 16px;
+  line-height: 25px;
+  color: #333;
+  font-weight: 700;
+}
+.product-item--buy .product-item_title_wrapper {
+  vertical-align: top;
+  padding: 10px;
+}
+.product-item--buy:hover {
+  border: 1px solid #ececec;
+}
+.product-item_cart {
+  padding: 15px 20px;
+}
+.product-item_cart .time {
+  font-size: 11px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  width: 120px;
+  float: left;
+  margin-top: 7px;
+  text-align: left;
+}
+.product-item_cart .time i {
+  margin-right: 7px;
+  display: inline-block;
+  vertical-align: top;
+}
 /* Стили для блока продуктов на странице bonus-page.html */
 .product {
   margin-top: 100px;
@@ -2514,12 +2564,12 @@ p.main-footer_founders {
   width: 100%;
   padding-top: 45px;
   min-height: 575px;
-  min-width: 1170px;
+  min-width: 970px;
   text-align: center;
   box-sizing: border-box;
-  background: url(../../img/context/bg-about.jpg) no-repeat;
+  background: url(../img/context/bg-about.jpg) no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: left bottom;
   /* Слайдер */
 }
 .promo_title {
@@ -2906,3 +2956,4 @@ p.main-footer_founders {
     min-width: 100px;
   }
 }
+/* медиа-запросы */
