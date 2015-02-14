@@ -2350,6 +2350,7 @@ p.main-footer_founders {
 .catalog_control {
   font-size: 0;
   text-align: center;
+  margin-bottom: 70px;
 }
 .catalog_control a {
   display: inline-block;
@@ -2408,6 +2409,103 @@ p.main-footer_founders {
 }
 .catalog-item:hover {
   border: 1px solid #ececec;
+}
+/* how work */
+.how-work {
+  padding: 60px 10px 90px;
+}
+.how-work-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 170px;
+  padding-right: 130px;
+  position: relative;
+}
+.how-work-item::before {
+  content: "";
+  background-image: url("../img/context/sprite.png");
+  background-size: 416px 273px;
+  background-repeat: no-repeat;
+  background-position: -148px -5px;
+  width: 31px;
+  height: 10px;
+  position: absolute;
+  top: 30%;
+  right: 45px;
+  margin-left: -15px;
+  margin-top: -5px;
+}
+.how-work-item:last-child {
+  padding-right: 0;
+}
+.how-work-item:last-child::before {
+  display: none;
+}
+.how-work-item_image {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 30px;
+  border: 1px solid #ffa115;
+  border-radius: 50%;
+  display: block;
+}
+.how-work-item_title {
+  font-family: "proxima", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  color: #474747;
+  text-align: center;
+}
+.ico-lupa {
+  position: relative;
+}
+.ico-lupa::before {
+  content: "";
+  background-image: url("../img/context/sprite.png");
+  background-size: 416px 273px;
+  background-repeat: no-repeat;
+  background-position: -31px -197px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -24px;
+  margin-top: -24px;
+}
+.ico-touch {
+  position: relative;
+}
+.ico-touch::before {
+  content: "";
+  background-image: url("../img/context/sprite.png");
+  background-size: 416px 273px;
+  background-repeat: no-repeat;
+  background-position: -277px -138px;
+  width: 36px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -18px;
+  margin-top: -24px;
+}
+.ico-pizza {
+  position: relative;
+}
+.ico-pizza::before {
+  content: "";
+  background-image: url("../img/context/sprite.png");
+  background-size: 416px 273px;
+  background-repeat: no-repeat;
+  background-position: -288px -41px;
+  width: 44px;
+  height: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -22px;
+  margin-top: -24px;
 }
 /* карточки продуктов */
 /* карточки продуктов */
