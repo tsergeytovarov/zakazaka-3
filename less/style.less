@@ -1,37 +1,38 @@
 /* Фундаментлаьный слой  */
-@import "__foundation.less";        /* normalize */
+@import "__foundation.less";          /* normalize */
 
 /* Базовый слой */
-@import "__base/__sprite.less";     /* контролирующие классы */
-@import "__base/__control.less";    /* контролирующие классы */
-@import "__base/__typography.less"; /* базовая типография */
-@import "__base/__color.less";      /* цвета */
-@import "__base/__grid.less";       /* сетка */
-@import "__base/__buttons.less";    /* кнопки */
-@import "__base/__form.less";       /* формы */
-@import "__base/__table.less";      /* таблицы */
-@import "__base/__breadcrumbs.less";/* хлебные крошки */
-@import "__base/__modal.less";      /* модальные окна*/
-@import "__base/__slider.less";     /* слайдер */
+@import "__base/__sprite.less";         /* спрайт */
+@import "__base/__control.less";        /* контролирующие классы */
+@import "__base/__typography.less";     /* базовая типография */
+@import "__base/__color.less";          /* цвета */
+@import "__base/__grid.less";           /* сетка */
+@import "__base/__buttons.less";        /* кнопки */
+@import "__base/__form.less";           /* формы */
+@import "__base/__table.less";          /* таблицы */
+@import "__base/__breadcrumbs.less";    /* хлебные крошки */
+@import "__base/__modal.less";          /* модальные окна - основа и стили самих окон */
+@import "__base/__slider.less";         /* слайдер базовые стили */
 
 
 /* Проектный слой */
-@import "__project/__layout.less";     /* контролирующие классы */
-@import "__project/__tab.less";        /* подвал */
-@import "__project/__header.less";     /* шапка */
-@import "__project/__tooltip.less";    /* тулптипы */
-@import "__project/__footer.less";     /* подвал */
-@import "__project/__404.less";        /* 404 страница */
-@import "__project/__bonus.less";      /* бонусы */
+@import "__project/__layout.less";      /* стили шаблона основного */
+@import "__project/__tab.less";         /* стили для табов контролирующие */
+@import "__project/__header.less";      /* стили шапки страницы и модулей внтури него */
+@import "__project/__tooltip.less";     /* тултипы */
+@import "__project/__footer.less";      /* подвал и все его вариации с блоками SEO */
+@import "__project/__404.less";         /* 404 страница */
+@import "__project/__bonus.less";       /* Страница бонусов */
 
-@import "__project/__product.less";      /* карточки продуктов */
-@import "__project/__index.less";      /* карточки продуктов */
+@import "__project/__product.less";     /* карточки продуктов */
+@import "__project/__index.less";       /* Главная страница */
 
-@import "__project/__product.less";    /* карточки продуктов */
-@import "__project/__partners.less";   /* информация о партнерах */
-@import "__project/__contact.less";    /* контакты */
+@import "__project/__partners.less";    /* Страница для партнеров */
+@import "__project/__contact.less";     /* Страница контактов */
+
+@import "__project/__cafe-list.less";   /* Страница списка ресторанов */
 
 
 /* Косметический слой */
-@import "__cosmetic.less";   /* косметический слой */
-@import "__context.less";    /* медиа-запросы */
+@import "__cosmetic.less";              /* косметический слой */
+@import "__context.less";               /* медиа-запросы */

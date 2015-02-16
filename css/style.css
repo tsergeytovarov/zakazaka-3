@@ -473,7 +473,7 @@ th {
   width: 19px;
   height: 19px;
 }
-/* контролирующие классы */
+/* спрайт */
 /*=====================
   Маленькие управляющие классы
 =====================*/
@@ -981,7 +981,7 @@ html {
 .modal_close:hover {
   opacity: .6;
 }
-/* модальные окна*/
+/* модальные окна - основа и стили самих окон */
 .bx-wrapper {
   position: relative;
 }
@@ -1099,7 +1099,7 @@ html {
   font-size: .85em;
   padding: 10px;
 }
-/* слайдер */
+/* слайдер базовые стили */
 /* Проектный слой */
 /*=====================
   Базовый каркас
@@ -1113,14 +1113,14 @@ body {
   padding: 0 10px;
   margin: 0 auto;
 }
-/* контролирующие классы */
+/* стили шаблона основного */
 .js-tab {
   display: none;
 }
 .js-tab--open {
   display: block;
 }
-/* подвал */
+/* стили для табов контролирующие */
 .main-header_top {
   padding: 25px 10px;
 }
@@ -1241,7 +1241,7 @@ body {
 .user-nav a:last-child {
   margin: 0;
 }
-/* шапка */
+/* стили шапки страницы и модулей внтури него */
 .tooltip {
   position: relative;
   display: inline-block;
@@ -1518,7 +1518,7 @@ body {
 .tooltip-tab_header a.active {
   background: #fafafa;
 }
-/* тулптипы */
+/* тултипы */
 /* мобильные приложения */
 .big-header {
   text-align: center;
@@ -1877,7 +1877,7 @@ p.main-footer_founders {
   margin-top: -5px;
   margin-left: -9px;
 }
-/* подвал */
+/* подвал и все его вариации с блоками SEO */
 /* Стили для 404-ой страницы */
 .page-error {
   padding-top: 90px;
@@ -2227,7 +2227,7 @@ p.main-footer_founders {
   width: 17px;
   height: 16px;
 }
-/* бонусы */
+/* Страница бонусов */
 /* Общие стили для блока с товарами */
 .items_wrapper .product-item:first-child {
   margin-left: 0;
@@ -2571,8 +2571,7 @@ p.main-footer_founders {
 .index-control a:hover {
   background: #fafafa;
 }
-/* карточки продуктов */
-/* карточки продуктов */
+/* Главная страница */
 /* Стили для промо со слайдером */
 .promo {
   width: 100%;
@@ -2928,7 +2927,7 @@ p.main-footer_founders {
   min-width: 420px;
   padding: 12px 19px;
 }
-/* информация о партнерах */
+/* Страница для партнеров */
 /* Страница контактов contacts.html */
 .contacts {
   min-height: 314px;
@@ -2959,7 +2958,8 @@ p.main-footer_founders {
   font-size: 30px;
   margin-top: 12px;
 }
-/* контакты */
+/* Страница контактов */
+/* Страница списка ресторанов */
 /* Косметический слой */
 /* косметический слой */
 /* Медиа запросы */
