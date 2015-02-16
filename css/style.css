@@ -2154,12 +2154,19 @@ body {
   font-weight: 300;
   color: #4f555d;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .seo-footer_text {
   font-size: 12px;
   line-height: 18px;
   color: #4f555d;
   margin-bottom: 30px;
+}
+.seo-footer_text a {
+  color: #4f555d;
+}
+.seo-footer--small {
+  padding: 60px 0 30px;
 }
 /* footer */
 .main-footer {
