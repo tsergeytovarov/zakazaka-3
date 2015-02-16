@@ -358,7 +358,7 @@ th {
   width: 65px;
   height: 64px;
 }
-.sprite.sprite-ico-rocket-w {
+ф .sprite.sprite-ico-rocket-w {
   background-position: -10px -156px;
   width: 16px;
   height: 16px;
@@ -1151,6 +1151,418 @@ html {
   display: block;
   font-size: .85em;
   padding: 10px;
+}
+/* слайдер базовые стили */
+/* rate */
+.rate {
+  margin-bottom: 15px;
+}
+.rate i {
+  height: 17px;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: -805px -156px;
+  width: 17px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2px;
+}
+.rate i.sprite-ico-appstore {
+  background-position: -10px -10px;
+  width: 238px;
+  height: 52px;
+}
+.rate i.sprite-ico-arrow-bottom {
+  background-position: -268px -10px;
+  width: 8px;
+  height: 5px;
+}
+.rate i.sprite-ico-arrow-left {
+  background-position: -296px -10px;
+  width: 61px;
+  height: 20px;
+}
+.rate i.sprite-ico-big-gift {
+  background-position: -268px -50px;
+  width: 230px;
+  height: 215px;
+}
+.rate i.sprite-ico-book {
+  background-position: -10px -285px;
+  width: 65px;
+  height: 64px;
+}
+.rate i.sprite-ico-breadcrumbs-end {
+  background-position: -518px -10px;
+  width: 11px;
+  height: 32px;
+}
+.rate i.sprite-ico-cart {
+  background-position: -95px -285px;
+  width: 79px;
+  height: 62px;
+}
+.rate i.sprite-ico-cart-footer {
+  background-position: -194px -285px;
+  width: 32px;
+  height: 25px;
+}
+.rate i.sprite-ico-checkbox {
+  background-position: -377px -10px;
+  width: 11px;
+  height: 9px;
+}
+.rate i.sprite-ico-clock--big {
+  background-position: -246px -285px;
+  width: 64px;
+  height: 64px;
+}
+.rate i.sprite-ico-clock-orange {
+  background-position: -408px -10px;
+  width: 19px;
+  height: 19px;
+}
+.rate i.sprite-ico-close-pop-up {
+  background-position: -330px -285px;
+  width: 32px;
+  height: 32px;
+}
+.rate i.sprite-ico-cloud {
+  background-position: -382px -285px;
+  width: 64px;
+  height: 56px;
+}
+.rate i.sprite-ico-comment-top {
+  background-position: -466px -285px;
+  width: 33px;
+  height: 30px;
+}
+.rate i.sprite-ico-convert {
+  background-position: -447px -10px;
+  width: 12px;
+  height: 8px;
+}
+.rate i.sprite-ico-cross {
+  background-position: -479px -10px;
+  width: 8px;
+  height: 8px;
+}
+.rate i.sprite-ico-cross-blue {
+  background-position: -194px -335px;
+  width: 24px;
+  height: 24px;
+}
+.rate i.sprite-ico-facebook {
+  background-position: -466px -335px;
+  width: 20px;
+  height: 38px;
+}
+.rate i.sprite-ico-find {
+  background-position: -10px -393px;
+  width: 32px;
+  height: 32px;
+}
+.rate i.sprite-ico-find-content {
+  background-position: -62px -393px;
+  width: 96px;
+  height: 96px;
+}
+.rate i.sprite-ico-gift {
+  background-position: -178px -393px;
+  width: 65px;
+  height: 86px;
+}
+.rate i.sprite-ico-gift-big {
+  background-position: -263px -393px;
+  width: 64px;
+  height: 61px;
+}
+.rate i.sprite-ico-gift-top {
+  background-position: -347px -393px;
+  width: 32px;
+  height: 30px;
+}
+.rate i.sprite-ico-googleplay {
+  background-position: -549px -10px;
+  width: 272px;
+  height: 52px;
+}
+.rate i.sprite-ico-half {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.rate i.sprite-ico-info {
+  background-position: -48px -82px;
+  width: 64px;
+  height: 64px;
+}
+.rate i.sprite-ico-instagram {
+  background-position: -132px -82px;
+  width: 32px;
+  height: 32px;
+}
+.rate i.sprite-ico-mail {
+  background-position: -184px -82px;
+  width: 16px;
+  height: 15px;
+}
+.rate i.sprite-ico-message {
+  background-position: -518px -82px;
+  width: 38px;
+  height: 30px;
+}
+.rate i.sprite-ico-minus {
+  background-position: -220px -82px;
+  width: 8px;
+  height: 2px;
+}
+.rate i.sprite-ico-pizza {
+  background-position: -576px -82px;
+  width: 88px;
+  height: 94px;
+}
+.rate i.sprite-ico-plus {
+  background-position: -684px -82px;
+  width: 8px;
+  height: 8px;
+}
+.rate i.sprite-ico-point {
+  background-position: -712px -82px;
+  width: 31px;
+  height: 36px;
+}
+.rate i.sprite-ico-point-map {
+  background-position: -763px -82px;
+  width: 44px;
+  height: 54px;
+}
+.rate i.sprite-ico-rocket {
+  background-position: -132px -156px;
+  width: 65px;
+  height: 64px;
+}
+ф .rate i.sprite-ico-rocket-w {
+  background-position: -10px -156px;
+  width: 16px;
+  height: 16px;
+}
+.rate i.sprite-ico-setting {
+  background-position: -217px -156px;
+  width: 24px;
+  height: 24px;
+}
+.rate i.sprite-ico-slider-arrow--next {
+  background-position: -518px -156px;
+  width: 16px;
+  height: 28px;
+}
+.rate i.sprite-ico-slider-arrow--next--small {
+  background-position: -684px -156px;
+  width: 5px;
+  height: 8px;
+}
+.rate i.sprite-ico-slider-arrow--prev {
+  background-position: -709px -156px;
+  width: 17px;
+  height: 28px;
+}
+.rate i.sprite-ico-slider-arrow--prev--small {
+  background-position: -746px -156px;
+  width: 5px;
+  height: 8px;
+}
+.rate i.sprite-ico-stack {
+  background-position: -771px -156px;
+  width: 14px;
+  height: 16px;
+}
+.rate i.sprite-ico-star {
+  background-position: -805px -156px;
+  width: 17px;
+  height: 16px;
+}
+.rate i.sprite-ico-support {
+  background-position: -10px -192px;
+  width: 6px;
+  height: 9px;
+}
+.rate i.sprite-ico-tel {
+  background-position: -36px -192px;
+  width: 44px;
+  height: 44px;
+}
+.rate i.sprite-ico-timer {
+  background-position: -746px -192px;
+  width: 57px;
+  height: 64px;
+}
+.rate i.sprite-ico-timer-2 {
+  background-position: -519px -276px;
+  width: 15px;
+  height: 16px;
+}
+.rate i.sprite-ico-touch {
+  background-position: -554px -276px;
+  width: 72px;
+  height: 96px;
+}
+.rate i.sprite-ico-tr-bottom {
+  background-position: -646px -276px;
+  width: 14px;
+  height: 8px;
+}
+.rate i.sprite-ico-tr-top {
+  background-position: -680px -276px;
+  width: 14px;
+  height: 8px;
+}
+.rate i.sprite-ico-twitter {
+  background-position: -714px -276px;
+  width: 42px;
+  height: 32px;
+}
+.rate i.sprite-ico-viza {
+  background-position: -776px -276px;
+  width: 16px;
+  height: 11px;
+}
+.rate i.sprite-ico-vkontakte {
+  background-position: -646px -307px;
+  width: 38px;
+  height: 22px;
+}
+.rate i.sprite-ico-with-arrow {
+  background-position: -776px -307px;
+  width: 30px;
+  height: 29px;
+}
+.rate i.sprite-lenta-green {
+  background-position: -646px -356px;
+  width: 80px;
+  height: 80px;
+}
+.rate i.sprite-lenta-orange {
+  background-position: -347px -456px;
+  width: 80px;
+  height: 80px;
+}
+.rate i.sprite-star-full {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--0--5 i:nth-child(1) {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.rate--1 i:nth-child(1) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--1--5 i:nth-child(1) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--1--5 i:nth-child(2) {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.rate--2 i:nth-child(1),
+.rate--2 i:nth-child(2) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--2--5 i:nth-child(1) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--2--5 i:nth-child(2) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--2--5 i:nth-child(3) {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.rate--3 i:nth-child(1),
+.rate--3 i:nth-child(2),
+.rate--3 i:nth-child(3) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--3--5 i:nth-child(1) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--3--5 i:nth-child(2) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--3--5 i:nth-child(3) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--3--5 i:nth-child(4) {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.rate--4 i:nth-child(1),
+.rate--4 i:nth-child(2),
+.rate--4 i:nth-child(3),
+.rate--4 i:nth-child(4) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--4--5 i:nth-child(1) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--4--5 i:nth-child(2) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--4--5 i:nth-child(3) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--4--5 i:nth-child(4) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.rate--4--5 i:nth-child(5) {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.rate--5 i:nth-child(1),
+.rate--5 i:nth-child(2),
+.rate--5 i:nth-child(3),
+.rate--5 i:nth-child(4),
+.rate--5 i:nth-child(5) {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
 }
 /* слайдер базовые стили */
 /* Проектный слой */
@@ -2170,7 +2582,7 @@ p.main-footer_founders {
   width: 65px;
   height: 64px;
 }
-.bonus_list li:before.sprite-ico-rocket-w {
+ф .bonus_list li:before.sprite-ico-rocket-w {
   background-position: -10px -156px;
   width: 16px;
   height: 16px;
@@ -2865,7 +3277,7 @@ p.main-footer_founders {
   width: 65px;
   height: 64px;
 }
-.advantages_list li:before.sprite-ico-rocket-w {
+ф .advantages_list li:before.sprite-ico-rocket-w {
   background-position: -10px -156px;
   width: 16px;
   height: 16px;
@@ -3230,7 +3642,7 @@ p.main-footer_founders {
   width: 65px;
   height: 64px;
 }
-.sort-block--interactive .sort-block_header::after.sprite-ico-rocket-w {
+ф .sort-block--interactive .sort-block_header::after.sprite-ico-rocket-w {
   background-position: -10px -156px;
   width: 16px;
   height: 16px;
@@ -3427,16 +3839,6 @@ p.main-footer_founders {
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
-}
-/* rate */
-.rate {
-  margin-bottom: 15px;
-}
-.rate i {
-  width: 17px;
-  height: 17px;
-  display: inline-block;
-  background: #aaa;
 }
 /* Страница списка ресторанов */
 /* Косметический слой */
