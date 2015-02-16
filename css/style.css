@@ -2959,6 +2959,12 @@ p.main-footer_founders {
   margin-top: 12px;
 }
 /* Страница контактов */
+.list-page_top {
+  padding: 20px 0;
+}
+.list-page_top .breadcrumbs {
+  margin: 0;
+}
 /* Страница списка ресторанов */
 /* Косметический слой */
 /* косметический слой */
