@@ -73,49 +73,109 @@
 
 /* page-title */
 .page-title{
-
+  font-size: 24px;
+  line-height: 26px;
+  font-family: "proxima", "Arial", sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: 300;
 }
 
 /* restoran-item */
 .restoran-item{
+  border: 1px solid #eee;
+  padding: 25px 20px;
 
   &_image{
 
+    img{
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
   }
 
   &_top{
-
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
   }
 
   &_title{
+    font-size: 22px;
+    line-height: 26px;
+    font-family: "proxima", "Arial", sans-serif;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 15px;
 
+    a{
+      color: #333;
+      text-decoration: none;
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
   }
 
   &_description{
+    font-size: 13px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 400;
 
+    span{
+      font-weight: 700;
+      color: #959595;
+    }
   }
 
   &_star-col{
-
+    font-size: 11px;
+    line-height: 16px;
+    color: #9d9d9d;
+    font-weight: 400;
+    display: block;
   }
 
   &_bottom{
+    margin-top: 13px;
 
+    .col{
+      padding: 0 5px;
+    }
   }
 
   &_sub-titile{
-
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #959595;
+    line-height: 14px;
+    margin-bottom: 10px;
   }
 
   &_big{
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    font-weight: 300;
 
+    i{
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 5px;
+    }
   }
 }
 
 /* rate */
 .rate{
+  margin-bottom: 15px;
 
   i{
-
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background: #aaa;
   }
 }

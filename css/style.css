@@ -3350,8 +3350,94 @@ p.main-footer_founders {
   display: block;
 }
 /* page-title */
+.page-title {
+  font-size: 24px;
+  line-height: 26px;
+  font-family: "proxima", "Arial", sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
 /* restoran-item */
+.restoran-item {
+  border: 1px solid #eee;
+  padding: 25px 20px;
+}
+.restoran-item_image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.restoran-item_top {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #eee;
+}
+.restoran-item_title {
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "proxima", "Arial", sans-serif;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.restoran-item_title a {
+  color: #333;
+  text-decoration: none;
+}
+.restoran-item_title a:hover {
+  text-decoration: underline;
+}
+.restoran-item_description {
+  font-size: 13px;
+  line-height: 20px;
+  color: #333;
+  font-weight: 400;
+}
+.restoran-item_description span {
+  font-weight: 700;
+  color: #959595;
+}
+.restoran-item_star-col {
+  font-size: 11px;
+  line-height: 16px;
+  color: #9d9d9d;
+  font-weight: 400;
+  display: block;
+}
+.restoran-item_bottom {
+  margin-top: 13px;
+}
+.restoran-item_bottom .col {
+  padding: 0 5px;
+}
+.restoran-item_sub-titile {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #959595;
+  line-height: 14px;
+  margin-bottom: 10px;
+}
+.restoran-item_big {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+  font-weight: 300;
+}
+.restoran-item_big i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
 /* rate */
+.rate {
+  margin-bottom: 15px;
+}
+.rate i {
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background: #aaa;
+}
 /* Страница списка ресторанов */
 /* Косметический слой */
 /* косметический слой */
