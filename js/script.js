@@ -42,7 +42,7 @@ $(function(){
       return false;
     })
 
-  //  работа с модальными окнами
+  /* работа с модальными окнами */
 
     //  вызов окна
     $(".js-get-modal").on("click", function(){
@@ -71,7 +71,7 @@ $(function(){
       }
     })
 
-  // карусель на главной
+  /* карусель на главной */
     $(".carousel").bxSlider({
       slideWidth: 5000,
       minSlides: 3,
@@ -80,5 +80,12 @@ $(function(){
       pager: false,
       moveSlides: 1
     });
+
+  /* работа с фильтрами на странице с ресторанами */
+
+    // открытыие и закрытие
+    $(".sort-block--interactive").find(".sort-block_header").on("click", function(){
+      $(this).parents(".sort-block--interactive").toggleClass("sort-block--interactive--open");
+    })
 
 })

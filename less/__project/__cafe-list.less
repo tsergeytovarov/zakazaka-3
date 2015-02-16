@@ -7,4 +7,115 @@
       margin: 0;
     }
   }
+
+  &_top{
+    margin-top: 20px;
+  }
+
+  &_sidebar{
+    padding: 20px;
+    background: #fafafa;
+  }
+}
+
+/* блок сортировки */
+.sort-block{
+
+  &_header{
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  &_content{
+    padding-bottom: 13px;
+    margin-bottom: 13px;
+    border-bottom: 1px solid #efefef;
+  }
+
+  &--interactive{
+
+    .sort-block_header{
+      cursor: pointer;
+      position: relative;
+
+      &::after{
+        content: "";
+        display: block;
+        .sprite;
+        .stitches-sprite(-684px, -156px, 5px, 8px);
+        position: absolute;
+        top: 6px;
+        right: 10px;
+        transform: rotate(-270deg);
+      }
+    }
+
+    .sort-block_content{
+      display: none;
+    }
+
+    &--open{
+       .sort-block_header{
+          &::after{
+            transform: rotate(-90deg);
+          }
+        }
+
+        .sort-block_content{
+          display: block;
+        }
+    }
+  }
+}
+
+/* page-title */
+.page-title{
+
+}
+
+/* restoran-item */
+.restoran-item{
+
+  &_image{
+
+  }
+
+  &_top{
+
+  }
+
+  &_title{
+
+  }
+
+  &_description{
+
+  }
+
+  &_star-col{
+
+  }
+
+  &_bottom{
+
+  }
+
+  &_sub-titile{
+
+  }
+
+  &_big{
+
+  }
+}
+
+/* rate */
+.rate{
+
+  i{
+
+  }
 }

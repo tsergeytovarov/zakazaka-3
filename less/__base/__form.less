@@ -52,7 +52,59 @@ input::-moz-placeholde{
 /*=====================
   Кастомные формы и радио кнопки
 =====================*/
-input[type="checkbox"],
+
+input[type="checkbox"]{
+  display: none;
+}
+
+input[type="checkbox"] + label{
+  display: block;
+  padding-left: 30px;
+  font-size: 13px;
+  line-height: 15px;
+  color: #333;
+  font-weight: 400;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+input[type="checkbox"] + label:hover{
+  color: #8dc63f;
+}
+
+input[type="checkbox"] + label::before{
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  margin: 0 10px 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+input[type="checkbox"]:checked + label{
+  color: #8dc63f;
+}
+
+input[type="checkbox"]:checked + label::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  width:  11px;
+  height: 9px;
+  background-position: -377px -10px;
+}
+
+/*input[type="checkbox"],
 input[type="radio"]{
   display: none;
   margin: 20px;
@@ -87,4 +139,4 @@ input[type="checkbox"]:checked + label::before {
 
 input[type="radio"]:checked + label::before {
   background: url("../img/") no-repeat;
-}
+}*/
