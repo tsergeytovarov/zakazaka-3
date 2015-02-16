@@ -3774,6 +3774,27 @@ p.main-footer_founders {
 .restoran-item {
   border: 1px solid #eee;
   padding: 25px 20px;
+  margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+}
+.restoran-item:hover {
+  border: 1px solid #c7c7c7;
+}
+.restoran-item_closed {
+  font-size: 11px;
+  line-height: 19px;
+  color: #ffa115;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.restoran-item_closed i {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 7px;
+}
+.restoran-item_closed span {
+  border-bottom: 1px dashed #ffa115;
 }
 .restoran-item_image img {
   display: block;
@@ -3791,13 +3812,6 @@ p.main-footer_founders {
   color: #333;
   font-weight: 700;
   margin-bottom: 15px;
-}
-.restoran-item_title a {
-  color: #333;
-  text-decoration: none;
-}
-.restoran-item_title a:hover {
-  text-decoration: underline;
 }
 .restoran-item_description {
   font-size: 13px;
@@ -3839,6 +3853,379 @@ p.main-footer_founders {
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
+}
+.restoran-item--close > .s-9 {
+  opacity: .5;
+}
+.restoran-item--food-bal,
+.restoran-item--promo {
+  position: relative;
+}
+.restoran-item--food-bal::before,
+.restoran-item--promo::before {
+  content: "";
+  position: relative;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: -646px -356px;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.restoran-item--food-bal::before.sprite-ico-appstore,
+.restoran-item--promo::before.sprite-ico-appstore {
+  background-position: -10px -10px;
+  width: 238px;
+  height: 52px;
+}
+.restoran-item--food-bal::before.sprite-ico-arrow-bottom,
+.restoran-item--promo::before.sprite-ico-arrow-bottom {
+  background-position: -268px -10px;
+  width: 8px;
+  height: 5px;
+}
+.restoran-item--food-bal::before.sprite-ico-arrow-left,
+.restoran-item--promo::before.sprite-ico-arrow-left {
+  background-position: -296px -10px;
+  width: 61px;
+  height: 20px;
+}
+.restoran-item--food-bal::before.sprite-ico-big-gift,
+.restoran-item--promo::before.sprite-ico-big-gift {
+  background-position: -268px -50px;
+  width: 230px;
+  height: 215px;
+}
+.restoran-item--food-bal::before.sprite-ico-book,
+.restoran-item--promo::before.sprite-ico-book {
+  background-position: -10px -285px;
+  width: 65px;
+  height: 64px;
+}
+.restoran-item--food-bal::before.sprite-ico-breadcrumbs-end,
+.restoran-item--promo::before.sprite-ico-breadcrumbs-end {
+  background-position: -518px -10px;
+  width: 11px;
+  height: 32px;
+}
+.restoran-item--food-bal::before.sprite-ico-cart,
+.restoran-item--promo::before.sprite-ico-cart {
+  background-position: -95px -285px;
+  width: 79px;
+  height: 62px;
+}
+.restoran-item--food-bal::before.sprite-ico-cart-footer,
+.restoran-item--promo::before.sprite-ico-cart-footer {
+  background-position: -194px -285px;
+  width: 32px;
+  height: 25px;
+}
+.restoran-item--food-bal::before.sprite-ico-checkbox,
+.restoran-item--promo::before.sprite-ico-checkbox {
+  background-position: -377px -10px;
+  width: 11px;
+  height: 9px;
+}
+.restoran-item--food-bal::before.sprite-ico-clock--big,
+.restoran-item--promo::before.sprite-ico-clock--big {
+  background-position: -246px -285px;
+  width: 64px;
+  height: 64px;
+}
+.restoran-item--food-bal::before.sprite-ico-clock-orange,
+.restoran-item--promo::before.sprite-ico-clock-orange {
+  background-position: -408px -10px;
+  width: 19px;
+  height: 19px;
+}
+.restoran-item--food-bal::before.sprite-ico-close-pop-up,
+.restoran-item--promo::before.sprite-ico-close-pop-up {
+  background-position: -330px -285px;
+  width: 32px;
+  height: 32px;
+}
+.restoran-item--food-bal::before.sprite-ico-cloud,
+.restoran-item--promo::before.sprite-ico-cloud {
+  background-position: -382px -285px;
+  width: 64px;
+  height: 56px;
+}
+.restoran-item--food-bal::before.sprite-ico-comment-top,
+.restoran-item--promo::before.sprite-ico-comment-top {
+  background-position: -466px -285px;
+  width: 33px;
+  height: 30px;
+}
+.restoran-item--food-bal::before.sprite-ico-convert,
+.restoran-item--promo::before.sprite-ico-convert {
+  background-position: -447px -10px;
+  width: 12px;
+  height: 8px;
+}
+.restoran-item--food-bal::before.sprite-ico-cross,
+.restoran-item--promo::before.sprite-ico-cross {
+  background-position: -479px -10px;
+  width: 8px;
+  height: 8px;
+}
+.restoran-item--food-bal::before.sprite-ico-cross-blue,
+.restoran-item--promo::before.sprite-ico-cross-blue {
+  background-position: -194px -335px;
+  width: 24px;
+  height: 24px;
+}
+.restoran-item--food-bal::before.sprite-ico-facebook,
+.restoran-item--promo::before.sprite-ico-facebook {
+  background-position: -466px -335px;
+  width: 20px;
+  height: 38px;
+}
+.restoran-item--food-bal::before.sprite-ico-find,
+.restoran-item--promo::before.sprite-ico-find {
+  background-position: -10px -393px;
+  width: 32px;
+  height: 32px;
+}
+.restoran-item--food-bal::before.sprite-ico-find-content,
+.restoran-item--promo::before.sprite-ico-find-content {
+  background-position: -62px -393px;
+  width: 96px;
+  height: 96px;
+}
+.restoran-item--food-bal::before.sprite-ico-gift,
+.restoran-item--promo::before.sprite-ico-gift {
+  background-position: -178px -393px;
+  width: 65px;
+  height: 86px;
+}
+.restoran-item--food-bal::before.sprite-ico-gift-big,
+.restoran-item--promo::before.sprite-ico-gift-big {
+  background-position: -263px -393px;
+  width: 64px;
+  height: 61px;
+}
+.restoran-item--food-bal::before.sprite-ico-gift-top,
+.restoran-item--promo::before.sprite-ico-gift-top {
+  background-position: -347px -393px;
+  width: 32px;
+  height: 30px;
+}
+.restoran-item--food-bal::before.sprite-ico-googleplay,
+.restoran-item--promo::before.sprite-ico-googleplay {
+  background-position: -549px -10px;
+  width: 272px;
+  height: 52px;
+}
+.restoran-item--food-bal::before.sprite-ico-half,
+.restoran-item--promo::before.sprite-ico-half {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.restoran-item--food-bal::before.sprite-ico-info,
+.restoran-item--promo::before.sprite-ico-info {
+  background-position: -48px -82px;
+  width: 64px;
+  height: 64px;
+}
+.restoran-item--food-bal::before.sprite-ico-instagram,
+.restoran-item--promo::before.sprite-ico-instagram {
+  background-position: -132px -82px;
+  width: 32px;
+  height: 32px;
+}
+.restoran-item--food-bal::before.sprite-ico-mail,
+.restoran-item--promo::before.sprite-ico-mail {
+  background-position: -184px -82px;
+  width: 16px;
+  height: 15px;
+}
+.restoran-item--food-bal::before.sprite-ico-message,
+.restoran-item--promo::before.sprite-ico-message {
+  background-position: -518px -82px;
+  width: 38px;
+  height: 30px;
+}
+.restoran-item--food-bal::before.sprite-ico-minus,
+.restoran-item--promo::before.sprite-ico-minus {
+  background-position: -220px -82px;
+  width: 8px;
+  height: 2px;
+}
+.restoran-item--food-bal::before.sprite-ico-pizza,
+.restoran-item--promo::before.sprite-ico-pizza {
+  background-position: -576px -82px;
+  width: 88px;
+  height: 94px;
+}
+.restoran-item--food-bal::before.sprite-ico-plus,
+.restoran-item--promo::before.sprite-ico-plus {
+  background-position: -684px -82px;
+  width: 8px;
+  height: 8px;
+}
+.restoran-item--food-bal::before.sprite-ico-point,
+.restoran-item--promo::before.sprite-ico-point {
+  background-position: -712px -82px;
+  width: 31px;
+  height: 36px;
+}
+.restoran-item--food-bal::before.sprite-ico-point-map,
+.restoran-item--promo::before.sprite-ico-point-map {
+  background-position: -763px -82px;
+  width: 44px;
+  height: 54px;
+}
+.restoran-item--food-bal::before.sprite-ico-rocket,
+.restoran-item--promo::before.sprite-ico-rocket {
+  background-position: -132px -156px;
+  width: 65px;
+  height: 64px;
+}
+ф .restoran-item--food-bal::before.sprite-ico-rocket-w,
+ф .restoran-item--promo::before.sprite-ico-rocket-w {
+  background-position: -10px -156px;
+  width: 16px;
+  height: 16px;
+}
+.restoran-item--food-bal::before.sprite-ico-setting,
+.restoran-item--promo::before.sprite-ico-setting {
+  background-position: -217px -156px;
+  width: 24px;
+  height: 24px;
+}
+.restoran-item--food-bal::before.sprite-ico-slider-arrow--next,
+.restoran-item--promo::before.sprite-ico-slider-arrow--next {
+  background-position: -518px -156px;
+  width: 16px;
+  height: 28px;
+}
+.restoran-item--food-bal::before.sprite-ico-slider-arrow--next--small,
+.restoran-item--promo::before.sprite-ico-slider-arrow--next--small {
+  background-position: -684px -156px;
+  width: 5px;
+  height: 8px;
+}
+.restoran-item--food-bal::before.sprite-ico-slider-arrow--prev,
+.restoran-item--promo::before.sprite-ico-slider-arrow--prev {
+  background-position: -709px -156px;
+  width: 17px;
+  height: 28px;
+}
+.restoran-item--food-bal::before.sprite-ico-slider-arrow--prev--small,
+.restoran-item--promo::before.sprite-ico-slider-arrow--prev--small {
+  background-position: -746px -156px;
+  width: 5px;
+  height: 8px;
+}
+.restoran-item--food-bal::before.sprite-ico-stack,
+.restoran-item--promo::before.sprite-ico-stack {
+  background-position: -771px -156px;
+  width: 14px;
+  height: 16px;
+}
+.restoran-item--food-bal::before.sprite-ico-star,
+.restoran-item--promo::before.sprite-ico-star {
+  background-position: -805px -156px;
+  width: 17px;
+  height: 16px;
+}
+.restoran-item--food-bal::before.sprite-ico-support,
+.restoran-item--promo::before.sprite-ico-support {
+  background-position: -10px -192px;
+  width: 6px;
+  height: 9px;
+}
+.restoran-item--food-bal::before.sprite-ico-tel,
+.restoran-item--promo::before.sprite-ico-tel {
+  background-position: -36px -192px;
+  width: 44px;
+  height: 44px;
+}
+.restoran-item--food-bal::before.sprite-ico-timer,
+.restoran-item--promo::before.sprite-ico-timer {
+  background-position: -746px -192px;
+  width: 57px;
+  height: 64px;
+}
+.restoran-item--food-bal::before.sprite-ico-timer-2,
+.restoran-item--promo::before.sprite-ico-timer-2 {
+  background-position: -519px -276px;
+  width: 15px;
+  height: 16px;
+}
+.restoran-item--food-bal::before.sprite-ico-touch,
+.restoran-item--promo::before.sprite-ico-touch {
+  background-position: -554px -276px;
+  width: 72px;
+  height: 96px;
+}
+.restoran-item--food-bal::before.sprite-ico-tr-bottom,
+.restoran-item--promo::before.sprite-ico-tr-bottom {
+  background-position: -646px -276px;
+  width: 14px;
+  height: 8px;
+}
+.restoran-item--food-bal::before.sprite-ico-tr-top,
+.restoran-item--promo::before.sprite-ico-tr-top {
+  background-position: -680px -276px;
+  width: 14px;
+  height: 8px;
+}
+.restoran-item--food-bal::before.sprite-ico-twitter,
+.restoran-item--promo::before.sprite-ico-twitter {
+  background-position: -714px -276px;
+  width: 42px;
+  height: 32px;
+}
+.restoran-item--food-bal::before.sprite-ico-viza,
+.restoran-item--promo::before.sprite-ico-viza {
+  background-position: -776px -276px;
+  width: 16px;
+  height: 11px;
+}
+.restoran-item--food-bal::before.sprite-ico-vkontakte,
+.restoran-item--promo::before.sprite-ico-vkontakte {
+  background-position: -646px -307px;
+  width: 38px;
+  height: 22px;
+}
+.restoran-item--food-bal::before.sprite-ico-with-arrow,
+.restoran-item--promo::before.sprite-ico-with-arrow {
+  background-position: -776px -307px;
+  width: 30px;
+  height: 29px;
+}
+.restoran-item--food-bal::before.sprite-lenta-green,
+.restoran-item--promo::before.sprite-lenta-green {
+  background-position: -646px -356px;
+  width: 80px;
+  height: 80px;
+}
+.restoran-item--food-bal::before.sprite-lenta-orange,
+.restoran-item--promo::before.sprite-lenta-orange {
+  background-position: -347px -456px;
+  width: 80px;
+  height: 80px;
+}
+.restoran-item--food-bal::before.sprite-star-full,
+.restoran-item--promo::before.sprite-star-full {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.restoran-item--food-bal::before {
+  background-position: -646px -356px;
+  width: 80px;
+  height: 80px;
+}
+.restoran-item--promo::before {
+  background-position: -347px -456px;
+  width: 80px;
+  height: 80px;
 }
 /* Страница списка ресторанов */
 /* Косметический слой */
