@@ -844,7 +844,8 @@ input[type="radio"]:checked + label::before {
   top: 0px;
   z-index: 1;
 }
-.breadcrumbs a {
+.breadcrumbs a,
+.breadcrumbs div {
   color: #959595;
   font-size: 13px;
   line-height: 13px;
@@ -855,16 +856,27 @@ input[type="radio"]:checked + label::before {
   padding: 8px 25px 11px;
   position: relative;
 }
-.breadcrumbs a span {
+.breadcrumbs a span,
+.breadcrumbs div span {
   transition: 0.3s ease border;
   border-bottom: 1px solid transparent;
 }
 .breadcrumbs a:last-child,
-.breadcrumbs a.active {
+.breadcrumbs div:last-child,
+.breadcrumbs a.active,
+.breadcrumbs div.active {
   color: #5d5d5d;
 }
-.breadcrumbs a:hover span {
+.breadcrumbs a:hover span,
+.breadcrumbs div:hover span {
   border-color: #5d5d5d;
+}
+.breadcrumbs div span {
+  border-bottom: 1px solid transparent;
+}
+.breadcrumbs div:hover span {
+  cursor: default;
+  border-bottom: 1px solid transparent;
 }
 /* хлебные крошки */
 /* блок анимации */

@@ -13,7 +13,7 @@
     z-index: 1;
   }
 
-  a{
+  a, div{
     color: #959595;
     font-size: 13px;
     line-height: 13px;
@@ -36,6 +36,16 @@
     &:hover span{
       border-color: @grey-color;
     }
+  }
 
+  div{
+    span{
+      border-bottom: 1px solid transparent;
+    }
+
+    &:hover span{
+      cursor: default;
+      border-bottom: 1px solid transparent;
+    }
   }
 }
