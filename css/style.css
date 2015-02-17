@@ -2846,6 +2846,24 @@ p.main-footer_founders {
   display: inline-block;
   vertical-align: top;
 }
+.product-item--button:hover {
+  border: 1px solid #ececec;
+}
+.product-item_row {
+  padding: 18px 20px;
+}
+.product-item_row .product-item_bonus {
+  padding: 0;
+  min-height: 0px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  float: left;
+  margin-top: 3px;
+}
+.product-item_row .btn {
+  float: right;
+}
 /* Стили для блока продуктов на странице bonus-page.html */
 .product {
   margin-top: 100px;
@@ -4287,6 +4305,60 @@ p.main-footer_founders {
   background: #fafafa;
 }
 /* Страница списка ресторанов */
+/* notification */
+.notification {
+  padding: 30px 170px 30px 35px;
+  margin-bottom: 20px;
+}
+.notification .row {
+  display: table;
+  width: 100%;
+}
+.notification .col {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+.notification i {
+  margin: 0 auto;
+}
+.notification p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #656565;
+  font-weight: 700;
+  opacity: .8;
+}
+.notification a {
+  color: #656565;
+}
+.notification--blue {
+  background: #f2f6fb;
+}
+.notification img {
+  width: 100%;
+  height: auto;
+}
+.notification_title {
+  font-family: "proxima", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #333;
+}
+.notification--block {
+  padding-right: 30px;
+  border: 1px solid #eee;
+}
+/* страница */
+.cafe-item .product-item {
+  width: 100%;
+  margin-top: 0;
+}
+.cafe-item_item {
+  padding-top: 20px;
+}
+/* Страница ресторана */
 /* Косметический слой */
 /* косметический слой */
 /* Медиа запросы */
