@@ -202,7 +202,7 @@
     </div>
   </header> <!-- хедер страницы конец -->
 
-  <div class="container list-page cafe-item">
+  <div class="container list-page cafe-item js-tab-container">
 
     <!-- верхняя панель -->
     <div class="list-page_top">
@@ -261,9 +261,9 @@
         </div>
         <!-- табы -->
         <div class="restoran-item_tabs">
-          <a href="#" class="tab active">Меню</a>
-          <a href="#" class="tab">Отзывы</a>
-          <a href="#" class="tab">О заведении</a>
+          <a href="#" class="js-tab-control active" data-tab="js-tab-menu">Меню</a>
+          <a href="#" class="js-tab-control" data-tab="js-tab-feedback">Отзывы</a>
+          <a href="#" class="js-tab-control" data-tab="js-tab-about">О заведении</a>
         </div>
       </div>
     </div><!-- карточка заведения -->
@@ -321,7 +321,7 @@
         <!-- Большой блок с табами. Тут будут изменяющиеся вариации центра. Меню, отзывы и о заведении информация -->
 
         <!-- первый таб - вариация меню с уведомлениями и акциями -->
-        <div class="cafe-item_menu">
+        <div class="cafe-item_menu js-tab js-tab--open js-tab-menu">
 
           <!-- оповещение ресторан закрыт. -->
           <div class="notification notification--block notification--block--padding">
@@ -530,6 +530,12 @@
           </section>
 
         </div>
+
+        <!-- второй таб отзывы -->
+        <div class="js-tab js-tab-feedback"></div>
+
+        <!-- второй таб отзывы -->
+        <div class="js-tab js-tab-about"></div>
 
         <!-- Похожие заведения -->
         <section class="cafe-item_item">
