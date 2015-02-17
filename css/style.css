@@ -2875,6 +2875,9 @@ p.main-footer_founders {
   display: inline-block;
   vertical-align: top;
 }
+.product-item--button {
+  cursor: default;
+}
 .product-item--button:hover {
   border: 1px solid #ececec;
 }
@@ -4435,6 +4438,12 @@ p.main-footer_founders {
 .cafe-item .product-item {
   width: 100%;
   margin-top: 0;
+}
+.cafe-item .row--inline .col:first-child {
+  padding-left: 15px;
+}
+.cafe-item .row--inline .col:last-child {
+  padding-right: 15px;
 }
 .cafe-item_item {
   padding-top: 20px;
