@@ -318,6 +318,11 @@ th {
   width: 32px;
   height: 32px;
 }
+.sprite.sprite-ico-timer--blue {
+  background-position: -551px -214px;
+  width: 33px;
+  height: 33px;
+}
 .sprite.sprite-ico-mail {
   background-position: -184px -82px;
   width: 16px;
@@ -1317,6 +1322,11 @@ html {
   background-position: -132px -82px;
   width: 32px;
   height: 32px;
+}
+.rate i.sprite-ico-timer--blue {
+  background-position: -551px -214px;
+  width: 33px;
+  height: 33px;
 }
 .rate i.sprite-ico-mail {
   background-position: -184px -82px;
@@ -2563,6 +2573,11 @@ p.main-footer_founders {
   width: 32px;
   height: 32px;
 }
+.bonus_list li:before.sprite-ico-timer--blue {
+  background-position: -551px -214px;
+  width: 33px;
+  height: 33px;
+}
 .bonus_list li:before.sprite-ico-mail {
   background-position: -184px -82px;
   width: 16px;
@@ -3276,6 +3291,11 @@ p.main-footer_founders {
   width: 32px;
   height: 32px;
 }
+.advantages_list li:before.sprite-ico-timer--blue {
+  background-position: -551px -214px;
+  width: 33px;
+  height: 33px;
+}
 .advantages_list li:before.sprite-ico-mail {
   background-position: -184px -82px;
   width: 16px;
@@ -3656,6 +3676,11 @@ p.main-footer_founders {
   background-position: -132px -82px;
   width: 32px;
   height: 32px;
+}
+.sort-block--interactive .sort-block_header::after.sprite-ico-timer--blue {
+  background-position: -551px -214px;
+  width: 33px;
+  height: 33px;
 }
 .sort-block--interactive .sort-block_header::after.sprite-ico-mail {
   background-position: -184px -82px;
@@ -4092,6 +4117,12 @@ p.main-footer_founders {
   width: 32px;
   height: 32px;
 }
+.restoran-item--food-bal::before.sprite-ico-timer--blue,
+.restoran-item--promo::before.sprite-ico-timer--blue {
+  background-position: -551px -214px;
+  width: 33px;
+  height: 33px;
+}
 .restoran-item--food-bal::before.sprite-ico-mail,
 .restoran-item--promo::before.sprite-ico-mail {
   background-position: -184px -82px;
@@ -4367,6 +4398,39 @@ p.main-footer_founders {
 .notification--block--padding {
   padding-right: 170px;
 }
+.notification--about {
+  padding-right: 30px;
+}
+.notification--about i {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  margin-right: 15px;
+}
+.notification--about .col {
+  padding: 0 5px;
+}
+.notification .small-title {
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #959595;
+}
+.notification .big-time {
+  color: #4b5b6f;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px dashed #4b5b6f;
+  display: inline-block;
+}
+.notification .big-time:hover {
+  border-bottom: 0;
+}
+.notification .big-time--single {
+  margin-top: 14px;
+}
 /* страница */
 .cafe-item .product-item {
   width: 100%;
@@ -4406,6 +4470,13 @@ p.main-footer_founders {
 }
 .cafe-item_form-text a:hover {
   text-decoration: none;
+}
+.cafe-item_share {
+  padding: 10px 0 20px;
+}
+.cafe-item_map {
+  height: 370px;
+  background: #fafafa;
 }
 /* feedback-item */
 .feedback-item {
