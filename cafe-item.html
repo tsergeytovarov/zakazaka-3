@@ -321,7 +321,7 @@
         <!-- Большой блок с табами. Тут будут изменяющиеся вариации центра. Меню, отзывы и о заведении информация -->
 
         <!-- первый таб - вариация меню с уведомлениями и акциями -->
-        <div class="cafe-item_menu js-tab js-tab--open js-tab-menu">
+        <div class="cafe-item_menu js-tab js-tab-menu">
 
           <!-- оповещение ресторан закрыт. -->
           <div class="notification notification--block notification--block--padding">
@@ -532,7 +532,57 @@
         </div>
 
         <!-- второй таб отзывы -->
-        <div class="js-tab js-tab-feedback"></div>
+        <div class="js-tab js-tab--open js-tab-feedback">
+
+          <!-- форма для отправки отзыва -->
+          <section class="cafe-item_item cafe-item_form">
+            <h2 class="page-title">Похожие заведения</h2>
+
+            <div class="row">
+              <div class="col s-8">
+                <form method="" action="">
+                  <textarea placeholder="Ваш отзыв"></textarea>
+                  <div class="row cafe-item_form-bottom">
+                    <div class="col s-8">
+                        <p>Оцените товар
+                          <div class="rate rate--5">
+                            <i></i><i></i><i></i><i></i><i></i>
+                          </div>
+                        </p>
+                    </div>
+                    <div class="col s-8">
+                      <button type="submit" class="btn btn--green">добавить</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col s-4">
+                <p>Вы сможете оставить отзыв только после заказа.<br><a href="#">Перейти в меню</a></p>
+              </div>
+            </div>
+
+          <!-- блок отзывов -->
+          <section class="cafe-item_item cafe-item_form">
+            <h2 class="page-title">Food Band — отзывы</h2>
+
+            <!-- отзыв -->
+            <div class="feedback-item row">
+              <div class="col s-1">
+                <img src="img/user-small.jpg" height="55" width="69" alt="">
+              </div>
+              <div class="col s-8">
+                <div class="feedback-item_name">Федор <span class="feedback-item_time">30 декабря, 23:49</span></div>
+                <p>Служба доставки ужасная!!! Ждали более 2-х часов((( праздник испорчен!</p>
+              </div>
+              <div class="col s-3">
+                <div class="rate rate--5">
+                  <i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </div>
 
         <!-- второй таб отзывы -->
         <div class="js-tab js-tab-about"></div>
