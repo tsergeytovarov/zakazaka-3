@@ -4326,7 +4326,7 @@ p.main-footer_founders {
   font-size: 14px;
   line-height: 21px;
   color: #656565;
-  font-weight: 700;
+  font-weight: 400;
   opacity: .8;
 }
 .notification a {
@@ -4349,6 +4349,9 @@ p.main-footer_founders {
 .notification--block {
   padding-right: 30px;
   border: 1px solid #eee;
+}
+.notification--block--padding {
+  padding-right: 170px;
 }
 /* страница */
 .cafe-item .product-item {
