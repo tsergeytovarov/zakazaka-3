@@ -20,19 +20,35 @@
 
 /* блок сортировки */
 .sort-block{
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 15px;
 
   &_header{
     font-size: 16px;
     line-height: 20px;
     color: #333;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   &_content{
     padding-bottom: 13px;
     margin-bottom: 13px;
-    border-bottom: 1px solid #efefef;
+  }
+
+  a{
+    display: block;
+    font-size: 13px;
+    line-height: 15px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-decoration: none;
+
+    &:hover,
+    &.active{
+      color: #8dc63f;
+    }
   }
 
   &--interactive{
@@ -214,6 +230,49 @@
   &--promo{
     &::before{
       .stitches-sprite(-347px, -456px, 80px, 80px);
+    }
+  }
+
+  &--big{
+    padding-bottom: 0;
+
+    &:hover{
+      border: 1px solid #eee;
+    }
+  }
+
+  &_tabs{
+    margin-top: 40px;
+    font-size: 0;
+
+    a{
+      display: inline-block;
+      vertical-align: top;
+      font-size: 11px;
+      line-height: 20px;
+      color: #000;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      padding: 10px 45px;
+      background: #fff;
+      border-top: 1px solid #ededed;
+      border-right: 1px solid #ededed;
+
+      &:first-child{
+        border-top-left-radius: 2px;
+        border-left: 1px solid #ededed;
+      }
+
+      &:last-child{
+        border-top-right-radius: 2px;
+      }
+
+      &:hover,
+      &.active{
+        background: #fafafa;
+      }
     }
   }
 }

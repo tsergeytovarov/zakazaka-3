@@ -3445,17 +3445,33 @@ p.main-footer_founders {
   background: #fafafa;
 }
 /* блок сортировки */
+.sort-block {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 15px;
+}
 .sort-block_header {
   font-size: 16px;
   line-height: 20px;
   color: #333;
   font-weight: 700;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .sort-block_content {
   padding-bottom: 13px;
   margin-bottom: 13px;
-  border-bottom: 1px solid #efefef;
+}
+.sort-block a {
+  display: block;
+  font-size: 13px;
+  line-height: 15px;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.sort-block a:hover,
+.sort-block a.active {
+  color: #8dc63f;
 }
 .sort-block--interactive .sort-block_header {
   cursor: pointer;
@@ -4233,6 +4249,42 @@ p.main-footer_founders {
   background-position: -347px -456px;
   width: 80px;
   height: 80px;
+}
+.restoran-item--big {
+  padding-bottom: 0;
+}
+.restoran-item--big:hover {
+  border: 1px solid #eee;
+}
+.restoran-item_tabs {
+  margin-top: 40px;
+  font-size: 0;
+}
+.restoran-item_tabs a {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 11px;
+  line-height: 20px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px 45px;
+  background: #fff;
+  border-top: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+}
+.restoran-item_tabs a:first-child {
+  border-top-left-radius: 2px;
+  border-left: 1px solid #ededed;
+}
+.restoran-item_tabs a:last-child {
+  border-top-right-radius: 2px;
+}
+.restoran-item_tabs a:hover,
+.restoran-item_tabs a.active {
+  background: #fafafa;
 }
 /* Страница списка ресторанов */
 /* Косметический слой */
