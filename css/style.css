@@ -2337,6 +2337,11 @@ p.main-footer_founders {
   margin-top: -5px;
   margin-left: -9px;
 }
+/* Серая полоса и большой отступ у футера */
+.grey-line {
+  margin-top: 180px;
+  border-top: 1px solid #ededed;
+}
 /* подвал и все его вариации с блоками SEO */
 /* Стили для 404-ой страницы */
 .page-error {
