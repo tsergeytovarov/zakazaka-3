@@ -372,11 +372,11 @@
           </ul>
         </div>
       </div>
-      <a href="#" class="btn btn--green advantages_btn">заполнить анкету для сотрудничества</a>
+      <a href="#" class="btn btn--green advantages_btn js-get-modal" data-modal="modal-worksheet">заполнить анкету для сотрудничества</a>
     </div>
   </section>
 
-    <!-- собственно сам футер -->
+  <!-- собственно сам футер -->
   <footer class="main-footer grey-line">
     <div class="container">
       <!-- верхняя полоса -->
@@ -423,6 +423,30 @@
       </div>
     </div>
   </footer>
+
+  <!-- Модальное окно - Анкета для партнеров -->
+
+  <!-- задний фон окон -->
+  <div class="modal-overlay"></div>
+
+  <!-- сами окна -->
+  <div class="modal modal-worksheet">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+        <form action="">
+          <p class="modal_title">Анкета для партнеров</p>
+          <input type="text" class="custom-field" placeholder="Фирменное название" />
+          <input type="text" class="custom-field" placeholder="http://" />
+          <input type="text" class="custom-field" placeholder="Город и область" />
+          <input type="text" class="custom-field" placeholder="Контактное лицо" />
+          <input type="text" class="custom-field" placeholder="Телефон" />
+          <textarea class="custom-field custom-field--textarea" placeholder="Комментарий"></textarea>
+          <button type="submit" class="btn btn--green custom-button">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
   <script src='js/library.js'></script>
   <script src='js/script.js'></script>
