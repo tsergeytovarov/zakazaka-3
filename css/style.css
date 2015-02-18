@@ -3109,7 +3109,8 @@ p.main-footer_founders {
 .promo {
   width: 100%;
   padding-top: 45px;
-  min-height: 575px;
+  min-height: 548px;
+  position: relative;
   min-width: 970px;
   text-align: center;
   box-sizing: border-box;
@@ -3120,6 +3121,7 @@ p.main-footer_founders {
 }
 .promo_title {
   color: #fff;
+  font-weight: 100;
   font-size: 32px;
   line-height: 32px;
   margin-bottom: 20px;
@@ -3133,16 +3135,28 @@ p.main-footer_founders {
 .promo .bx-viewport {
   height: 361px!important;
 }
+/* Стили для позиционирования zakamen-а */
+.zakamen:before {
+  content: "";
+  width: 202px;
+  height: 235px;
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  bottom: -20px;
+  background: url(../../img/zakamen.png) no-repeat;
+}
 /* Преимущества партнерства */
 .advantages {
   padding: 70px 0 0;
   text-align: center;
 }
 .advantages_title {
+  font-weight: 100;
   text-align: left;
   font-size: 24px;
   line-height: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   font-family: "proxima-light", Arial, sans-serif;
 }
 .advantages_list {
@@ -3150,13 +3164,13 @@ p.main-footer_founders {
   margin-bottom: 70px;
 }
 .advantages_list li {
-  color: #656565;
   font-size: 14px;
   list-style: none;
   line-height: 21px;
   margin-bottom: 35px;
   position: relative;
   padding-left: 45px;
+  color: rgba(101, 101, 101, 0.6);
   font-family: "Open Sans", Arial, sans-serif;
 }
 .advantages_list li:before {
@@ -3478,6 +3492,25 @@ p.main-footer_founders {
   font-family: "proxima-light", Arial, sans-serif;
 }
 /* Страница для партнеров */
+/* Стили для блока - кто мы такие */
+.about-description {
+  padding: 70px 0 60px;
+  background: #f4f7fb;
+}
+.about-description_title {
+  font-size: 24px;
+  line-height: 25px;
+  margin: 20px 0 17px;
+  font-weight: 100;
+  font-family: "proxima-light", Arial, sans-serif;
+}
+.about-description_text {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 18px;
+  color: rgba(101, 101, 101, 0.6);
+}
+/* Страница о нас */
 /* Страница контактов contacts.html */
 .contacts {
   min-height: 320px;
