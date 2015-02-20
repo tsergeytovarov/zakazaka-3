@@ -24,6 +24,10 @@
       color: #8dc63f;
     }
   }
+
+  &_add-form{
+    margin: 40px 0;
+  }
 }
 
 /* order-item */
@@ -115,5 +119,54 @@
     color: #000;
     padding-top: 10px;
     text-transform: uppercase;
+  }
+}
+
+/* adress-item */
+.adress-item{
+  padding: 25px;
+  background: #f2f6fb;
+
+  &_name{
+    font-size: 16px;
+    color: #4b5b6f;
+    line-height: 18px;
+    font-weight: 700;
+
+    span{
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 14px;
+      display: block;
+      color: #959595;
+      margin-top: 7px;
+    }
+  }
+
+  &_control{
+    a{
+      display: inline-block;
+      vertical-align: top;
+      font-size: 13px;
+      line-height: 24px;
+      color: #626f80;
+      text-decoration: none;
+      margin-right: 50px;
+      margin-top: 7px;
+
+      &:last-child{
+        margin-right: 0;
+      }
+
+      &:hover{
+        opacity: .7;
+      }
+    }
+
+    i{
+      margin-right: 15px;
+      display: inline-block;
+      vertical-align: middle;
+    }
   }
 }

@@ -12,9 +12,20 @@ input[type='password']{ /* поля */
   font-size: 13px;
   line-height: 20px;
   font-family: "Open Sans", "Arial", sans-serif;
+  padding: 12px 15px;
+  border: 1px solid #eee;
+  font-size: 14px;
+  line-height: 20px;
+  color: #656565;
 
   &:focus{
     border: 1px solid #A09F9F;
+  }
+
+  &.input--small{
+    width: 60px;
+    display: inline-block;
+    vertical-align: top;
   }
 }
 
@@ -153,3 +164,28 @@ input[type="checkbox"]:checked + label::after {
   font-size: 14px;
   padding: 12px 19px;
 }
+
+
+/* страница формы на странице добавления адреса */
+.form-row{
+  padding-bottom: 20px;
+}
+
+.form-column{
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  text-align: right;
+  line-height: 45px;
+  font-size: 14px;
+  margin-right: 30px;
+}
+
+.form-input{
+  display: inline-block;
+  vertical-align: top;
+  width: 320px;
+  line-height: 45px;
+  font-size: 14px;
+}
+
