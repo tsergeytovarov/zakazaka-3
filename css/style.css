@@ -3940,6 +3940,14 @@ p.main-footer_founders {
   display: block;
   margin: 0 auto;
   max-width: 100%;
+  height: auto;
+}
+.restoran-item--user:hover {
+  border: 1px solid #eee;
+}
+.restoran-item--user .restoran-item_image {
+  max-width: 200px;
+  margin: 0 auto;
 }
 .restoran-item_top {
   padding-bottom: 25px;
@@ -4580,6 +4588,28 @@ p.main-footer_founders {
   color: #959595;
 }
 /* Страница ресторана */
+.profile-page_navigation {
+  font-size: 16px;
+  line-height: 25px;
+  color: #333;
+  font-weight: 700;
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid #efefef;
+  text-decoration: none;
+}
+.profile-page_navigation:first-child {
+  padding-top: 0;
+}
+.profile-page_navigation:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.profile-page_navigation:hover,
+.profile-page_navigation--active {
+  color: #8dc63f;
+}
+/* Страница ресторана */
 /* Косметический слой */
 /* косметический слой */
 /* Медиа запросы */
@@ -4590,3 +4620,4 @@ p.main-footer_founders {
     min-width: 100px;
   }
 }
+/* медиа-запросы */
