@@ -25,3 +25,95 @@
     }
   }
 }
+
+/* order-item */
+.order-item{
+  margin-bottom: 40px;
+
+  &_title{
+    font-family: "proxima", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 20px;
+  }
+
+  &_info{
+    box-sizing: border-box;
+    padding: 30px;
+    border: 1px solid #eee;
+    text-align: center;
+
+    p{
+      text-transform: uppercase;
+      color: #959595;
+      font-size: 10px;
+      line-height: 14px;
+      margin-bottom: 10px;
+    }
+
+    span{
+      font-family: "proxima", "Arial", sans-serif;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000;
+      text-transform: lowercase;
+      display: block;
+      margin-bottom: 30px;
+    }
+
+    .order-item_price{
+      font-size: 18px;
+      line-height: 20px;
+      color: #000;
+    }
+
+  }
+
+  &_price{
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    font-weight: 700;
+    padding: 50px 0;
+    border-top: 1px solid #eee;
+  }
+}
+
+/* order line */
+.order-line{
+  padding: 25px 0;
+  border-bottom: 1px solid #eee;
+
+  &_name{
+
+    img{
+      max-width: 60px;
+      height: auto;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    p{
+      display: inline-block;
+      vertical-align: middle;
+      font-weight: 700;
+      color: #333;
+      z-index: 16;
+      line-height: 20px;
+    }
+  }
+
+  &_count{
+    font-size: 18px;
+    color: #000;
+    padding-top: 10px;
+  }
+
+  &_price{
+    font-size: 18px;
+    color: #000;
+    padding-top: 10px;
+    text-transform: uppercase;
+  }
+}
