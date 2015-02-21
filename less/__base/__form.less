@@ -138,6 +138,26 @@ input[type="checkbox"]:checked + label::after {
   background-position: -377px -10px;
 }
 
+input[type="file"]{
+  display: none;
+}
+
+input[type="file"] + label{
+  display: inline-block;
+  vertical-align: top;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: 140px;
+  padding: 12px 0;
+  color: #6d6d6d;
+  font-size: 11px;
+  line-height: 11px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
 
 /* =====================================
    Кастомные поля для страницы партнеров
@@ -189,3 +209,17 @@ input[type="checkbox"]:checked + label::after {
   font-size: 14px;
 }
 
+.profile-page_update-form{
+  padding-bottom: 40px;
+
+  .form-column{
+    width: 140px;
+  }
+
+  input[type="checkbox"] + label{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+}
