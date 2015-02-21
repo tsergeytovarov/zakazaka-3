@@ -785,6 +785,11 @@ b {
 .btn--around:active {
   border: 1px solid #ececec;
 }
+.page-title--third {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
 /* кнопки */
 /*=====================
   Формы
@@ -4831,6 +4836,13 @@ p.main-footer_founders {
   margin-right: 15px;
   display: inline-block;
   vertical-align: middle;
+}
+/* badge-item */
+.badge-item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  margin-bottom: 40px;
 }
 /* Страница ресторана */
 /* Косметический слой */
