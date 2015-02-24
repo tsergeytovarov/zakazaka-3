@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Заказака - список ресторанов</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <![endif]-->
+</head>
+<body>
+
+  <!-- хедер страницы -->
+  <header class="main-header">
+
+    <!-- верхняя часть хедера -->
+    <div class="main-header_top container row">
+      <div class="col s-4">
+
+        <!-- логотип -->
+        <figure class="logo">
+          <img src="img/logo.png" height="40" width="215" alt="">
+          <p>Бесплатный сервис по заказу еды</p>
+        </figure>
+      </div>
+      <div class="col s-4">
+
+        <!-- форма поиска -->
+        <form class="main-header_form">
+          <input type="text" class="search" placeholder="Поиск">
+        </form>
+      </div>
+      <div class="col s-4 text-right">
+
+        <!-- блок телефона -->
+        <div class="telephone-block">
+          <p class="telephone-block_telephone">8 (800) 555-58-50</p>
+          <p class="telephone-block_text">бесплатный звонок со всех телефонов</p>
+        </div>
+      </div>
+    </div><!-- верхняя часть хедера -->
+
+    <!-- нижняя часть хедера -->
+    <div class="main-header_bottom">
+      <div class="container row">
+
+        <!-- выбор города -->
+        <div class="tooltip">
+          <!-- заголово тултипа -->
+          <a href="#" class="tooltip_title js-toggle-tooltip">Санкт-Петербург</a>
+          <!-- контент тултипа -->
+          <div class="tooltip_content">
+            <a href="#" class="tooltip_close js-close-tooltip" title="Закрыть тултип">Закрыть тултип</a>
+            <div class="tooltip_title-inner">Выберете город</div>
+            <div class="row">
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+              </div>
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+              </div>
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- выбор станции метро -->
+        <div class="tooltip">
+          <!-- заголово тултипа -->
+          <a href="#" class="tooltip_title js-toggle-tooltip">Адмиралтейская</a>
+          <!-- контент тултипа -->
+          <div class="tooltip_content">
+            <a href="#" class="tooltip_close js-close-tooltip" title="Закрыть тултип">Закрыть тултип</a>
+            <div class="tooltip_title-inner">Выберите станцию метро</div>
+            <div class="row">
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+              </div>
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">Г</div>
+                  <a href="#" class="find-list_select">Гражданский проспект</a>
+                  <a href="#" class="find-list_select">Гостинный двор</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+              </div>
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- блок входа или внутри входа -->
+        <div class="main-header_user to-right">
+          <a href="#" class="btn btn--header js-get-modal" data-modal="modal-register">Регистрация</a>
+          <a href="#" class="btn btn--header btn--header--border">Вход</a>
+        </div>
+      </div>
+    </div>
+  </header> <!-- хедер страницы конец -->
+
+  <div class="container cafe-item find-result">
+
+    <!-- верхняя панель -->
+    <div class="list-page_top">
+
+      <div class="breadcrumbs">
+        <a href="index.html"><span>ZakaZaka</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></a>
+        <a href="index.html"><span>Доставка еды</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></a>
+        <a href="index.html"><span>Пицца</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></a>
+        <div><span>Меню заведения Pizza Ollis</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></div>
+      </div>
+    </div>
+
+    <!-- основной контент -->
+    <div class="list-page_top row">
+      <div class="col s-3">
+        <!-- сайдбор с фильтром -->
+        <aside class="list-page_sidebar">
+          <!-- блок -->
+          <div class="sort-block sort-block--interactive sort-block--interactive--open">
+            <div class="sort-block_header">Доставка еды</div>
+            <div class="sort-block_content">
+              <a href="#">Рестораны</a>
+              <a href="#">Блюда</a>
+            </div>
+          </div>
+          <!-- блок -->
+          <div class="sort-block sort-block--interactive">
+            <div class="sort-block_header">Доставка продуктов</div>
+            <div class="sort-block_content">
+              <a href="#">Магазын</a>
+              <a href="#">Продукты</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="col s-9">
+
+        <h1 class="page-title">Результаты поиска</h1>
+
+        <!-- форма поиска -->
+        <form class="">
+          <input type="text" class="search" placeholder="Поиск">
+        </form>
+
+        <!-- Похожие заведения -->
+        <section class="cafe-item_item">
+          <h2 class="page-title page-title--second">Совпадения в названиях организаций</h2>
+
+          <!-- карточка заведения -->
+          <a href="#" class="restoran-item row">
+            <!-- картинка -->
+            <div class="col s-3">
+              <figure class="restoran-item_image">
+                <img src="img/restoran-1.jpg" height="124" width="160" alt="">
+              </figure>
+            </div>
+            <!-- описание -->
+            <div class="col s-9">
+              <!-- верхняя строка описания -->
+              <div class="restoran-item_top row">
+                <!-- заголовок и описание -->
+                <div class="col s-9">
+                  <h3 class="restoran-item_title">Pizza Ollis</h3>
+                  <p class="restoran-item_description"><span>Кухня:</span> Американская / Мексиканская / Итальянская / Европейская</p>
+                </div>
+                <!-- оцнка и цена -->
+                <div class="col s-3 text-right">
+                  <div class="rate rate--5">
+                    <i></i><i></i><i></i><i></i><i></i>
+                  </div>
+                  <p class="restoran-item_star-col">5 оценок</p>
+                </div>
+              </div>
+              <!-- нижняя строка описания -->
+              <div class="restoran-item_bottom row">
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Мин. заказ:</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-stack "></i> 450 Р</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Оплата картой:</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-viza"></i> Есть</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Время доставки</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-timer-2"></i> До 2-ч часов</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Доставка</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-rocket-w"></i> Бесплатно</p>
+                </div>
+              </div>
+            </div>
+          </a><!-- карточка заведения -->
+
+          <!-- карточка заведения -->
+          <a href="#" class="restoran-item row">
+            <!-- картинка -->
+            <div class="col s-3">
+              <figure class="restoran-item_image">
+                <img src="img/restoran-2.jpg" height="124" width="160" alt="">
+              </figure>
+            </div>
+            <!-- описание -->
+            <div class="col s-9">
+              <!-- верхняя строка описания -->
+              <div class="restoran-item_top row">
+                <!-- заголовок и описание -->
+                <div class="col s-9">
+                  <h3 class="restoran-item_title">Pizza Ollis</h3>
+                  <p class="restoran-item_description"><span>Кухня:</span> Американская / Мексиканская / Итальянская / Европейская</p>
+                </div>
+                <!-- оцнка и цена -->
+                <div class="col s-3 text-right">
+                  <div class="rate rate--3--5">
+                    <i></i><i></i><i></i><i></i><i></i>
+                  </div>
+                  <p class="restoran-item_star-col">5 оценок</p>
+                </div>
+              </div>
+              <!-- нижняя строка описания -->
+              <div class="restoran-item_bottom row">
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Мин. заказ:</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-stack "></i> 450 Р</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Оплата картой:</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-viza"></i> Есть</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Время доставки</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-timer-2"></i> До 2-ч часов</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Доставка</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-rocket-w"></i> Бесплатно</p>
+                </div>
+              </div>
+            </div>
+          </a><!-- карточка заведения -->
+
+
+          <a href="#" class="btn btn--grey">показать все результаты</a>
+
+        </section>
+
+
+        <!-- товары -->
+        <section class="cafe-item_item">
+          <h2 class="page-title page-title--second">Совпадения в названиях организаций</h2>
+
+          <!-- карточки товаров -->
+          <div class="row row--inline">
+            <div class="col s-4">
+              <!-- Одна карточка товара -->
+              <div class="product-item product-item--button">
+                <div class="product-item_image">
+                  <div class="product-item_image_wrapper">
+                    <img src="img/sushi.jpg" alt="">
+                  </div>
+                </div>
+                <div class="product-item_title">
+                  <div class="product-item_title_wrapper">
+                    <p>С лососем и красной<br/> икрой</p>
+                  </div>
+                </div>
+                <div class="product-item_row clearfix">
+                  <p class="product-item_bonus">
+                    <i class="sprite sprite-ico-stack"></i>
+                    <span>310</span> баллов
+                  </p>
+
+                  <a href="#" class="btn btn--green">Заказать</a>
+                </div>
+              </div><!-- end -->
+            </div>
+            <div class="col s-4">
+              <!-- Одна карточка товара -->
+              <div class="product-item product-item--button">
+                <div class="product-item_image">
+                  <div class="product-item_image_wrapper">
+                    <img src="img/sushi.jpg" alt="">
+                  </div>
+                </div>
+                <div class="product-item_title">
+                  <div class="product-item_title_wrapper">
+                    <p>С лососем и красной<br/> икрой</p>
+                  </div>
+                </div>
+                <div class="product-item_row clearfix">
+                  <p class="product-item_bonus">
+                    <i class="sprite sprite-ico-stack"></i>
+                    <span>310</span> баллов
+                  </p>
+
+                  <a href="#" class="btn btn--green">Заказать</a>
+                </div>
+              </div><!-- end -->
+            </div>
+            <div class="col s-4">
+              <!-- Одна карточка товара -->
+              <div class="product-item product-item--button">
+                <div class="product-item_image">
+                  <div class="product-item_image_wrapper">
+                    <img src="img/sushi.jpg" alt="">
+                  </div>
+                </div>
+                <div class="product-item_title">
+                  <div class="product-item_title_wrapper">
+                    <p>С лососем и красной<br/> икрой</p>
+                  </div>
+                </div>
+                <div class="product-item_row clearfix">
+                  <p class="product-item_bonus">
+                    <i class="sprite sprite-ico-stack"></i>
+                    <span>310</span> баллов
+                  </p>
+
+                  <a href="#" class="btn btn--green">Заказать</a>
+                </div>
+              </div><!-- end -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- вариации подвала страницы секция мобльного приложения, блок сео и сам футер -->
+
+  <!-- мобильное приложение -->
+  <div class="big-header"><span>Мобильное приложение</span></div>
+  <div class="mobile-app container clearfix">
+    <!-- левая колонка -->
+    <div class="mobile-app_left">
+      <!-- элемент преймущества -->
+      <div class="mobile-app_advantage">
+        <div class="mobile-app_ico"><i class="ico-cloud"></i></div>
+        <div class="mobile-app_text">
+          <h3 class="mobile-app_adv-title">Скачивайте бесплатно</h3>
+          <p class="mobile-app_adv-text">Приложение абсолютно бесплатно! скачивайте и заказывайте то, что хотите!</p>
+          <a href="#" class="btn btn--grey btn--grey--image"><img src="img/context/sprite/ico-appstore.png" height="26" width="119" alt=""></a>
+          <a href="#" class="btn btn--grey btn--grey--image"><img src="img/context/sprite/ico-googleplay.png" height="26" width="136"  alt=""></a>
+        </div>
+      </div>
+      <!-- элемент преймущества -->
+      <div class="mobile-app_advantage">
+        <div class="mobile-app_ico"><i class="ico-timer"></i></div>
+        <div class="mobile-app_text">
+          <h3 class="mobile-app_adv-title">Заказывайте в 3 клика</h3>
+          <p class="mobile-app_adv-text">Интерфейс настолько прост, что заказ через приложение занимает считанные секунды</p>
+        </div>
+      </div>
+      <!-- элемент преймущества -->
+      <div class="mobile-app_advantage">
+        <div class="mobile-app_ico"><i class="ico-rocket"></i></div>
+        <div class="mobile-app_text">
+          <h3 class="mobile-app_adv-title">Мы уже едем!</h3>
+          <p class="mobile-app_adv-text">Сделали заказ? Тогда готовьтесь открывать дверь, потому что наш курьер уже мчится к вам ;)</p>
+        </div>
+      </div>
+    </div>
+    <!-- правая колонка -->
+    <div class="mobile-app_right">
+      <!-- мок ап айфона -->
+      <div class="mock-up mock-up--iphone">
+        <img src="img/screenshot-iphone.jpg" alt="">
+      </div>
+      <!-- мок ап cfvceyuf -->
+      <div class="mock-up mock-up--samsung">
+        <img src="img/screenshot-samsung.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Блок СЕО -->
+  <article class="seo-footer">
+    <div class="container">
+      <h2 class="seo-footer_title">ZAKAZAKA: ДОСТАВКА ЛЮБИМОЙ ЕДЫ НА ДОМ!</h2>
+      <p class="seo-footer_text">Любые блюда из лучших ресторанов города - прямо у вас дома, если вы заказываете еду с ZakaZaka! Это так удобно и просто, всего три простых шага: • подбираете подходящий по ассортименту и ценам ресторан; делаете заказ еды по меню этого заведения; •  получаете оперативную доставку в сроки, указанные на сайте для каждого конкретного ресторана. Мы сотрудничаем со многими заведениями города, потому вы сможете найти оптимальный вариант непосредственно в вашем районе, чтобы доставка заняла минимум времени. Наши курьеры привезут горячие блюда - горячими, холодные - охлажденными, а напитки - оптимальной температуры. В результате вы получите все необходимое для того, чтобы устроить люксовый ужин, не выходя из дома или офиса.</p>
+      <h2 class="seo-footer_title">ЗАКАЗ ЕДЫ НА ДОМ: ПОЧЕМУ ЭТО УДОБНО?</h2>
+      <p class="seo-footer_text">Далеко не всегда мы можем позволить себе отправиться в ресторан или даже кафе. Нет времени, нет настроения, одним словом - иногда хочется просто вкусно и качественно поесть, но чтобы никуда не идти и ничего не готовить. Для этого и существует наш сервис доставки еды из ресторанов: вы получите заказанные блюда настолько оперативно, насколько это возможно - заказ поступит на кухню ресторана спустя несколько секунд после того, как будет оформлен на сайте! ZakaZaka гарантирует контроль качества.</p>
+      <h2 class="seo-footer_title">ДОСТАВКА ЕДЫ ИЗ РЕСТОРАНОВ: ПОЧЕМУ ЭТО ВЫГОДНО?</h2>
+      <p class="seo-footer_text">Наш сервис предлагает специальные программы для постоянных клиентов, а также непрерывно отслеживает различные акции и скидки. Потому вы сможете ловить самые выгодные предложения! Мы работаем с душой и даем людям не только вкусную пищу, но и положительные эмоции. Готовьтесь получать сюрпризы, подарки и приятные мелочи, которые сделают работу с сайтом веселым приключением! ZakaZaka ждет ваших заказов!</p>
+    </div>
+  </article>
+
+  <!-- собственно сам футер -->
+  <footer class="main-footer">
+    <div class="container">
+      <!-- верхняя полоса -->
+      <div class="row main-footer_top">
+        <div class="col s-9">
+          <figure class="main-footer_logo">
+            <img src="img/logo-footer.jpg" height="47" width="50" alt="">
+          </figure>
+          <p>© 2013-2014 ZakaZaka, Санкт-Петербург. <strong>Ресторанов много, сайт – один.</strong></p>
+          <p><span>Все права защищены</span></p>
+        </div>
+        <div class="col s-3 text-right">
+          <a href="#" class="socio-btn socio-btn--instagram">Instagram</a>
+          <a href="#" class="socio-btn socio-btn--twitter">twitter</a>
+          <a href="#" class="socio-btn socio-btn--facebook">facebook</a>
+          <a href="#" class="socio-btn socio-btn--vk">vk</a>
+        </div>
+      </div>
+
+      <!-- нижняя полоса -->
+      <div class="row main-footer_top">
+        <div class="col s-6">
+          <ul class="main-footer_nav">
+            <li><a href="#">О проекте</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Информация для партнеров</a></li>
+            <li><a href="#">Пользовательское соглашение</a></li>
+            <li><a href="#">Метро</a></li>
+            <li><a href="#">Бонусные баллы</a></li>
+          </ul>
+          <ul class="main-footer_nav">
+            <li><a href="#">Доставка пиццы</a></li>
+            <li><a href="#">Доставка суши</a></li>
+            <li><a href="#">Доставка еды</a></li>
+            <li><a href="#">Доставка продуктов</a></li>
+          </ul>
+        </div>
+        <div class="col s-6 text-right">
+          <a href="#" class="main-footer_ico-link icon-portal">Кулинарный портал</a>
+          <a href="#" class="main-footer_ico-link icon-gift">Подарки от Zaka Zaka</a>
+          <p class="main-footer_founders"><strong>Founders:</strong> Ruslan Gafurov,<br>Andrey Tsytsenko, Sergey Tsytsenko</p>
+          <a href="" class="btn btn--grey btn--footer"><i class="ico-convert"></i>Написать нам</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- модальные окна -->
+
+  <!-- задний фон окон -->
+  <div class="modal-overlay"></div>
+
+  <!-- сами окна -->
+  <div class="modal modal-register">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+      </div>
+    </div>
+  </div>
+
+  <script src='js/library.js'></script>
+  <script src='js/script.js'></script>
+</body>
+</html>

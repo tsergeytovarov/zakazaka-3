@@ -825,7 +825,10 @@ input[type='password'].input--small {
   display: inline-block;
   vertical-align: top;
 }
-.search {
+input[type='text'].search,
+textarea.search,
+select.search,
+input[type='password'].search {
   padding: 6px 35px 6px 15px;
   border: 1px solid #ececec;
   border-radius: 50px;
@@ -835,7 +838,10 @@ input[type='password'].input--small {
   background-repeat: no-repeat;
   background-position: 230px -188px;
 }
-.search:focus {
+input[type='text'].search:focus,
+textarea.search:focus,
+select.search:focus,
+input[type='password'].search:focus {
   border: 1px solid #c7c7c7;
 }
 textarea {
@@ -1879,6 +1885,7 @@ body {
   border-radius: 5px;
   border: 1px solid #eee;
   padding: 25px 25px 25px 50px;
+  z-index: 9999;
 }
 .tooltip_content::before {
   content: "";
@@ -3645,6 +3652,9 @@ p.main-footer_founders {
   border-bottom: 1px solid #efefef;
   margin-bottom: 15px;
 }
+.sort-block:last-child {
+  border-bottom: none;
+}
 .sort-block_header {
   font-size: 16px;
   line-height: 20px;
@@ -3664,6 +3674,7 @@ p.main-footer_founders {
   font-weight: 400;
   margin-bottom: 15px;
   text-decoration: none;
+  padding-left: 15px;
 }
 .sort-block a:hover,
 .sort-block a.active {
@@ -4843,6 +4854,23 @@ p.main-footer_founders {
   vertical-align: top;
   margin-right: 30px;
   margin-bottom: 40px;
+}
+/* Страница ресторана */
+.find-result input[type="text"].search {
+  background: no-repeat;
+}
+.find-result .page-title {
+  font-size: 34px;
+}
+.find-result .page-title--second {
+  margin-top: 40px;
+  font-size: 24px;
+}
+.find-result .btn {
+  text-transform: uppercase;
+  display: block;
+  max-width: 222px;
+  margin: 40px auto;
 }
 /* Страница ресторана */
 /* Косметический слой */
