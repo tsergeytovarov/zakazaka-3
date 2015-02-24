@@ -4902,6 +4902,35 @@ p.main-footer_founders {
 .metro-item:hover {
   text-decoration: none;
 }
+/* policy_list */
+.policy {
+  margin-bottom: 70px;
+}
+.policy_title {
+  font-size: 13px;
+  line-height: 20px;
+  color: #656565;
+  font-style: italic;
+  opacity: .6;
+}
+.policy_list {
+  padding-left: 20px;
+}
+.policy_list li {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 21px;
+  color: #656565;
+}
+.policy_sublist {
+  list-style: none;
+}
+.policy_sublist li {
+  font-size: 14px;
+  line-height: 21px;
+  color: #adadad;
+  margin-top: 15px;
+}
 /* косметический слой */
 /* Медиа запросы */
 @media (max-width: 1100px) {
