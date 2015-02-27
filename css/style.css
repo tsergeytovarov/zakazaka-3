@@ -1270,7 +1270,12 @@ fieldset {
   opacity: .6;
 }
 .modal_column {
+  background-color: #fff;
   padding: 25px!important;
+  border-right: 1px solid #eee;
+}
+.modal_column:last-child {
+  border: 0;
 }
 .modal_column--grey {
   background-color: #fafafa;
@@ -1287,38 +1292,64 @@ fieldset {
   margin-bottom: 45px;
   font-family: "proxima-light", Arial, sans-serif;
 }
-/* Стили для поп-ап - входа */
-.modal-login button {
+/* Стили для поп-ап - входа, регистрации */
+.modal-login .modal_container,
+.modal-registration .modal_container {
+  width: 760px;
+  background-color: #fafafa;
+  border-color: transparent;
+}
+.modal-login button,
+.modal-registration button {
   min-width: 100px;
 }
-.modal-login_fieldset {
+.modal-login_fieldset,
+.modal-registration_fieldset {
   margin: 16px 0 25px;
 }
-.modal-login_fieldset .modal-login_link {
+.modal-login_fieldset .modal-login_link,
+.modal-registration_fieldset .modal-login_link,
+.modal-login_fieldset .modal-registration_link,
+.modal-registration_fieldset .modal-registration_link {
   line-height: 34px;
 }
-.modal-login_title {
+.modal-login_title,
+.modal-registration_title {
   font-size: 24px;
   line-height: 25px;
   text-align: center;
   font-family: "proxima-light", Arial, sans-serif;
 }
 .modal-login_text,
-.modal-login_link {
+.modal-registration_text,
+.modal-login_link,
+.modal-registration_link {
   font-size: 13px;
   line-height: 18px;
   font-family: "Open Sans", sans-serif;
 }
-.modal-login_text {
+.modal-login_text,
+.modal-registration_text {
   color: #959595;
 }
-.modal-login_link {
+.modal-login_link,
+.modal-registration_link {
   color: #333;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
-.modal-login_link:hover {
+.modal-login_link:hover,
+.modal-registration_link:hover {
   text-decoration: none;
+}
+.modal-login_btn,
+.modal-registration_btn {
+  margin-top: 25px;
+  text-align: center;
+}
+.modal-login .label--grey,
+.modal-registration .label--grey {
+  color: #959595;
 }
 /* Блок с социальными сетями */
 .social-login {
@@ -1326,11 +1357,13 @@ fieldset {
   margin: 0 auto;
   text-align: center;
 }
-.social-login .modal-login_text {
+.social-login .modal-login_text,
+.social-login .modal-registration_text {
   margin-bottom: 23px;
 }
-.social-login .modal-login_link {
-  margin-top: 17px;
+.social-login .modal-login_link,
+.social-login .modal-registration_link {
+  margin-top: 16px;
 }
 /* модальные окна - основа и стили самих окон */
 .bx-wrapper {

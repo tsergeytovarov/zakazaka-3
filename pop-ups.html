@@ -13,15 +13,61 @@
 </head>
 <body>
 
-  <!-- Кнопка вызова для просмотра -->
+  <!-- Кнопки вызова для просмотра -->
+
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-registration">Поп-ап регистрации</a>
 
   <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-login">Поп-ап входа</a>
 
   <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-support">Поп-ап Написать нам</a>
 
 
-  <!-- Модальное окно - Вход -->
 
+
+  <!-- Модальное окно - Регистрация -->
+  <div class="modal-overlay"></div> <!-- задний фон окон -->
+  <div class="modal modal-registration">
+    <div class="modal_wrapper">
+      <div class="modal_container  modal_container--no-padding">
+        <a href="#" class="modal_close  js-close-modal">Закрыть окно</a>
+        <form action="">
+          <div class="row">
+
+            <!-- Левая колонка с логиным/паролем -->
+            <div class="col  s-6  modal_column">
+              <p class="modal-registration_title">Регистрация</p>
+              <input type="text" class="custom-field" placeholder="Логин" required />
+              <input type="text" class="custom-field" placeholder="Email" required />
+              <input type="password" class="custom-field" placeholder="Пароль" required />
+              <input type="text" class="custom-field" placeholder="Телефон" required />
+              <input type="checkbox" id="condition">
+              <label for="condition" class="label--grey modal-registration_text">Я принимаю <br/> <a href="#" class="modal-registration_link">Условия пользовательского соглашения</a></label>
+              <div class="modal-registration_btn">
+                <button type="submit" class="btn  btn--green">Зарегистрироваться</button>
+              </div>
+            </div>
+            
+            <!-- Правая колонка с соц. кнопками -->
+            <div class="col s-6 modal_column  modal_column--grey">
+              <div class="social-login">
+                <p class="modal-registration_text">Используя аккаунт<br/> из социальной сети</p>
+                <a href="#" class="btn  btn--social  btn--social-fb">Facebook</a>
+                <a href="#" class="btn  btn--social  btn--social-vk">Вконтакте</a>
+                <a href="#" class="btn  btn--social  btn--social-mail">Mail.ru</a>
+                <a href="#" class="modal-registration_link">Другая социальная сеть</a>
+              </div>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Модальное окно - Вход -->
   <div class="modal-overlay"></div> <!-- задний фон окон -->
   <div class="modal modal-login">
     <div class="modal_wrapper">
@@ -67,10 +113,7 @@
 
 
   <!-- Модальное окно - Написать нам -->
-
   <div class="modal-overlay"></div> <!-- задний фон окон -->
-
-  <!-- сами окна -->
   <div class="modal modal-support">
     <div class="modal_wrapper">
       <div class="modal_container">
@@ -85,6 +128,7 @@
       </div>
     </div>
   </div>
+
 
   <script src='js/library.js'></script>
   <script src='js/script.js'></script>

@@ -121,7 +121,11 @@ fieldset{
   }
 
   &_column{
+    background-color: #fff;
     padding: 25px!important;
+    border-right: 1px solid #eee;
+
+    &:last-child{ border: 0; }
 
     &--grey{
       background-color: #fafafa;
@@ -152,9 +156,16 @@ fieldset{
 
 
 
-/* Стили для поп-ап - входа */
+/* Стили для поп-ап - входа, регистрации */
 
-.modal-login{
+.modal-login, 
+.modal-registration{
+
+  .modal_container{
+    width: 760px;
+    background-color: #fafafa;
+    border-color: transparent;
+  }
 
   button{
     min-width: 100px;
@@ -162,7 +173,8 @@ fieldset{
 
   &_fieldset{
     margin: 16px 0 25px;
-    .modal-login_link{
+    .modal-login_link,
+    .modal-registration_link{
       line-height: 34px;
     }
   }
@@ -187,11 +199,20 @@ fieldset{
   &_link{
     color: #333;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     
     &:hover{
       text-decoration: none;
     }
+  }
+
+  &_btn{
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .label--grey{
+    color: #959595;
   }
 
 }
@@ -204,12 +225,14 @@ fieldset{
   margin: 0 auto;
   text-align: center;
 
-  .modal-login_text{
+  .modal-login_text,
+  .modal-registration_text{
     margin-bottom: 23px;
   }
 
-  .modal-login_link{
-    margin-top: 17px;
+  .modal-login_link,
+  .modal-registration_link{
+    margin-top: 16px;
   }
 
 }
