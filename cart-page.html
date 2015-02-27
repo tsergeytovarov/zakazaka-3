@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Заказака - список ресторанов</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <![endif]-->
+</head>
+<body>
+
+  <!-- хедер страницы -->
+  <header class="main-header">
+
+    <!-- верхняя часть хедера -->
+    <div class="main-header_top container row">
+      <div class="col s-4">
+
+        <!-- логотип -->
+        <figure class="logo">
+          <img src="img/logo.png" height="40" width="215" alt="">
+          <p>Бесплатный сервис по заказу еды</p>
+        </figure>
+      </div>
+      <div class="col s-4">
+
+        <!-- форма поиска -->
+        <form class="main-header_form">
+          <input type="text" class="search" placeholder="Поиск">
+        </form>
+      </div>
+      <div class="col s-4 text-right">
+
+        <!-- блок телефона -->
+        <div class="telephone-block">
+          <p class="telephone-block_telephone">8 (800) 555-58-50</p>
+          <p class="telephone-block_text">бесплатный звонок со всех телефонов</p>
+        </div>
+      </div>
+    </div><!-- верхняя часть хедера -->
+
+    <!-- нижняя часть хедера -->
+    <div class="main-header_bottom">
+      <div class="container row">
+
+        <!-- выбор города -->
+        <div class="tooltip">
+          <!-- заголово тултипа -->
+          <a href="#" class="tooltip_title js-toggle-tooltip">Санкт-Петербург</a>
+          <!-- контент тултипа -->
+          <div class="tooltip_content">
+            <a href="#" class="tooltip_close js-close-tooltip" title="Закрыть тултип">Закрыть тултип</a>
+            <div class="tooltip_title-inner">Выберете город</div>
+            <div class="row">
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+              </div>
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+              </div>
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Абакан</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- выбор станции метро -->
+        <div class="tooltip">
+          <!-- заголово тултипа -->
+          <a href="#" class="tooltip_title js-toggle-tooltip">Адмиралтейская</a>
+          <!-- контент тултипа -->
+          <div class="tooltip_content">
+            <a href="#" class="tooltip_close js-close-tooltip" title="Закрыть тултип">Закрыть тултип</a>
+            <div class="tooltip_title-inner">Выберите станцию метро</div>
+            <div class="row">
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+              </div>
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">Г</div>
+                  <a href="#" class="find-list_select">Гражданский проспект</a>
+                  <a href="#" class="find-list_select">Гостинный двор</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+              </div>
+              <div class="col s-4">
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Академическая</a>
+                </div>
+                <!-- элемент списка -->
+                <div class="find-list">
+                  <div class="find-list_title">A</div>
+                  <a href="#" class="find-list_select">Адмиралтейская</a>
+                  <a href="#" class="find-list_select">Астрахань</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- блок входа или внутри входа -->
+        <div class="main-header_user to-right">
+          <a href="#" class="btn btn--header js-get-modal" data-modal="modal-register">Регистрация</a>
+          <a href="#" class="btn btn--header btn--header--border">Вход</a>
+        </div>
+      </div>
+    </div>
+  </header> <!-- хедер страницы конец -->
+
+  <div class="container profile-page">
+
+    <div class="breadcrumbs">
+      <a href="index.html"><span>ZakaZaka</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></a>
+      <div><span>Корзина</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></div>
+    </div>
+
+    <!-- большая карточка пользователя -->
+    <div class="restoran-item restoran-item--cart row">
+      <!-- картинка -->
+      <div class="col s-2">
+        <figure class="restoran-item_image">
+          <i class="sprite sprite-ico-cart"></i>
+        </figure>
+      </div>
+      <!-- описание -->
+      <div class="col s-10">
+        <!-- верхняя строка описания -->
+        <div class="restoran-item_top row">
+          <!-- заголовок и описание -->
+          <div class="col s-9">
+            <h3 class="restoran-item_title">Корзина</h3>
+          </div>
+          <!-- оцнка и цена -->
+          <div class="col s-3">
+          </div>
+        </div>
+        <!-- нижняя строка описания -->
+        <div class="restoran-item_bottom row">
+          <div class="col s-3">
+            <p class="restoran-item_sub-titile">Сумма заказа</p>
+            <p class="restoran-item_big"><b>1 798 Р</b></p>
+          </div>
+          <div class="col s-3">
+            <p class="restoran-item_sub-titile">В вашей корзине</p>
+            <p class="restoran-item_big">4 блюда</p>
+          </div>
+          <div class="col s-3">
+            <p class="restoran-item_sub-titile">Стоимость доставки</p>
+            <p class="restoran-item_big">Бесплатно</p>
+          </div>
+          <div class="col s-3">
+            <p class="restoran-item_sub-titile">Количество заведений</p>
+            <p class="restoran-item_big">3 заведения</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- карточка заведения -->
+
+    <!-- корзина сама -->
+    <div class="cart-layout row">
+
+      <form action="" method="">
+
+        <!-- рестораны и заказы -->
+        <div class="col s-8">
+
+          <!-- список ресторана -->
+          <div class="restoran-cart">
+            <!-- title -->
+            <h2 class="restoran-cart_title">
+              Ресторан тануки
+              <button class="restoran-cart_delete btn--delete js-cart-restoran-delete">Удалить</button>
+            </h2>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+            <div class="restoran-cart_title restoran-cart_title--small">Еда за баллы</div>
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">370 баллов</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+            <div class="restoran-cart_title restoran-cart_title--small">Блюда в подарок</div>
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-2"></div>
+              <!-- цена -->
+              <div class="col s-3 product-cart_top text-right">
+                <p class="product-cart_price">Бесплатно</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1"></div>
+            </div>
+
+            <div class="restoran-cart_title restoran-cart_title--small">Доставка</div>
+
+            <!-- tovar -->
+            <div class="product-cart product-cart--delivery row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <p class="product-cart_title">Доставка</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-2 product-cart_top"></div>
+              <!-- цена -->
+              <div class="col s-3 text-right">
+                <p class="product-cart_price">Бесплатно</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1"></div>
+            </div>
+
+            <!-- итого -->
+            <div class="row cart-summary">
+              <div class="col s-6">
+                <a href="#" class="btn btn--grey">вернуться в меню</a>
+              </div>
+              <div class="col s-3 text-right">
+                Итого:
+              </div>
+              <div class="col s-2 text-center cart-summary_price">
+                <b>1 789 P</b>
+              </div>
+              <div class="col s-1"></div>
+            </div>
+            <div class="row cart-summary">
+              <div class="col s-6"></div>
+              <div class="col s-3 text-right">
+                Вы заработаете:
+              </div>
+              <div class="col s-2 text-center cart-summary_price">
+                119 <span>баллов</span>
+              </div>
+              <div class="col s-1"></div>
+            </div>
+          </div>
+
+          <!-- список ресторана -->
+          <div class="restoran-cart">
+            <!-- title -->
+            <h2 class="restoran-cart_title">
+              Ресторан тануки
+              <button class="restoran-cart_delete btn--delete js-cart-restoran-delete">Удалить</button>
+            </h2>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">80 Р</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+            <div class="restoran-cart_title restoran-cart_title--small">Еда за баллы</div>
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-3 product-cart_top js-cart-calc">
+                <button class="product-cart_calc btn--minus">-</button>
+                <input type="text" class="product-cart_calc-result" value="1">
+                <button class="product-cart_calc btn--plus">+</button>
+              </div>
+              <!-- цена -->
+              <div class="col s-2 product-cart_top text-right">
+                <p class="product-cart_price">370 баллов</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1">
+                <button class="product-cart_delete btn--delete js-cart-tovar-delete">Удалить</button>
+              </div>
+            </div>
+
+            <div class="restoran-cart_title restoran-cart_title--small">Блюда в подарок</div>
+
+            <!-- tovar -->
+            <div class="product-cart row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <div class="product-cart_image">
+                  <!-- картинка товара -->
+                  <img src="img/tovar-small.jpg" height="50" width="50" alt="">
+                  <!-- тултип с большой картинкой -->
+                  <div class="product-cart_tooltip">
+                    <img src="img/tovar-1.jpg" height="277" width="277" alt="">
+                    <p>Пицца-сoyc, сыр «Моцарелла», телятина, пепперони, болгарский перец, маслины, зелень</p>
+                  </div>
+                </div>
+                <p class="product-cart_title">Тануки фурай (Лосось,угорь, лук, авокадо, сыр)</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-2"></div>
+              <!-- цена -->
+              <div class="col s-3 product-cart_top text-right">
+                <p class="product-cart_price">Бесплатно</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1"></div>
+            </div>
+
+            <div class="restoran-cart_title restoran-cart_title--small">Доставка</div>
+
+            <!-- tovar -->
+            <div class="product-cart product-cart--delivery row">
+              <!-- картинка с тултипом -->
+              <div class="col s-6">
+                <p class="product-cart_title">Доставка</p>
+              </div>
+              <!-- счетчик количества -->
+              <div class="col s-2 product-cart_top"></div>
+              <!-- цена -->
+              <div class="col s-3 text-right">
+                <p class="product-cart_price">Бесплатно</p>
+              </div>
+              <!-- удаление -->
+              <div class="col s-1"></div>
+            </div>
+
+            <!-- итого -->
+            <div class="row cart-summary">
+              <div class="col s-6">
+                <a href="#" class="btn btn--grey">вернуться в меню</a>
+              </div>
+              <div class="col s-3 text-right">
+                Итого:
+              </div>
+              <div class="col s-2 text-center cart-summary_price">
+                <b>1 789 P</b>
+              </div>
+              <div class="col s-1"></div>
+            </div>
+            <div class="row cart-summary">
+              <div class="col s-6"></div>
+              <div class="col s-3 text-right">
+                Вы заработаете:
+              </div>
+              <div class="col s-2 text-center cart-summary_price">
+                119 <span>баллов</span>
+              </div>
+              <div class="col s-1"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- форма оформления -->
+        <div class="col s-4">
+          <div class="cart-form">
+            <div class="cart-form_title">Оформление</div>
+            <input type="text" placeholder="Имя">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="Адрес">
+            <textarea placeholder="Комментарий"></textarea>
+            <button type="submit" class="btn btn--green">Заказать</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+    <!-- конец корзины -->
+
+  </div>
+
+  <!-- вариации подвала страницы секция мобльного приложения, блок сео и сам футер -->
+
+  <!-- собственно сам футер -->
+  <footer class="main-footer">
+    <div class="container">
+      <!-- верхняя полоса -->
+      <div class="row main-footer_top">
+        <div class="col s-9">
+          <figure class="main-footer_logo">
+            <img src="img/logo-footer.jpg" height="47" width="50" alt="">
+          </figure>
+          <p>© 2013-2014 ZakaZaka, Санкт-Петербург. <strong>Ресторанов много, сайт – один.</strong></p>
+          <p><span>Все права защищены</span></p>
+        </div>
+        <div class="col s-3 text-right">
+          <a href="#" class="socio-btn socio-btn--instagram">Instagram</a>
+          <a href="#" class="socio-btn socio-btn--twitter">twitter</a>
+          <a href="#" class="socio-btn socio-btn--facebook">facebook</a>
+          <a href="#" class="socio-btn socio-btn--vk">vk</a>
+        </div>
+      </div>
+
+      <!-- нижняя полоса -->
+      <div class="row main-footer_top">
+        <div class="col s-6">
+          <ul class="main-footer_nav">
+            <li><a href="#">О проекте</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Информация для партнеров</a></li>
+            <li><a href="#">Пользовательское соглашение</a></li>
+            <li><a href="#">Метро</a></li>
+            <li><a href="#">Бонусные баллы</a></li>
+          </ul>
+          <ul class="main-footer_nav">
+            <li><a href="#">Доставка пиццы</a></li>
+            <li><a href="#">Доставка суши</a></li>
+            <li><a href="#">Доставка еды</a></li>
+            <li><a href="#">Доставка продуктов</a></li>
+          </ul>
+        </div>
+        <div class="col s-6 text-right">
+          <a href="#" class="main-footer_ico-link icon-portal">Кулинарный портал</a>
+          <a href="#" class="main-footer_ico-link icon-gift">Подарки от Zaka Zaka</a>
+          <p class="main-footer_founders"><strong>Founders:</strong> Ruslan Gafurov,<br>Andrey Tsytsenko, Sergey Tsytsenko</p>
+          <a href="" class="btn btn--grey btn--footer"><i class="ico-convert"></i>Написать нам</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- модальные окна -->
+
+  <!-- задний фон окон -->
+  <div class="modal-overlay"></div>
+
+  <!-- сами окна -->
+  <div class="modal modal-register">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+      </div>
+    </div>
+  </div>
+
+  <script src='js/library.js'></script>
+  <script src='js/script.js'></script>
+
+  <!-- для карты -->
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+
+  <!-- скрипт ставящтй тчоку на карте -->
+  <script>
+
+      function initialize() {
+        var mapOptions = {
+          zoom: 15,
+          center: new google.maps.LatLng(59.95, 30.3)
+        }
+        var map = new google.maps.Map(document.getElementById('map-canvas'),
+                                      mapOptions);
+
+        var image = "img/context/sprite/ico-point-map.png";
+        var myLatLng = new google.maps.LatLng(59.95, 30.3);
+        var beachMarker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            icon: image
+        });
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</body>
+</html>

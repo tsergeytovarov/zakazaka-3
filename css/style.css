@@ -785,6 +785,53 @@ b {
 .btn--around:active {
   border: 1px solid #ececec;
 }
+.btn--delete {
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -476px -7px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  float: right;
+  font-size: 0;
+}
+.btn--delete:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+}
+.btn--plus {
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -681px -79px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn--plus:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+}
+.btn--minus {
+  width: 16px;
+  height: 16px;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  background-position: -217px -76px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.btn--minus:hover {
+  border: 1px solid rgba(0, 0, 0, 0.9);
+}
 .page-title--third {
   font-size: 18px;
   font-weight: 300;
@@ -4871,6 +4918,167 @@ p.main-footer_founders {
   display: block;
   max-width: 222px;
   margin: 40px auto;
+}
+/* Страница ресторана */
+.restoran-item--cart .sprite {
+  margin: 20px auto 0;
+}
+.restoran-item--cart .restoran-item_title {
+  margin-bottom: 0;
+}
+/*restoran-cart*/
+.restoran-cart_title {
+  font-size: 24px;
+  line-height: 26px;
+  font-family: "Proxima", "Arial", sans-serif;
+  color: #000;
+  font-weight: 300;
+  padding: 25px 0;
+  border-bottom: 1px solid #eee;
+}
+.restoran-cart_title--small {
+  font-size: 18px;
+  line-height: 25px;
+}
+.restoran-cart_delete {
+  float: right;
+  margin-top: 10px;
+}
+/* product-cart */
+.product-cart {
+  padding: 25px 0;
+  border-bottom: 1px solid #eee;
+}
+.product-cart_top {
+  margin-top: 10px;
+}
+.product-cart_image {
+  float: left;
+  width: 50px;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.product-cart_image > img {
+  width: 100%;
+  height: auto;
+}
+.product-cart_image:hover .product-cart_tooltip {
+  display: block;
+}
+.product-cart_tooltip {
+  position: absolute;
+  top: -40px;
+  left: 65px;
+  background: #fff;
+  z-index: 9999;
+  border: 1px solid #eee;
+  padding: 15px;
+  box-sizing: border-box;
+  width: 270px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.product-cart_tooltip img {
+  display: block;
+  margin: 0 auto;
+  max-width: 170px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.product-cart_tooltip p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #959595;
+  font-weight: 400;
+}
+.product-cart_tooltip::before {
+  content: "";
+  position: absolute;
+  top: 56px;
+  left: -11px;
+  width: 14px;
+  height: 8px;
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: -680px -276px;
+  transform: rotate(270deg);
+}
+.product-cart_title {
+  padding-left: 60px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  font-weight: 800;
+}
+.product-cart input[type="text"].product-cart_calc-result {
+  width: 50px;
+  padding: 7px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 800;
+  color: #000;
+}
+.product-cart_price {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 300;
+  color: #000;
+}
+.product-cart_delete {
+  margin-top: 20px;
+}
+.product-cart--delivery .product-cart_title {
+  padding-left: 0;
+  line-height: 35px;
+}
+/* cart-form */
+.cart-form {
+  padding: 30px;
+  border: 1px solid #eee;
+  margin-top: 75px;
+}
+.cart-form_title {
+  font-family: "Proxima", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cart-form input[type="text"] {
+  margin-bottom: 15px;
+}
+.cart-form textarea {
+  height: 80px;
+  margin-bottom: 15px;
+}
+.cart-form .btn {
+  width: 100%;
+  font-size: 14px;
+  padding: 12px 19px;
+}
+.cart-summary {
+  padding: 25px 0 0;
+  font-size: 10px;
+  line-height: 18px;
+  color: #959595;
+  text-transform: uppercase;
+}
+.cart-summary_price {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000;
+  text-transform: none;
+}
+.cart-summary_price span {
+  font-size: 12px;
+  color: #656565;
+}
+.cart-summary:nth-child(2) {
+  padding: 0 0 25px;
 }
 /* Страница ресторана */
 /* Косметический слой */
