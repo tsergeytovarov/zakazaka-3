@@ -132,6 +132,52 @@
 
   }
 
+  /* Социальные кнопки в поп-апе логина */
+  &--social{
+    color: #fff;
+    margin: 10px 0;
+    min-width: 130px;
+    text-align: left;
+    border-radius: 3px;
+    padding: 7px 19px 7px 44px;
+    text-transform: uppercase;
+    transition: 0.3s ease background;
+    font-family: "Open Sans", sans-serif;
+    background: url(../../img/context/social-sprite.png) no-repeat;
+
+    &-fb{
+      background-color: #4c68b3;
+      background-position: 14px 10px;
+      &:hover{
+        background-color: darken(#4c68b3, 10%);
+      }
+      &:active, &--active{
+        background-color: lighten(#4c68b3, 5%);
+      }
+    }
+
+    &-vk{
+      background-color: #426b9a;
+      background-position: 14px -43px;
+      &:hover{
+        background-color: darken(#426b9a, 10%);
+      }
+      &:active, &--active{
+        background-color: lighten(#426b9a, 5%);
+      }
+    }
+
+    &-mail{
+      background-color: #3688c9;
+      background-position: 14px -98px;
+      &:hover{
+        background-color: darken(#3688c9, 10%);
+      }
+      &:active, &--active{
+        background-color: lighten(#3688c9, 5%);
+      }
+    }
+  } 
 
   /* footer */
   &--footer{
