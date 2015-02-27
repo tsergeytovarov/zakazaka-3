@@ -891,6 +891,22 @@ select.search:focus,
 input[type='password'].search:focus {
   border: 1px solid #c7c7c7;
 }
+input[type='text'].list-page_select,
+textarea.list-page_select,
+select.list-page_select,
+input[type='password'].list-page_select {
+  padding: 9px 0px 9px 10px;
+  font-size: 11px;
+  color: #909090;
+  line-height: 11px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  font-weight: 800;
+  width: auto;
+}
 textarea {
   padding: 15px;
   border: 1px solid #eee;
