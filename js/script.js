@@ -109,16 +109,23 @@ $(function(){
       });
 
 
-      // визульное удаление товара из каорзины
-      $(".js-cart-tovar-delete").on("click", function(event){
-        event.preventDefault();
-        $(this).parents(".product-cart").slideUp(200);
-      });
+    // визульное удаление товара из каорзины
+    $(".js-cart-tovar-delete").on("click", function(event){
+      event.preventDefault();
+      $(this).parents(".product-cart").slideUp(200);
+    });
 
-      // визуальное удаление ресторана
-      $(".js-cart-restoran-delete").on("click", function(event){
-        event.preventDefault();
-        $(this).parents(".restoran-cart").slideUp(500);
-      });
+    // визуальное удаление ресторана
+    $(".js-cart-restoran-delete").on("click", function(event){
+      event.preventDefault();
+      $(this).parents(".restoran-cart").slideUp(500);
+    });
 
+  /* обработка страницы профиля */
+
+    // визуальное удаление адресса
+    $(".js-profile-adress-delete").on("click", function(event){
+      event.preventDefault();
+      $(this).parents(".adress-item").slideUp(200);
+    });
 })
