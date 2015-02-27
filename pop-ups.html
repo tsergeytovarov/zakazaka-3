@@ -17,6 +17,8 @@
 
   <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-login">Поп-ап входа</a>
 
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-support">Поп-ап Написать нам</a>
+
 
   <!-- Модальное окно - Вход -->
 
@@ -62,15 +64,30 @@
     </div>
   </div>
 
+
+
+  <!-- Модальное окно - Написать нам -->
+
+  <div class="modal-overlay"></div> <!-- задний фон окон -->
+
+  <!-- сами окна -->
+  <div class="modal modal-support">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+        <form action="">
+          <p class="modal_title">Написать администрации</p>
+          <input type="text" class="custom-field" placeholder="Email" required  />
+          <input type="text" class="custom-field" placeholder="Имя" required  />
+          <textarea class="custom-field custom-field--textarea" placeholder="Сообщение"></textarea>
+          <button type="submit" class="btn btn--green custom-button">Отправить</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
   <script src='js/library.js'></script>
   <script src='js/script.js'></script>
-  <script src='js/bxslider.min.js'></script>
-
-  <script>
-    $('.promo_bxslider').bxSlider({
-      controls: false
-    });
-  </script>
 
 </body>
 </html>

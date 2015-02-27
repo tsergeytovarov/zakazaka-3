@@ -1275,6 +1275,18 @@ fieldset {
 .modal_column--grey {
   background-color: #fafafa;
 }
+/* Стили для поп-ап - написать нам */
+.modal-support .modal_container {
+  width: 480px;
+  padding: 25px 75px 45px;
+}
+.modal-support .modal_title {
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 45px;
+  font-family: "proxima-light", Arial, sans-serif;
+}
 /* Стили для поп-ап - входа */
 .modal-login button {
   min-width: 100px;
