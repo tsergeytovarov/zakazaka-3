@@ -5002,6 +5002,9 @@ p.main-footer_founders {
 .restoran-item--cart .restoran-item_title {
   margin-bottom: 0;
 }
+.restoran-item--cart:hover {
+  border: 1px solid #eee;
+}
 /*restoran-cart*/
 .restoran-cart_title {
   font-size: 24px;
