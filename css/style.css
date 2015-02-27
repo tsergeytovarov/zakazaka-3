@@ -1180,7 +1180,7 @@ input[type="file"] + label {
 }
 @-webkit-keyframes animate-overlay {
   0% {
-    transform: translateX(-1000px);
+    transform: translateY(-1000px);
   }
   100% {
     transform: translateX(0);
@@ -1188,7 +1188,7 @@ input[type="file"] + label {
 }
 @keyframes animate-overlay {
   0% {
-    transform: translateX(-1000px);
+    transform: translateY(-1000px);
   }
   100% {
     transform: translateX(0);
