@@ -672,6 +672,7 @@ b {
   /* кнопки в нотификациях тултипы */
   /* серые кнопки на 404-ой странице */
   /* зеленые кнопки на странице бонусов */
+  /* Социальные кнопки в поп-апе логина */
   /* footer */
 }
 .btn:hover,
@@ -765,6 +766,51 @@ b {
 .btn--green:active,
 .btn--green--active {
   background: #8dc63f;
+}
+.btn--social {
+  color: #fff;
+  margin: 10px 0;
+  min-width: 130px;
+  text-align: left;
+  border-radius: 3px;
+  padding: 7px 19px 7px 44px;
+  text-transform: uppercase;
+  transition: 0.3s ease background;
+  font-family: "Open Sans", sans-serif;
+  background: url(../../img/context/social-sprite.png) no-repeat;
+}
+.btn--social-fb {
+  background-color: #4c68b3;
+  background-position: 14px 10px;
+}
+.btn--social-fb:hover {
+  background-color: #3d538f;
+}
+.btn--social-fb:active,
+.btn--social-fb--active {
+  background-color: #5e77bb;
+}
+.btn--social-vk {
+  background-color: #426b9a;
+  background-position: 14px -43px;
+}
+.btn--social-vk:hover {
+  background-color: #335276;
+}
+.btn--social-vk:active,
+.btn--social-vk--active {
+  background-color: #4a77ac;
+}
+.btn--social-mail {
+  background-color: #3688c9;
+  background-position: 14px -98px;
+}
+.btn--social-mail:hover {
+  background-color: #2b6da1;
+}
+.btn--social-mail:active,
+.btn--social-mail--active {
+  background-color: #4a94ce;
 }
 .btn--footer {
   padding: 5px 15px;
@@ -1147,6 +1193,9 @@ body,
 html {
   height: 100%;
 }
+fieldset {
+  border: 0;
+}
 .body--hidden {
   overflow: hidden;
 }
@@ -1196,6 +1245,9 @@ html {
   position: relative;
   margin: 0 auto;
 }
+.modal_container--no-padding {
+  padding: 0;
+}
 .modal_close {
   position: absolute;
   top: 24px;
@@ -1210,6 +1262,57 @@ html {
 }
 .modal_close:hover {
   opacity: .6;
+}
+.modal_column {
+  padding: 25px!important;
+}
+.modal_column--grey {
+  background-color: #fafafa;
+}
+/* Стили для поп-ап - входа */
+.modal-login button {
+  min-width: 100px;
+}
+.modal-login_fieldset {
+  margin: 16px 0 25px;
+}
+.modal-login_fieldset .modal-login_link {
+  line-height: 34px;
+}
+.modal-login_title {
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  font-family: "proxima-light", Arial, sans-serif;
+}
+.modal-login_text,
+.modal-login_link {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+.modal-login_text {
+  color: #959595;
+}
+.modal-login_link {
+  color: #333;
+  display: inline-block;
+  vertical-align: middle;
+}
+.modal-login_link:hover {
+  text-decoration: none;
+}
+/* Блок с социальными сетями */
+.social-login {
+  width: 165px;
+  margin: 0 auto;
+  text-align: center;
+}
+.social-login .modal-login_text {
+  margin-bottom: 23px;
+}
+.social-login .modal-login_link {
+  margin-top: 17px;
 }
 /* модальные окна - основа и стили самих окон */
 .bx-wrapper {
@@ -5227,4 +5330,3 @@ p.main-footer_founders {
     min-width: 100px;
   }
 }
-/* медиа-запросы */

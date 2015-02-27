@@ -41,6 +41,10 @@ body, html{
   height: 100%;
 }
 
+fieldset{
+  border: 0;
+}
+
 .body--hidden{
   overflow: hidden;
 }
@@ -94,6 +98,9 @@ body, html{
     background: #fff;
     position: relative;
     margin: 0 auto;
+    &--no-padding{
+      padding: 0;
+    }
   }
 
   &_close{
@@ -112,4 +119,80 @@ body, html{
       opacity: .6;
     }
   }
+
+  &_column{
+    padding: 25px!important;
+
+    &--grey{
+      background-color: #fafafa;
+    }
+  }
+
 }
+
+
+
+/* Стили для поп-ап - входа */
+
+.modal-login{
+
+  button{
+    min-width: 100px;
+  }
+
+  &_fieldset{
+    margin: 16px 0 25px;
+    .modal-login_link{
+      line-height: 34px;
+    }
+  }
+
+  &_title{
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    font-family: "proxima-light", Arial, sans-serif;
+  }
+
+  &_text, &_link{
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  &_text{
+    color: #959595;
+  }
+
+  &_link{
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+    
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+}
+
+
+/* Блок с социальными сетями */
+
+.social-login{
+  width: 165px;
+  margin: 0 auto;
+  text-align: center;
+
+  .modal-login_text{
+    margin-bottom: 23px;
+  }
+
+  .modal-login_link{
+    margin-top: 17px;
+  }
+
+}
+
+
+

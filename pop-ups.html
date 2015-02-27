@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Партнерство</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <![endif]-->
+</head>
+<body>
+
+  <!-- Кнопка вызова для просмотра -->
+
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-login">Поп-ап входа</a>
+
+
+  <!-- Модальное окно - Вход -->
+
+  <div class="modal-overlay"></div> <!-- задний фон окон -->
+  <div class="modal modal-login">
+    <div class="modal_wrapper">
+      <div class="modal_container  modal_container--no-padding">
+        <a href="#" class="modal_close  js-close-modal">Закрыть окно</a>
+        <form action="">
+          <div class="row">
+
+            <!-- Левая колонка с логиным/паролем -->
+            <div class="col  s-6  modal_column">
+              <p class="modal-login_title">Вход</p>
+              <input type="text" class="custom-field" placeholder="Логин" required />
+              <input type="password" class="custom-field" placeholder="Пароль" required />
+              <fieldset class="row modal-login_fieldset">
+                <div class="col s-6">
+                  <a href="#" class="modal-login_link">Забыли пароль?</a>
+                </div>
+                <div class="col s-6 text-right">
+                  <button type="submit" class="btn  btn--green">Войти</button>
+                </div>
+              </fieldset>
+              <p class="modal-login_text text-center">Еще не с нами? <a href="#" class="modal-login_link">Зарегистрируйтесь!</a></p>
+            </div>
+            
+            <!-- Правая колонка с соц. кнопками -->
+            <div class="col s-6 modal_column  modal_column--grey">
+              <div class="social-login">
+                <p class="modal-login_text">Используя аккаунт<br/> из социальной сети</p>
+                <a href="#" class="btn  btn--social  btn--social-fb">Facebook</a>
+                <a href="#" class="btn  btn--social  btn--social-vk">Вконтакте</a>
+                <a href="#" class="btn  btn--social  btn--social-mail">Mail.ru</a>
+                <a href="#" class="modal-login_link">Другая социальная сеть</a>
+              </div>
+            </div>
+
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src='js/library.js'></script>
+  <script src='js/script.js'></script>
+  <script src='js/bxslider.min.js'></script>
+
+  <script>
+    $('.promo_bxslider').bxSlider({
+      controls: false
+    });
+  </script>
+
+</body>
+</html>
