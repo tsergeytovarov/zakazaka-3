@@ -3,8 +3,8 @@ $(function(){
   /* Обработка тултипов */
 
   // откртие и закрытие по ссылке
-    $(".js-toggle-tooltip").on("click", function(){
-
+    $(".js-toggle-tooltip").on("click", function(event){
+      event.preventDefault();
       var current = $(this).parents(".tooltip");
 
       if (current.hasClass("tooltip--open")){
@@ -13,52 +13,51 @@ $(function(){
         $(".tooltip").removeClass("tooltip--open");
         current.addClass("tooltip--open");
       }
-
-      return false;
     })
 
   //  закрытие по крестику
-    $(".js-close-tooltip").on("click", function(){
+    $(".js-close-tooltip").on("click", function(event){
+      event.preventDefault();
       $(this).parents(".tooltip").removeClass("tooltip--open");
-      return false;
     })
 
   /* Нотификации */
 
     // сокрытие  и удаление
-    $(".js-delete-notice").on("click", function(){
+    $(".js-delete-notice").on("click", function(event){
+      event.preventDefault();
       $(this).parents(".notice-item").slideUp(200);
     })
 
   /* Обработчик табов */
 
     // универстальный обработчки
-    $(".js-tab-control").on("click", function(){
+    $(".js-tab-control").on("click", function(event){
+      event.preventDefault();
       var parent = $(this).parents(".js-tab-container");
       parent.find(".js-tab-control").removeClass("active");
       $(this).addClass("active");
       parent.find(".js-tab").removeClass("js-tab--open");
       parent.find("." + $(this).attr("data-tab") ).addClass("js-tab--open");
-      return false;
     })
 
   /* работа с модальными окнами */
 
     //  вызов окна
-    $(".js-get-modal").on("click", function(){
+    $(".js-get-modal").on("click", function(event){
+      event.preventDefault();
       $(".modal-overlay").addClass("modal-overlay--open");
       $(".modal").removeClass("modal--open");
       $("." + $(this).attr("data-modal")).addClass("modal--open");
       $("body, html").addClass("body--hidden");
-      return false;
     })
 
     // закрытие модальног окна изнутри
-    $(".js-close-modal").on("click", function(){
+    $(".js-close-modal").on("click", function(event){
+      event.preventDefault();
       $(this).parents(".modal").removeClass("modal--open");
       $(".modal-overlay").removeClass("modal-overlay--open");
       $("body, html").removeClass("body--hidden");
-      return false;
     })
 
     // закрытие по ESC
@@ -84,7 +83,8 @@ $(function(){
   /* работа с фильтрами на странице с ресторанами */
 
     // открытыие и закрытие
-    $(".sort-block--interactive").find(".sort-block_header").on("click", function(){
+    $(".sort-block--interactive").find(".sort-block_header").on("click", function(event){
+      event.preventDefault();
       $(this).parents(".sort-block--interactive").toggleClass("sort-block--interactive--open");
     })
 
