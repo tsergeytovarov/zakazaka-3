@@ -888,30 +888,5 @@
   <script src='js/library.js'></script>
   <script src='js/script.js'></script>
 
-  <!-- для карты -->
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-
-  <!-- скрипт ставящтй тчоку на карте -->
-  <script>
-
-      function initialize() {
-        var mapOptions = {
-          zoom: 15,
-          center: new google.maps.LatLng(59.95, 30.3)
-        }
-        var map = new google.maps.Map(document.getElementById('map-canvas'),
-                                      mapOptions);
-
-        var image = "img/context/sprite/ico-point-map.png";
-        var myLatLng = new google.maps.LatLng(59.95, 30.3);
-        var beachMarker = new google.maps.Marker({
-            position: myLatLng,
-            map: map,
-            icon: image
-        });
-      }
-
-      google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 </body>
 </html>

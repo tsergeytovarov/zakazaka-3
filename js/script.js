@@ -88,4 +88,37 @@ $(function(){
       $(this).parents(".sort-block--interactive").toggleClass("sort-block--interactive--open");
     })
 
+  /* обработка страницы корзины */
+
+    // счетчики
+
+      // плюс
+      $(".js-cart-calc").find(".btn--plus").on("click", function(event){
+        event.preventDefault();
+        var input = $(this).parents(".js-cart-calc").find(".product-cart_calc-result");
+        input.val( parseInt(input.val()) + 1 );
+      });
+
+      // минус
+      $(".js-cart-calc").find(".btn--minus").on("click", function(event){
+        event.preventDefault();
+        var input = $(this).parents(".js-cart-calc").find(".product-cart_calc-result");
+        var summary = parseInt(input.val()) - 1;
+        if ( summary == 0) summary = 1;
+        input.val(summary);
+      });
+
+
+      // визульное удаление товара из каорзины
+      $(".js-cart-tovar-delete").on("click", function(event){
+        event.preventDefault();
+        $(this).parents(".product-cart").slideUp(200);
+      });
+
+      // визуальное удаление ресторана
+      $(".js-cart-restoran-delete").on("click", function(event){
+        event.preventDefault();
+        $(this).parents(".restoran-cart").slideUp(500);
+      });
+
 })
