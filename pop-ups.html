@@ -15,11 +15,13 @@
 
   <!-- Кнопки вызова для просмотра -->
 
-  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-registration">Поп-ап регистрации</a>
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-registration">Поп-ап - Регистрация</a>
 
-  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-login">Поп-ап входа</a>
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-login">Поп-ап - Вход</a>
 
-  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-support">Поп-ап Написать нам</a>
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-support">Поп-ап - Написать нам</a>
+
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-thanks">Поп-ап - Спасибо за заказ</a>
 
 
 
@@ -129,6 +131,28 @@
       </div>
     </div>
   </div>
+
+
+
+  <!-- Модальное окно - Спасибо за заказ -->
+  <div class="modal-overlay"></div> <!-- задний фон окон -->
+  <div class="modal modal-thanks">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+        <form action="">
+          <p class="modal_title">Спасибо за заказ</p>
+          <p class="modal_text">Теперь вам остается только дождаться курьера и получить свой заказ</p>
+          <button type="submit" class="btn btn--basket">Вернуться в корзину</button>
+          <div class="bonus-block">
+            <p>Вам на счет зачислено <span>100 баллов</span></p>
+          </div>
+          <p class="modal-thanks_text text-center">Еще не с нами? <a href="#" class="modal-thanks_link">Зарегистрируйтесь!</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
 
 
   <script src='js/library.js'></script>
