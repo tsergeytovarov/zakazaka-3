@@ -1296,6 +1296,13 @@ fieldset {
 .modal_column--grey {
   background-color: #fafafa;
 }
+.modal_title {
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "proxima-light", Arial, sans-serif;
+}
 /* Стили для поп-ап - спасибо за заказ */
 .modal-thanks .modal_container {
   width: 540px;
@@ -1729,6 +1736,48 @@ fieldset {
 .modal-registration label + a {
   margin-top: 0;
   padding-left: 30px;
+}
+/* Стили для поп-ап - Оформление заказа */
+.modal-header {
+  padding: 27px 70px;
+  text-align: center;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eee;
+}
+.modal-body {
+  padding: 30px 60px;
+}
+.modal-order .modal_container {
+  width: 440px;
+  padding: 0;
+}
+.modal-order .custom-button {
+  margin-top: 10px;
+}
+/* Предупреждения */
+.caution {
+  color: #FFA115;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 800;
+  margin: 15px 0 15px;
+}
+.caution i {
+  margin-right: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* Сумма */
+.total {
+  color: #959595;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+.total p {
+  color: #000;
+  font-size: 18px;
+  margin-top: 12px;
 }
 /* Блок с социальными сетями */
 .social-login {
