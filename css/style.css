@@ -1350,6 +1350,12 @@ fieldset {
 .modal-login .label--grey,
 .modal-registration .label--grey {
   color: #959595;
+  margin-bottom: 3px;
+}
+.modal-login label + a,
+.modal-registration label + a {
+  margin-top: 0;
+  padding-left: 30px;
 }
 /* Блок с социальными сетями */
 .social-login {
@@ -5446,4 +5452,3 @@ p.main-footer_founders {
     min-width: 100px;
   }
 }
-/* медиа-запросы */
