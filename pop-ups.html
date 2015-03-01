@@ -25,6 +25,8 @@
 
   <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-order">Поп-ап - Оформление заказа</a>
 
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-open">Поп-ап - Открытие ресторана</a>
+
 
 
 
@@ -205,6 +207,35 @@
             <textarea class="custom-field--textarea" placeholder="Комментарий"></textarea>
             <button type="submit" class="btn btn--green custom-button">Заказать</button>
           </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Модальное окно - Открытие ресторана -->
+  <div class="modal-overlay"></div> <!-- задний фон окон -->
+  <div class="modal modal-open">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+        <form action="">
+          <p class="modal_title">Ресторан откроется через 20 минут</p>
+          <p class="caution">
+            <i class="sprite sprite-ico-clock-orange"></i>
+            Возможен только предварительный заказ
+          </p>
+          <a href="#">Сделать предварительный заказ</a>
+
+          <p>Открытые рестораны</p>
+          <div class="row">
+            <div class="col s-3"><a href="#"><img src="img/restoran-1.jpg" alt=""></a></div>
+            <div class="col s-3"><a href="#"><img src="img/restoran-2.jpg" alt=""></a></div>
+            <div class="col s-3"><a href="#"><img src="img/restoran-1.jpg" alt=""></a></div>
+            <div class="col s-3"><a href="#"><img src="img/restoran-2.jpg" alt=""></a></div>
+          </div>
+
         </form>
       </div>
     </div>
