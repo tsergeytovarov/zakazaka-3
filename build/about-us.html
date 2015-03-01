@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Партнерство</title>
+  <title>О нас</title>
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
@@ -322,11 +322,11 @@
     </div>
   </header> <!-- хедер страницы 2 вариант конец-->
 
-  <!-- промо со слайдером -->
+  <!-- видео со слайдером -->
   <section class="promo zakamen">
     <div class="container">
 
-      <p class="promo_title">Что такое ZakaZaka?</p>
+      <p class="promo_title">Как мы работаем?</p>
 
       <ul class="promo_bxslider">
         <li>
@@ -344,35 +344,46 @@
     </div>
   </section>
 
-  <!-- преимущества партнерcтва -->
+  <!-- кто мы такие -->
+  <section class="about-description">
+    <div class="container">
+      <div class="row">
+        <div class="col s-7">
+          <h1 class="about-description_title">Кто мы такие</h1>
+          <p class="about-description_text">ZakaZaka.ru - это лучший сервис по заказу еды из ресторанов и продуктов на дом. Мы верим, что процесс заказа еды должен быть легким, быстрым и доставлять удовольствие.</p>
+          <p class="about-description_text">С помощью ZakaZaka.ru вы получаете доступ к меню сотен ресторанов, а также можете ознакомиться с их рейтингом и специальными предложениями. <br/> Наша миссия - это экономить Ваши деньги и время.</p>
+        </div>
+        <div class="col s-5 text-right">
+          <img src="img/mac-book.jpg" alt="mac-book" height="249" width="459" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- наши преимущества -->
   <section class="advantages">
     <div class="container">
-      <h1 class="advantages_title">Преимущества партнерства</h1>
+      <h2 class="advantages_title">В чем наши преимущества?</h2>
       <div class="row">
         <div class="col s-6">
           <ul class="advantages_list">
-            <li>Подключение к нашему порталу абсолютно бесплатное и займет минимум вашего времени.</li>
-
-            <li>Сотрудничая с нами, вы получаете новых клиентов.</li>
-
-            <li>Наш отдел сервиса круглосуточно принимает заказы и решает проблемные ситуации, вам больше не нужен колл-центр.</li>
-
-            <li>Вы всегда видите отзывы ваших клиентов и можете отвечать на них, корректно построив свою работу.</li>
+            <li>Экономия. Заказывать через Zakazaka.ru всегда выгоднее, чем в самих ресторанах.</li> 
+            <li>Выгода. Мы предоставляем самую полную информацию об акциях и скидках всех ресторанов.</li>
+            <li>Сервис. Мы всегда подскажем самые выгодные предложения и поможем разобраться с ними.</li>
+            <li>Выбор. Мы предоставляем самый большой и полный перечень всех ресторанов. Мы подбираем рестораны, отвечающие именно вашим требованиям.</li>
+            <li>Удобство. Вы можете оформить заказ любым удобным для Вас способом, через портал, мобильные приложения или просто позвонив по телефону.</li>
           </ul>
         </div>
         <div class="col s-6">
           <ul class="advantages_list">
-            <li>Ваше заведение представлено на платформах iOS и Android.</li>
-
-            <li>В личном кабинете вы можете посмотреть статистику по среднему чеку, количеству заказов и просмотру вашего меню.</li>
-
-            <li>Закончились продукты? Поставьте это блюдо в стоп-лист всего одним кликом!</li>
-
-            <li>Акция или скидка не останется без внимания, благодаря удобной системе оповещения о заказе.</li>
+            <li>Скорость. Процесс заказа еды в России никогда не был столь быстрым. Спустя несколько секунд после оформления, ваш заказ поступает на кухню ресторана.</li>
+            <li>Уверенность. Объективный рейтинг портала ZakaZaka.ru помогает Вам сделать правильный выбор и, как следствие, заказать вкусную еду.</li>
+            <li>Настроение. В нашей компании работают только счастливые люди и мы всегда делим свое счастье с нашими пользователями.</li>
+            <li>Эмоции. Пользуясь нашим порталом, вы всегда будете находить приятные сюрпризы.</li>
+            <li>Подарки. У нас вы можете легко получить бонусные баллы, которые можно потратить на сувениры либо оплатить ими какое-нибудь аппетитные блюдо.</li>
           </ul>
         </div>
       </div>
-      <a href="#" class="btn btn--green advantages_btn js-get-modal" data-modal="modal-worksheet">заполнить анкету для сотрудничества</a>
     </div>
   </section>
 
@@ -423,30 +434,6 @@
       </div>
     </div>
   </footer>
-
-  <!-- Модальное окно - Анкета для партнеров -->
-
-  <!-- задний фон окон -->
-  <div class="modal-overlay"></div>
-
-  <!-- сами окна -->
-  <div class="modal modal-worksheet">
-    <div class="modal_wrapper">
-      <div class="modal_container">
-        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
-        <form action="">
-          <p class="modal_title">Анкета для партнеров</p>
-          <input type="text" class="custom-field" placeholder="Фирменное название" />
-          <input type="text" class="custom-field" placeholder="http://" />
-          <input type="text" class="custom-field" placeholder="Город и область" />
-          <input type="text" class="custom-field" placeholder="Контактное лицо" />
-          <input type="text" class="custom-field" placeholder="Телефон" />
-          <textarea class="custom-field custom-field--textarea" placeholder="Комментарий"></textarea>
-          <button type="submit" class="btn btn--green custom-button">Отправить</button>
-        </form>
-      </div>
-    </div>
-  </div>
 
   <script src='js/library.js'></script>
   <script src='js/script.js'></script>

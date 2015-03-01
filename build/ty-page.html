@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Контакты</title>
+  <title>404 - страница</title>
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
@@ -13,7 +13,7 @@
 </head>
 <body>
 
-  <!-- хедер страницы 2 вариант -->
+  <!-- хедер страницы -->
   <header class="main-header">
 
     <!-- верхняя часть хедера -->
@@ -22,8 +22,10 @@
 
         <!-- логотип -->
         <figure class="logo">
-          <img src="img/logo.png" height="40" width="215" alt="">
-          <p>Бесплатный сервис по заказу еды</p>
+          <a href="index.html">
+            <img src="img/logo.png" height="40" width="215" alt="">
+            <p>Бесплатный сервис по заказу еды</p>
+          </a>
         </figure>
       </div>
       <div class="col s-4">
@@ -195,143 +197,82 @@
 
         <!-- блок входа или внутри входа -->
         <div class="main-header_user to-right">
-
-          <!-- тултип избранных-->
-          <div class="tooltip">
-            <!-- заголово тултипа -->
-            <a href="#" class="tooltip_title tooltip_title--star js-toggle-tooltip">Избранное<span class="notice">1</span>></a>
-            <!-- контент тултипа -->
-            <div class="tooltip_content tooltip_content--medium">
-                <!-- Элемент нотификации с картинкой -->
-                <div class="notice-item clearfix">
-                  <div class="notice-item_image">
-                    <img src="img/restoran-small.jpg" height="43" width="43" alt="">
-                  </div>
-                  <a href="#" class="notice-item_title">Якитория</a>
-                  <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
-                  <button class="notice-item_delete js-delete-notice">удалить</button>
-                </div>
-                <!-- Элемент нотификации с картинкой -->
-                <div class="notice-item clearfix">
-                  <div class="notice-item_image">
-                    <img src="img/restoran-small.jpg" height="43" width="43" alt="">
-                  </div>
-                  <a href="#" class="notice-item_title">Якитория</a>
-                  <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
-                  <button class="notice-item_delete js-delete-notice">удалить</button>
-                </div>
-                <!-- Элемент нотификации с картинкой -->
-                <div class="notice-item notice-item--last clearfix">
-                  <div class="notice-item_image">
-                    <img src="img/restoran-small.jpg" height="43" width="43" alt="">
-                  </div>
-                  <a href="#" class="notice-item_title">Якитория</a>
-                  <div class="notice-item_text">Кухня: Азиатская, Европейская</div>
-                  <button class="notice-item_delete js-delete-notice">удалить</button>
-                </div>
-
-                <a href="#" class="btn btn--notice">показать больше уведомлений</a>
-            </div>
-          </div>
-
-          <!-- тултип оповещений-->
-          <div class="tooltip">
-            <!-- заголово тултипа -->
-            <a href="#" class="tooltip_title tooltip_title--message js-toggle-tooltip">Сообщения</a>
-            <!-- контент тултипа -->
-            <div class="tooltip_content tooltip_content--medium">
-              <div class="tooltip-tab js-tab-container">
-                <div class="tooltip-tab_header">
-                  <a href="#" class="js-tab-control active" data-tab="js-tab-notice">уведомления</a>
-                  <a href="#" class="js-tab-control" data-tab="js-tab-system">системные</a>
-                </div>
-
-                <!-- первый таб -->
-                <div class="tooltip-tab_content js-tab js-tab-notice js-tab--open">
-                  <!-- Элемент нотификации с иконкой -->
-                  <div class="notice-item notice-item--gift clearfix">
-                    <div class="notice-item_image"></div>
-                    <a href="#" class="notice-item_title">Мой профиль</a>
-                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
-                    <button class="notice-item_delete js-delete-notice">удалить</button>
-                  </div>
-                  <!-- Элемент нотификации с иконкой -->
-                  <div class="notice-item notice-item--message clearfix">
-                    <div class="notice-item_image"></div>
-                    <a href="#" class="notice-item_title">Ответ на отзыв</a>
-                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
-                    <button class="notice-item_delete js-delete-notice">удалить</button>
-                  </div>
-                  <!-- Элемент нотификации с иконкой -->
-                  <div class="notice-item notice-item--message notice-item--last clearfix">
-                    <div class="notice-item_image"></div>
-                    <a href="#" class="notice-item_title">Ответ на отзыв</a>
-                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
-                    <button class="notice-item_delete js-delete-notice">удалить</button>
-                  </div>
-                  <a href="#" class="btn btn--notice">показать больше уведомлений</a>
-                </div>
-
-                <!-- второй таб -->
-                <div class="tooltip-tab_content js-tab js-tab-system">
-                  <!-- Элемент нотификации с иконкой -->
-                  <div class="notice-item notice-item--message clearfix">
-                    <div class="notice-item_image"></div>
-                    <a href="#" class="notice-item_title">Ответ на отзыв 2</a>
-                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
-                    <button class="notice-item_delete js-delete-notice">удалить</button>
-                  </div>
-                  <!-- Элемент нотификации с иконкой -->
-                  <div class="notice-item notice-item--gift clearfix">
-                    <div class="notice-item_image"></div>
-                    <a href="#" class="notice-item_title">Мой профиль 2</a>
-                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
-                    <button class="notice-item_delete js-delete-notice">удалить</button>
-                  </div>
-                  <!-- Элемент нотификации с иконкой -->
-                  <div class="notice-item notice-item--message notice-item--last clearfix">
-                    <div class="notice-item_image"></div>
-                    <a href="#" class="notice-item_title">Ответ на отзыв</a>
-                    <div class="notice-item_text">Вы получили 150 баллов на ваш счет, удачных заказов!</div>
-                    <button class="notice-item_delete js-delete-notice">удалить</button>
-                  </div>
-                  <a href="#" class="btn btn--notice">показать больше уведомлений</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- тултип блок пользователя -->
-          <div class="tooltip user-info">
-            <!-- заголово тултипа -->
-            <a href="#" class="tooltip_title js-toggle-tooltip">
-              <img src="img/user-small.jpg" class="user-info_image" alt="">
-              <p class="user-info_name">Фёдор</p>
-              <p class="user-info_ball">500 баллов</p>
-            </a>
-            <!-- контент тултипа -->
-            <div class="tooltip_content tooltip_content--small user-nav">
-              <a href="#">Мой профиль</a>
-              <a href="#">Адреса</a>
-              <a href="#">Настройки профиля</a>
-              <a href="#">Выход</a>
-            </div>
-          </div>
+          <a href="#" class="btn btn--header">Регистрация</a>
+          <a href="#" class="btn btn--header btn--header--border">Вход</a>
         </div>
       </div>
     </div>
-  </header> <!-- хедер страницы 2 вариант конец-->
+  </header> <!-- хедер страницы конец -->
 
-  <!-- Блок контактов -->
-  <div class="contacts">
-    <div class="container">
-      <div class="contacts_phone">
-        <p>Свяжитесь с нами по телефону:
-          <span>8 (800) 555-58-50</span>
-        </p>
+  <!-- ty page -->
+  <section class="ty container">
+    <h1 class="ty_title">Ваш заказ оформлен, спасибо!</h1>
+    <p class="ty_text">В ближайшее время с Вами свяжется менеджер ресторана для уточнения деталей</p>
+    <div class="ty_promo">
+      <i class="sprite sprite-ico-gift-top"></i>
+      <p>После подтверждения заказа вам будет изачислено</p>
+      <p><span>100 баллов</span></p>
+    </div>
+  </section>
+
+  <!-- вариации подвала страницы секция мобльного приложения, блок сео и сам футер -->
+
+  <!-- мобильное приложение -->
+  <div class="big-header"><span>Мобильное приложение</span></div>
+  <div class="mobile-app container clearfix">
+    <!-- левая колонка -->
+    <div class="mobile-app_left">
+      <!-- элемент преймущества -->
+      <div class="mobile-app_advantage">
+        <div class="mobile-app_ico"><i class="ico-cloud"></i></div>
+        <div class="mobile-app_text">
+          <h3 class="mobile-app_adv-title">Скачивайте бесплатно</h3>
+          <p class="mobile-app_adv-text">Приложение абсолютно бесплатно! скачивайте и заказывайте то, что хотите!</p>
+          <a href="#" class="btn btn--grey btn--grey--image"><img src="img/context/sprite/ico-appstore.png" height="26" width="119" alt=""></a>
+          <a href="#" class="btn btn--grey btn--grey--image"><img src="img/context/sprite/ico-googleplay.png" height="26" width="136"  alt=""></a>
+        </div>
+      </div>
+      <!-- элемент преймущества -->
+      <div class="mobile-app_advantage">
+        <div class="mobile-app_ico"><i class="ico-timer"></i></div>
+        <div class="mobile-app_text">
+          <h3 class="mobile-app_adv-title">Заказывайте в 3 клика</h3>
+          <p class="mobile-app_adv-text">Интерфейс настолько прост, что заказ через приложение занимает считанные секунды</p>
+        </div>
+      </div>
+      <!-- элемент преймущества -->
+      <div class="mobile-app_advantage">
+        <div class="mobile-app_ico"><i class="ico-rocket"></i></div>
+        <div class="mobile-app_text">
+          <h3 class="mobile-app_adv-title">Мы уже едем!</h3>
+          <p class="mobile-app_adv-text">Сделали заказ? Тогда готовьтесь открывать дверь, потому что наш курьер уже мчится к вам ;)</p>
+        </div>
+      </div>
+    </div>
+    <!-- правая колонка -->
+    <div class="mobile-app_right">
+      <!-- мок ап айфона -->
+      <div class="mock-up mock-up--iphone">
+        <img src="img/screenshot-iphone.jpg" alt="">
+      </div>
+      <!-- мок ап cfvceyuf -->
+      <div class="mock-up mock-up--samsung">
+        <img src="img/screenshot-samsung.jpg" alt="">
       </div>
     </div>
   </div>
+
+  <!-- Блок СЕО -->
+  <article class="seo-footer">
+    <div class="container">
+      <h2 class="seo-footer_title">ZAKAZAKA: ДОСТАВКА ЛЮБИМОЙ ЕДЫ НА ДОМ!</h2>
+      <p class="seo-footer_text">Любые блюда из лучших ресторанов города - прямо у вас дома, если вы заказываете еду с ZakaZaka! Это так удобно и просто, всего три простых шага: • подбираете подходящий по ассортименту и ценам ресторан; делаете заказ еды по меню этого заведения; •  получаете оперативную доставку в сроки, указанные на сайте для каждого конкретного ресторана. Мы сотрудничаем со многими заведениями города, потому вы сможете найти оптимальный вариант непосредственно в вашем районе, чтобы доставка заняла минимум времени. Наши курьеры привезут горячие блюда - горячими, холодные - охлажденными, а напитки - оптимальной температуры. В результате вы получите все необходимое для того, чтобы устроить люксовый ужин, не выходя из дома или офиса.</p>
+      <h2 class="seo-footer_title">ЗАКАЗ ЕДЫ НА ДОМ: ПОЧЕМУ ЭТО УДОБНО?</h2>
+      <p class="seo-footer_text">Далеко не всегда мы можем позволить себе отправиться в ресторан или даже кафе. Нет времени, нет настроения, одним словом - иногда хочется просто вкусно и качественно поесть, но чтобы никуда не идти и ничего не готовить. Для этого и существует наш сервис доставки еды из ресторанов: вы получите заказанные блюда настолько оперативно, насколько это возможно - заказ поступит на кухню ресторана спустя несколько секунд после того, как будет оформлен на сайте! ZakaZaka гарантирует контроль качества.</p>
+      <h2 class="seo-footer_title">ДОСТАВКА ЕДЫ ИЗ РЕСТОРАНОВ: ПОЧЕМУ ЭТО ВЫГОДНО?</h2>
+      <p class="seo-footer_text">Наш сервис предлагает специальные программы для постоянных клиентов, а также непрерывно отслеживает различные акции и скидки. Потому вы сможете ловить самые выгодные предложения! Мы работаем с душой и даем людям не только вкусную пищу, но и положительные эмоции. Готовьтесь получать сюрпризы, подарки и приятные мелочи, которые сделают работу с сайтом веселым приключением! ZakaZaka ждет ваших заказов!</p>
+    </div>
+  </article>
 
   <!-- собственно сам футер -->
   <footer class="main-footer">

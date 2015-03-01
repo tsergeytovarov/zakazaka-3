@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>404 - страница</title>
+  <title>Заказака - список ресторанов</title>
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
@@ -22,10 +22,8 @@
 
         <!-- логотип -->
         <figure class="logo">
-          <a href="index.html">
-            <img src="img/logo.png" height="40" width="215" alt="">
-            <p>Бесплатный сервис по заказу еды</p>
-          </a>
+          <img src="img/logo.png" height="40" width="215" alt="">
+          <p>Бесплатный сервис по заказу еды</p>
         </figure>
       </div>
       <div class="col s-4">
@@ -197,31 +195,246 @@
 
         <!-- блок входа или внутри входа -->
         <div class="main-header_user to-right">
-          <a href="#" class="btn btn--header">Регистрация</a>
+          <a href="#" class="btn btn--header js-get-modal" data-modal="modal-register">Регистрация</a>
           <a href="#" class="btn btn--header btn--header--border">Вход</a>
         </div>
       </div>
     </div>
   </header> <!-- хедер страницы конец -->
 
-  <!-- 404 page -->
-  <article class="page-error container">
-    <img src="img/404.jpg" alt="404">
-    <p class="page-error_title">
-      Что-то пошло не так, попробуйте поискать в другой категории
-    </p>
-    <div class="page-error_navigation">
-      <a href="#" class="btn btn--grey">На главную</a>
-      <a href="#" class="btn btn--grey">Суши</a>
-      <a href="#" class="btn btn--grey">Пицца</a>
-      <a href="#" class="btn btn--grey">Пироги</a>
-      <a href="#" class="btn btn--grey">Шашлыки</a>
-      <a href="#" class="btn btn--grey">Бургеры</a>
-      <a href="#" class="btn btn--grey">Все рестораны</a>
-    </div>
-  </article>
+  <div class="container cafe-item find-result">
 
-    <!-- вариации подвала страницы секция мобльного приложения, блок сео и сам футер -->
+    <!-- верхняя панель -->
+    <div class="list-page_top">
+
+      <div class="breadcrumbs">
+        <a href="index.html"><span>ZakaZaka</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></a>
+        <a href="index.html"><span>Доставка еды</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></a>
+        <a href="index.html"><span>Пицца</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></a>
+        <div><span>Меню заведения Pizza Ollis</span><i class="breadcrumbs_arrow sprite sprite-ico-breadcrumbs-end"></i></div>
+      </div>
+    </div>
+
+    <!-- основной контент -->
+    <div class="list-page_top row">
+      <div class="col s-3">
+        <!-- сайдбор с фильтром -->
+        <aside class="list-page_sidebar">
+          <!-- блок -->
+          <div class="sort-block sort-block--interactive sort-block--interactive--open">
+            <div class="sort-block_header">Доставка еды</div>
+            <div class="sort-block_content">
+              <a href="#">Рестораны</a>
+              <a href="#">Блюда</a>
+            </div>
+          </div>
+          <!-- блок -->
+          <div class="sort-block sort-block--interactive">
+            <div class="sort-block_header">Доставка продуктов</div>
+            <div class="sort-block_content">
+              <a href="#">Магазын</a>
+              <a href="#">Продукты</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="col s-9">
+
+        <h1 class="page-title">Результаты поиска</h1>
+
+        <!-- форма поиска -->
+        <form class="">
+          <input type="text" class="search" placeholder="Поиск">
+        </form>
+
+        <!-- Похожие заведения -->
+        <section class="cafe-item_item">
+          <h2 class="page-title page-title--second">Совпадения в названиях организаций</h2>
+
+          <!-- карточка заведения -->
+          <a href="#" class="restoran-item row">
+            <!-- картинка -->
+            <div class="col s-3">
+              <figure class="restoran-item_image">
+                <img src="img/restoran-1.jpg" height="124" width="160" alt="">
+              </figure>
+            </div>
+            <!-- описание -->
+            <div class="col s-9">
+              <!-- верхняя строка описания -->
+              <div class="restoran-item_top row">
+                <!-- заголовок и описание -->
+                <div class="col s-9">
+                  <h3 class="restoran-item_title">Pizza Ollis</h3>
+                  <p class="restoran-item_description"><span>Кухня:</span> Американская / Мексиканская / Итальянская / Европейская</p>
+                </div>
+                <!-- оцнка и цена -->
+                <div class="col s-3 text-right">
+                  <div class="rate rate--5">
+                    <i></i><i></i><i></i><i></i><i></i>
+                  </div>
+                  <p class="restoran-item_star-col">5 оценок</p>
+                </div>
+              </div>
+              <!-- нижняя строка описания -->
+              <div class="restoran-item_bottom row">
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Мин. заказ:</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-stack "></i> 450 Р</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Оплата картой:</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-viza"></i> Есть</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Время доставки</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-timer-2"></i> До 2-ч часов</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Доставка</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-rocket-w"></i> Бесплатно</p>
+                </div>
+              </div>
+            </div>
+          </a><!-- карточка заведения -->
+
+          <!-- карточка заведения -->
+          <a href="#" class="restoran-item row">
+            <!-- картинка -->
+            <div class="col s-3">
+              <figure class="restoran-item_image">
+                <img src="img/restoran-2.jpg" height="124" width="160" alt="">
+              </figure>
+            </div>
+            <!-- описание -->
+            <div class="col s-9">
+              <!-- верхняя строка описания -->
+              <div class="restoran-item_top row">
+                <!-- заголовок и описание -->
+                <div class="col s-9">
+                  <h3 class="restoran-item_title">Pizza Ollis</h3>
+                  <p class="restoran-item_description"><span>Кухня:</span> Американская / Мексиканская / Итальянская / Европейская</p>
+                </div>
+                <!-- оцнка и цена -->
+                <div class="col s-3 text-right">
+                  <div class="rate rate--3--5">
+                    <i></i><i></i><i></i><i></i><i></i>
+                  </div>
+                  <p class="restoran-item_star-col">5 оценок</p>
+                </div>
+              </div>
+              <!-- нижняя строка описания -->
+              <div class="restoran-item_bottom row">
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Мин. заказ:</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-stack "></i> 450 Р</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Оплата картой:</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-viza"></i> Есть</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Время доставки</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-timer-2"></i> До 2-ч часов</p>
+                </div>
+                <div class="col s-3">
+                  <p class="restoran-item_sub-titile">Доставка</p>
+                  <p class="restoran-item_big"><i class="sprite sprite-ico-rocket-w"></i> Бесплатно</p>
+                </div>
+              </div>
+            </div>
+          </a><!-- карточка заведения -->
+
+
+          <a href="#" class="btn btn--grey">показать все результаты</a>
+
+        </section>
+
+
+        <!-- товары -->
+        <section class="cafe-item_item">
+          <h2 class="page-title page-title--second">Совпадения в названиях организаций</h2>
+
+          <!-- карточки товаров -->
+          <div class="row row--inline">
+            <div class="col s-4">
+              <!-- Одна карточка товара -->
+              <div class="product-item product-item--button">
+                <div class="product-item_image">
+                  <div class="product-item_image_wrapper">
+                    <img src="img/sushi.jpg" alt="">
+                  </div>
+                </div>
+                <div class="product-item_title">
+                  <div class="product-item_title_wrapper">
+                    <p>С лососем и красной<br/> икрой</p>
+                  </div>
+                </div>
+                <div class="product-item_row clearfix">
+                  <p class="product-item_bonus">
+                    <i class="sprite sprite-ico-stack"></i>
+                    <span>310</span> баллов
+                  </p>
+
+                  <a href="#" class="btn btn--green">Заказать</a>
+                </div>
+              </div><!-- end -->
+            </div>
+            <div class="col s-4">
+              <!-- Одна карточка товара -->
+              <div class="product-item product-item--button">
+                <div class="product-item_image">
+                  <div class="product-item_image_wrapper">
+                    <img src="img/sushi.jpg" alt="">
+                  </div>
+                </div>
+                <div class="product-item_title">
+                  <div class="product-item_title_wrapper">
+                    <p>С лососем и красной<br/> икрой</p>
+                  </div>
+                </div>
+                <div class="product-item_row clearfix">
+                  <p class="product-item_bonus">
+                    <i class="sprite sprite-ico-stack"></i>
+                    <span>310</span> баллов
+                  </p>
+
+                  <a href="#" class="btn btn--green">Заказать</a>
+                </div>
+              </div><!-- end -->
+            </div>
+            <div class="col s-4">
+              <!-- Одна карточка товара -->
+              <div class="product-item product-item--button">
+                <div class="product-item_image">
+                  <div class="product-item_image_wrapper">
+                    <img src="img/sushi.jpg" alt="">
+                  </div>
+                </div>
+                <div class="product-item_title">
+                  <div class="product-item_title_wrapper">
+                    <p>С лососем и красной<br/> икрой</p>
+                  </div>
+                </div>
+                <div class="product-item_row clearfix">
+                  <p class="product-item_bonus">
+                    <i class="sprite sprite-ico-stack"></i>
+                    <span>310</span> баллов
+                  </p>
+
+                  <a href="#" class="btn btn--green">Заказать</a>
+                </div>
+              </div><!-- end -->
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- вариации подвала страницы секция мобльного приложения, блок сео и сам футер -->
 
   <!-- мобильное приложение -->
   <div class="big-header"><span>Мобильное приложение</span></div>
@@ -327,6 +540,21 @@
       </div>
     </div>
   </footer>
+
+
+  <!-- модальные окна -->
+
+  <!-- задний фон окон -->
+  <div class="modal-overlay"></div>
+
+  <!-- сами окна -->
+  <div class="modal modal-register">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+      </div>
+    </div>
+  </div>
 
   <script src='js/library.js'></script>
   <script src='js/script.js'></script>
