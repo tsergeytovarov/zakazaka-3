@@ -19,6 +19,7 @@ module.exports = function(grunt){
             'font/**',
             'img/**',
             'js/**',
+            'letters/**',
             '*.html'
           ],
           dest: 'build'
@@ -30,7 +31,7 @@ module.exports = function(grunt){
     less:{
       build:{
         files: {
-          "css/style.css": "less/style.less"
+          "build/css/style.css": "less/style.less"
         }
       }
     },
@@ -49,7 +50,7 @@ module.exports = function(grunt){
     csscomb:{
       build:{
         options:{
-          config: "config.json"
+          config: "csscomb.json"
         },
         files: {
           "build/css/style.css": ["build/css/style.css"],
@@ -103,22 +104,22 @@ module.exports = function(grunt){
     }
   });
 
-  // grunt.registerTask("default",
-  //   [
-  //     "clean",
-  //     "copy",
-  //     "less",
-  //     "autoprefixer",
-  //     "csscomb",
-  //     "cssmin",
-  //     "uglify",
-  //     "imagemin"
-  //   ]
-  // );
-
   grunt.registerTask("default",
     [
-      "watch"
+      "clean",
+      "copy",
+      "less",
+      "autoprefixer",
+      "csscomb",
+      "cssmin",
+      "uglify",
+      "imagemin"
     ]
   );
+
+  // grunt.registerTask("default",
+  //   [
+  //     "watch"
+  //   ]
+  // );
 }

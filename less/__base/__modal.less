@@ -55,7 +55,7 @@ fieldset{
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,.5);
+  background: rgba(0,0,0,.2);
   z-index: 10;
   display: none;
 
@@ -184,13 +184,13 @@ fieldset{
     color: #333;
     display: inline-block;
     vertical-align: top;
-    
+
     &:hover{
       text-decoration: none;
     }
   }
-  
-} 
+
+}
 
 /* Блок с зачислением бонусов */
 
@@ -203,14 +203,15 @@ fieldset{
     content: "";
     .sprite;
     .sprite-ico-gift;
-    // background-size: 416px 273px;
-    // width: 32px;
-    // height: 43px;
+    background-size: 416px 273px;
+    width: 32px;
+    height: 43px;
+    background-position: -89px -197px;
     position: absolute;
-    top: 50%; left: 20px;
+    top: 50%; left: 30px;
     transform: translateY(-50%);
   }
-  
+
   p{
     color: #959595;
     font-size: 13px;
@@ -244,14 +245,14 @@ fieldset{
     margin-bottom: 45px;
     font-family: "proxima-light", Arial, sans-serif;
   }
-  
-} 
+
+}
 
 
 
 /* Стили для поп-ап - входа, регистрации */
 
-.modal-login, 
+.modal-login,
 .modal-registration{
 
   .modal_container{
@@ -293,7 +294,7 @@ fieldset{
     color: #333;
     display: inline-block;
     vertical-align: top;
-    
+
     &:hover{
       text-decoration: none;
     }
@@ -318,7 +319,7 @@ fieldset{
 
 
 
-/* Стили для поп-ап - Оформление заказа */ 
+/* Стили для поп-ап - Оформление заказа */
 
 .modal-header{
   padding: 27px 70px;
@@ -342,10 +343,14 @@ fieldset{
     margin-top: 10px;
   }
 
+  select{
+    padding: 12px 0 12px 10px;
+  }
+
 }
 
 
-/* Предупреждения */ 
+/* Предупреждения */
 .caution{
   color: #FFA115;
   font-size: 11px;
@@ -365,13 +370,13 @@ fieldset{
   font-size: 10px;
   line-height: 14px;
   text-transform: uppercase;
-  
+
   p{
     color: #000;
     font-size: 18px;
     margin-top: 12px;
   }
-} 
+}
 
 
 /* Блок с социальными сетями */

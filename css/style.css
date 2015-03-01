@@ -757,7 +757,7 @@ b {
   border-radius: 3px;
   text-transform: uppercase;
   transition: 0.3s ease background;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
 }
 .btn--green:hover,
 .btn--green--hover {
@@ -776,8 +776,8 @@ b {
   padding: 7px 19px 7px 44px;
   text-transform: uppercase;
   transition: 0.3s ease background;
-  font-family: "Open Sans", sans-serif;
-  background: url(../../img/context/social-sprite.png) no-repeat;
+  font-family: "Open Sans", "Arial", sans-serif;
+  background: url("../img/context/social-sprite.png") no-repeat;
 }
 .btn--social-fb {
   background-color: #4c68b3;
@@ -1227,7 +1227,7 @@ fieldset {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.2);
   z-index: 10;
   display: none;
 }
@@ -1354,9 +1354,13 @@ fieldset {
   background-position: -178px -393px;
   width: 65px;
   height: 86px;
+  background-size: 416px 273px;
+  width: 32px;
+  height: 43px;
+  background-position: -89px -197px;
   position: absolute;
   top: 50%;
-  left: 20px;
+  left: 30px;
   transform: translateY(-50%);
 }
 .bonus-block:before.sprite-ico-appstore {
@@ -1753,6 +1757,9 @@ fieldset {
 }
 .modal-order .custom-button {
   margin-top: 10px;
+}
+.modal-order select {
+  padding: 12px 0 12px 10px;
 }
 /* Предупреждения */
 .caution {
@@ -5874,3 +5881,4 @@ p.main-footer_founders {
     min-width: 100px;
   }
 }
+/* медиа-запросы */
