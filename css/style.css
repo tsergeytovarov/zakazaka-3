@@ -878,6 +878,22 @@ b {
 .btn--minus:hover {
   border: 1px solid rgba(0, 0, 0, 0.9);
 }
+.btn--basket {
+  color: #6d6d6d;
+  width: 182px;
+  padding: 5px;
+  display: block;
+  margin: 0 auto;
+  font-size: 11px;
+  line-height: 22px;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  text-transform: uppercase;
+  background-color: transparent;
+}
+.btn--basket:hover {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
 .page-title--third {
   font-size: 18px;
   font-weight: 300;
@@ -1280,6 +1296,370 @@ fieldset {
 .modal_column--grey {
   background-color: #fafafa;
 }
+.modal_title {
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "proxima-light", Arial, sans-serif;
+}
+/* Стили для поп-ап - спасибо за заказ */
+.modal-thanks .modal_container {
+  width: 540px;
+  padding: 28px 135px;
+}
+.modal-thanks .modal_title {
+  font-size: 24px;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 28px;
+  font-family: "proxima-light", Arial, sans-serif;
+}
+.modal-thanks .modal_text {
+  color: #333;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.modal-thanks_text,
+.modal-thanks_link {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+.modal-thanks_text {
+  color: #959595;
+}
+.modal-thanks_link {
+  color: #333;
+  display: inline-block;
+  vertical-align: top;
+}
+.modal-thanks_link:hover {
+  text-decoration: none;
+}
+/* Блок с зачислением бонусов */
+.bonus-block {
+  padding-left: 78px;
+  position: relative;
+  margin: 30px 0;
+}
+.bonus-block:before {
+  content: "";
+  background-image: url("../img/context/sprite.png");
+  background-repeat: no-repeat;
+  display: block;
+  background-position: -178px -393px;
+  width: 65px;
+  height: 86px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+.bonus-block:before.sprite-ico-appstore {
+  background-position: -10px -10px;
+  width: 238px;
+  height: 52px;
+}
+.bonus-block:before.sprite-ico-arrow-bottom {
+  background-position: -268px -10px;
+  width: 8px;
+  height: 5px;
+}
+.bonus-block:before.sprite-ico-arrow-left {
+  background-position: -296px -10px;
+  width: 61px;
+  height: 20px;
+}
+.bonus-block:before.sprite-ico-big-gift {
+  background-position: -268px -50px;
+  width: 230px;
+  height: 215px;
+}
+.bonus-block:before.sprite-ico-book {
+  background-position: -10px -285px;
+  width: 65px;
+  height: 64px;
+}
+.bonus-block:before.sprite-ico-breadcrumbs-end {
+  background-position: -518px -10px;
+  width: 11px;
+  height: 32px;
+}
+.bonus-block:before.sprite-ico-cart {
+  background-position: -95px -285px;
+  width: 79px;
+  height: 62px;
+}
+.bonus-block:before.sprite-ico-cart-footer {
+  background-position: -194px -285px;
+  width: 32px;
+  height: 25px;
+}
+.bonus-block:before.sprite-ico-checkbox {
+  background-position: -377px -10px;
+  width: 11px;
+  height: 9px;
+}
+.bonus-block:before.sprite-ico-clock--big {
+  background-position: -246px -285px;
+  width: 64px;
+  height: 64px;
+}
+.bonus-block:before.sprite-ico-clock-orange {
+  background-position: -408px -10px;
+  width: 19px;
+  height: 19px;
+}
+.bonus-block:before.sprite-ico-close-pop-up {
+  background-position: -330px -285px;
+  width: 32px;
+  height: 32px;
+}
+.bonus-block:before.sprite-ico-cloud {
+  background-position: -382px -285px;
+  width: 64px;
+  height: 56px;
+}
+.bonus-block:before.sprite-ico-comment-top {
+  background-position: -466px -285px;
+  width: 33px;
+  height: 30px;
+}
+.bonus-block:before.sprite-ico-convert {
+  background-position: -447px -10px;
+  width: 12px;
+  height: 8px;
+}
+.bonus-block:before.sprite-ico-cross {
+  background-position: -479px -10px;
+  width: 8px;
+  height: 8px;
+}
+.bonus-block:before.sprite-ico-cross-blue {
+  background-position: -194px -335px;
+  width: 24px;
+  height: 24px;
+}
+.bonus-block:before.sprite-ico-facebook {
+  background-position: -466px -335px;
+  width: 20px;
+  height: 38px;
+}
+.bonus-block:before.sprite-ico-find {
+  background-position: -10px -393px;
+  width: 32px;
+  height: 32px;
+}
+.bonus-block:before.sprite-ico-find-content {
+  background-position: -62px -393px;
+  width: 96px;
+  height: 96px;
+}
+.bonus-block:before.sprite-ico-gift {
+  background-position: -178px -393px;
+  width: 65px;
+  height: 86px;
+}
+.bonus-block:before.sprite-ico-gift-big {
+  background-position: -263px -393px;
+  width: 64px;
+  height: 61px;
+}
+.bonus-block:before.sprite-ico-gift-top {
+  background-position: -347px -393px;
+  width: 32px;
+  height: 30px;
+}
+.bonus-block:before.sprite-ico-googleplay {
+  background-position: -549px -10px;
+  width: 272px;
+  height: 52px;
+}
+.bonus-block:before.sprite-ico-half {
+  background-position: -10px -82px;
+  width: 18px;
+  height: 16px;
+}
+.bonus-block:before.sprite-ico-info {
+  background-position: -48px -82px;
+  width: 64px;
+  height: 64px;
+}
+.bonus-block:before.sprite-ico-instagram {
+  background-position: -132px -82px;
+  width: 32px;
+  height: 32px;
+}
+.bonus-block:before.sprite-ico-timer--blue {
+  background-position: -551px -214px;
+  width: 33px;
+  height: 33px;
+}
+.bonus-block:before.sprite-ico-mail {
+  background-position: -184px -82px;
+  width: 16px;
+  height: 15px;
+}
+.bonus-block:before.sprite-ico-message {
+  background-position: -518px -82px;
+  width: 38px;
+  height: 30px;
+}
+.bonus-block:before.sprite-ico-minus {
+  background-position: -220px -82px;
+  width: 8px;
+  height: 2px;
+}
+.bonus-block:before.sprite-ico-pizza {
+  background-position: -576px -82px;
+  width: 88px;
+  height: 94px;
+}
+.bonus-block:before.sprite-ico-plus {
+  background-position: -684px -82px;
+  width: 8px;
+  height: 8px;
+}
+.bonus-block:before.sprite-ico-point {
+  background-position: -712px -82px;
+  width: 31px;
+  height: 36px;
+}
+.bonus-block:before.sprite-ico-point-map {
+  background-position: -763px -82px;
+  width: 44px;
+  height: 54px;
+}
+.bonus-block:before.sprite-ico-rocket {
+  background-position: -132px -156px;
+  width: 65px;
+  height: 64px;
+}
+ф .bonus-block:before.sprite-ico-rocket-w {
+  background-position: -10px -156px;
+  width: 16px;
+  height: 16px;
+}
+.bonus-block:before.sprite-ico-setting {
+  background-position: -217px -156px;
+  width: 24px;
+  height: 24px;
+}
+.bonus-block:before.sprite-ico-slider-arrow--next {
+  background-position: -518px -156px;
+  width: 16px;
+  height: 28px;
+}
+.bonus-block:before.sprite-ico-slider-arrow--next--small {
+  background-position: -684px -156px;
+  width: 5px;
+  height: 8px;
+}
+.bonus-block:before.sprite-ico-slider-arrow--prev {
+  background-position: -709px -156px;
+  width: 17px;
+  height: 28px;
+}
+.bonus-block:before.sprite-ico-slider-arrow--prev--small {
+  background-position: -746px -156px;
+  width: 5px;
+  height: 8px;
+}
+.bonus-block:before.sprite-ico-stack {
+  background-position: -771px -156px;
+  width: 14px;
+  height: 16px;
+}
+.bonus-block:before.sprite-ico-star {
+  background-position: -805px -156px;
+  width: 17px;
+  height: 16px;
+}
+.bonus-block:before.sprite-ico-support {
+  background-position: -10px -192px;
+  width: 6px;
+  height: 9px;
+}
+.bonus-block:before.sprite-ico-tel {
+  background-position: -36px -192px;
+  width: 44px;
+  height: 44px;
+}
+.bonus-block:before.sprite-ico-timer {
+  background-position: -746px -192px;
+  width: 57px;
+  height: 64px;
+}
+.bonus-block:before.sprite-ico-timer-2 {
+  background-position: -519px -276px;
+  width: 15px;
+  height: 16px;
+}
+.bonus-block:before.sprite-ico-touch {
+  background-position: -554px -276px;
+  width: 72px;
+  height: 96px;
+}
+.bonus-block:before.sprite-ico-tr-bottom {
+  background-position: -646px -276px;
+  width: 14px;
+  height: 8px;
+}
+.bonus-block:before.sprite-ico-tr-top {
+  background-position: -680px -276px;
+  width: 14px;
+  height: 8px;
+}
+.bonus-block:before.sprite-ico-twitter {
+  background-position: -714px -276px;
+  width: 42px;
+  height: 32px;
+}
+.bonus-block:before.sprite-ico-viza {
+  background-position: -776px -276px;
+  width: 16px;
+  height: 11px;
+}
+.bonus-block:before.sprite-ico-vkontakte {
+  background-position: -646px -307px;
+  width: 38px;
+  height: 22px;
+}
+.bonus-block:before.sprite-ico-with-arrow {
+  background-position: -776px -307px;
+  width: 30px;
+  height: 29px;
+}
+.bonus-block:before.sprite-lenta-green {
+  background-position: -646px -356px;
+  width: 80px;
+  height: 80px;
+}
+.bonus-block:before.sprite-lenta-orange {
+  background-position: -347px -456px;
+  width: 80px;
+  height: 80px;
+}
+.bonus-block:before.sprite-star-full {
+  background-position: -330px -356px;
+  width: 17px;
+  height: 16px;
+}
+.bonus-block p {
+  color: #959595;
+  font-size: 13px;
+  line-height: 18px;
+}
+.bonus-block span {
+  color: #000;
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+}
 /* Стили для поп-ап - написать нам */
 .modal-support .modal_container {
   width: 480px;
@@ -1350,6 +1730,54 @@ fieldset {
 .modal-login .label--grey,
 .modal-registration .label--grey {
   color: #959595;
+  margin-bottom: 3px;
+}
+.modal-login label + a,
+.modal-registration label + a {
+  margin-top: 0;
+  padding-left: 30px;
+}
+/* Стили для поп-ап - Оформление заказа */
+.modal-header {
+  padding: 27px 70px;
+  text-align: center;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eee;
+}
+.modal-body {
+  padding: 30px 60px;
+}
+.modal-order .modal_container {
+  width: 440px;
+  padding: 0;
+}
+.modal-order .custom-button {
+  margin-top: 10px;
+}
+/* Предупреждения */
+.caution {
+  color: #FFA115;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 800;
+  margin: 15px 0 15px;
+}
+.caution i {
+  margin-right: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* Сумма */
+.total {
+  color: #959595;
+  font-size: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+.total p {
+  color: #000;
+  font-size: 18px;
+  margin-top: 12px;
 }
 /* Блок с социальными сетями */
 .social-login {
@@ -5446,4 +5874,3 @@ p.main-footer_founders {
     min-width: 100px;
   }
 }
-/* медиа-запросы */

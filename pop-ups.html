@@ -15,11 +15,15 @@
 
   <!-- Кнопки вызова для просмотра -->
 
-  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-registration">Поп-ап регистрации</a>
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-registration">Поп-ап - Регистрация</a>
 
-  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-login">Поп-ап входа</a>
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-login">Поп-ап - Вход</a>
 
-  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-support">Поп-ап Написать нам</a>
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-support">Поп-ап - Написать нам</a>
+
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-thanks">Поп-ап - Спасибо за заказ</a>
+
+  <a href="#" class="btn  btn--green  js-get-modal" data-modal="modal-order">Поп-ап - Оформление заказа</a>
 
 
 
@@ -41,7 +45,8 @@
               <input type="password" class="custom-field" placeholder="Пароль" required />
               <input type="text" class="custom-field" placeholder="Телефон" required />
               <input type="checkbox" id="condition">
-              <label for="condition" class="label--grey modal-registration_text">Я принимаю <br/> <a href="#" class="modal-registration_link">Условия пользовательского соглашения</a></label>
+              <label for="condition" class="label--grey modal-registration_text">Я принимаю</label>
+              <a href="#" class="modal-registration_link">Условия пользовательского соглашения</a>
               <div class="modal-registration_btn">
                 <button type="submit" class="btn  btn--green">Зарегистрироваться</button>
               </div>
@@ -128,6 +133,83 @@
       </div>
     </div>
   </div>
+
+
+
+  <!-- Модальное окно - Спасибо за заказ -->
+  <div class="modal-overlay"></div> <!-- задний фон окон -->
+  <div class="modal modal-thanks">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+        <form action="">
+          <p class="modal_title">Спасибо за заказ</p>
+          <p class="modal_text">Теперь вам остается только дождаться курьера и получить свой заказ</p>
+          <button type="submit" class="btn btn--basket">Вернуться в корзину</button>
+          <div class="bonus-block">
+            <p>Вам на счет зачислено <span>100 баллов</span></p>
+          </div>
+          <p class="modal-thanks_text text-center">Еще не с нами? <a href="#" class="modal-thanks_link">Зарегистрируйтесь!</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Модальное окно - Оформление заказа -->
+  <div class="modal-overlay"></div> <!-- задний фон окон -->
+  <div class="modal modal-order">
+    <div class="modal_wrapper">
+      <div class="modal_container">
+        <a href="#" class="modal_close js-close-modal">Закрыть окно</a>
+        <form action="">
+          <div class="modal-header">
+            <p class="modal_title">Оформление заказа</p>
+            <p class="caution">
+              <i class="sprite sprite-ico-clock-orange"></i>
+              Возможен только предварительный заказ
+            </p>
+            <div class="total">
+              Сумма заказа
+              <p>1789 р</p>
+            </div>
+          </div>
+          <div class="modal-body">
+            <p class="modal_title">Быстрый заказ</p>
+            <input type="text" class="custom-field" placeholder="Имя" required  />
+            <input type="text" class="custom-field" placeholder="Телефон" required  />
+            <input type="text" class="custom-field" placeholder="Улица" required  />
+            <fieldset class="row">
+              <div class="col s-4">
+                <input type="text" class="" placeholder="Дом" required  />
+              </div>
+              <div class="col s-4">
+                <input type="text" class="" placeholder="Корп." required  />
+              </div>
+              <div class="col s-4">
+                <input type="text" class="" placeholder="Кв." required  />
+              </div>
+            </fieldset>
+            <fieldset class="row">
+              <div class="col s-6">
+                <input type="text" class="custom-field" placeholder="23 января" required  />
+              </div>
+              <div class="col s-3">
+                <input type="text" class="custom-field" placeholder="13" required  />
+              </div>
+              <div class="col s-3">
+                <input type="text" class="custom-field" placeholder="1" required  />
+              </div>
+            </fieldset>
+            <textarea class="custom-field--textarea" placeholder="Комментарий"></textarea>
+            <button type="submit" class="btn btn--green custom-button">Заказать</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
 
 
   <script src='js/library.js'></script>
