@@ -1374,7 +1374,7 @@ fieldset{
 .modal-thanks_link{
   font-size: 13px;
   line-height: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 .modal-thanks_text{
   color: #959595;
@@ -1759,7 +1759,7 @@ fieldset{
 .modal-registration_link{
   font-size: 13px;
   line-height: 18px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
 }
 .modal-login_text,
 .modal-registration_text{
@@ -1809,6 +1809,34 @@ fieldset{
 }
 .modal-order select{
   padding: 12px 0 12px 10px;
+}
+/* Стили для поп-ап - Открытие ресторана */
+.modal-open{
+  text-align: center;
+}
+.modal-open .modal_container{
+  width: 800px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.modal-open_link{
+  color: #333;
+  font-size: 13px;
+  line-height: 15px;
+  display: inline-block;
+  vertical-align: top;
+}
+.modal-open_link:hover{
+  text-decoration: none;
+}
+.modal-open_sub-title{
+  font-size: 18px;
+  line-height: 25px;
+  margin: 40px 0 30px;
+  font-family: "proxima-light", Arial, sans-serif;
+}
+.modal-open_restorans img{
+  max-width: 160px;
 }
 /* Предупреждения */
 .caution{
