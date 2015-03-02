@@ -746,6 +746,7 @@ b{
   border: 1px solid #ececec;
   -webkit-border-radius: 3px;
           border-radius: 3px;
+  background: #fff;
 }
 .btn--grey:hover,
 .btn--grey--hover{
@@ -977,6 +978,7 @@ input[type="password"].search{
   background-size: 416px 273px;
   background-repeat: no-repeat;
   background-position: 230px -188px;
+  background-color: #fff;
 }
 input[type="text"].search:focus,
 input[type="email"].search:focus,
@@ -1105,6 +1107,7 @@ input[type="file"] + label{
   border: 1px solid #eee;
   -webkit-border-radius: 3px;
           border-radius: 3px;
+  background: #fff;
 }
 /* =====================================
    Кастомные поля для страницы партнеров
@@ -1188,6 +1191,7 @@ input[type="file"] + label{
   border: 1px solid #f4f4f4;
   padding: 8px 25px 11px;
   position: relative;
+  background: #fff;
 }
 .breadcrumbs a span,
 .breadcrumbs div span{
@@ -2484,6 +2488,7 @@ fieldset{
 =====================*/
 body{
   min-width: 980px;
+  background: #fbf9f9;
 }
 .container{
   max-width: 1170px;
@@ -2499,6 +2504,9 @@ body{
   display: block;
 }
 /* стили для табов контролирующие */
+.main-header{
+  background: #fff;
+}
 .main-header_top{
   padding: 25px 10px;
 }
@@ -2932,7 +2940,7 @@ body{
   line-height: 32px;
   color: #333;
   font-family: "proxima", "Arial", sans-serif;
-  background: #fff;
+  background: #fbf9f9;
 }
 .mobile-app{
   margin: 60px auto 60px;
@@ -3660,6 +3668,7 @@ p.main-footer_founders{
   border: 1px solid #ececec;
   -webkit-transition: .2s ease all;
           transition: .2s ease all;
+  background: #fff;
   /* контейнер для картинки */
   /* серый заголовок */
   /* блок бонусов */
@@ -3830,12 +3839,20 @@ p.main-footer_founders{
 .catalog_container{
   margin-bottom: 40px;
 }
+.catalog_container .col:first-child{
+  padding: 0 15px;
+}
+.catalog_container .col:last-child{
+  padding: 0 15px;
+}
 .catalog-item{
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   padding: 22px 0;
-  border: 1px solid #fff;
+  border: 1px solid #fbf9f9;
+  background: #fff;
+  margin-bottom: 20px;
 }
 .catalog-item_image{
   height: 215px;
@@ -3996,10 +4013,10 @@ p.main-footer_founders{
   text-decoration: none;
 }
 .index-control a.active{
-  background: #fafafa;
+  background: #fff;
 }
 .index-control a.active:hover{
-  background: #fafafa;
+  background: #fff;
 }
 .index-control a:first-child{
   -webkit-border-top-left-radius: 3px;
@@ -4433,7 +4450,6 @@ p.main-footer_founders{
   /*314px*/
   background: url(../img/context/bg-contacts.jpg) no-repeat;
   background-position: bottom center;
-  background-size: cover;
 }
 .contacts .container{
   position: relative;
@@ -4845,6 +4861,7 @@ p.main-footer_founders{
   margin-bottom: 20px;
   display: block;
   text-decoration: none;
+  background: #fff;
 }
 .restoran-item:hover{
   border: 1px solid #c7c7c7;
@@ -5352,6 +5369,7 @@ p.main-footer_founders{
 .notification{
   padding: 30px 170px 30px 35px;
   margin-bottom: 20px;
+  background: #fff;
 }
 .notification .row{
   display: table;
@@ -5580,6 +5598,7 @@ p.main-footer_founders{
   padding: 30px;
   border: 1px solid #eee;
   text-align: center;
+  background: #fff;
 }
 .order-item_info p{
   text-transform: uppercase;
@@ -5833,6 +5852,7 @@ p.main-footer_founders{
   padding: 30px;
   border: 1px solid #eee;
   margin-top: 75px;
+  background: #fff;
 }
 .cart-form_title{
   font-family: "Proxima", "Arial", sans-serif;
