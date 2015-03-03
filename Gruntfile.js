@@ -31,7 +31,7 @@ module.exports = function(grunt){
     less:{
       build:{
         files: {
-          "css/style.css": "less/style.less"
+          "build/css/style.css": "less/style.less"
         }
       }
     },
@@ -104,22 +104,22 @@ module.exports = function(grunt){
     }
   });
 
-  // grunt.registerTask("default",
-  //   [
-  //     "clean",
-  //     "copy",
-  //     "less",
-  //     "autoprefixer",
-  //     "csscomb",
-  //     "cssmin",
-  //     "uglify",
-  //     "imagemin"
-  //   ]
-  // );
-
   grunt.registerTask("default",
     [
-      "watch"
+      "clean",
+      "copy",
+      "less",
+      "autoprefixer",
+      "csscomb",
+      "cssmin",
+      "uglify",
+      "imagemin"
     ]
   );
+
+  // grunt.registerTask("default",
+  //   [
+  //     "watch"
+  //   ]
+  // );
 }
