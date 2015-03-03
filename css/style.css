@@ -750,6 +750,18 @@ b {
 .btn--grey--image img {
   display: block;
 }
+.btn--orange {
+  background: #ffa115;
+  border-radius: 2px;
+  font-size: 14px;
+  line-height: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 14px;
+}
+.btn--orange:hover {
+  opacity: .8;
+}
 .btn--green {
   color: #fff;
   font-size: 11px;
@@ -2655,6 +2667,18 @@ body {
 }
 .tooltip_content--medium::before {
   left: 20px;
+}
+.tooltip_content--footer {
+  bottom: 60px;
+  left: -80px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+  top: auto;
+}
+.tooltip_content--footer::before {
+  top: auto;
+  bottom: -7px;
+  transform: rotate(180deg);
+  left: 240px;
 }
 .tooltip_content--small {
   width: 175px;
@@ -5860,6 +5884,65 @@ p.main-footer_founders {
 }
 .ty_after b {
   color: #333;
+}
+/* Страница ресторана */
+.cart-pane {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #f6f6f6;
+  padding: 15px 0;
+  min-width: 960px;
+  width: 100%;
+}
+.cart-pane__logo {
+  font-size: 18px;
+  line-height: 25px;
+  color: #ffa115;
+  font-weight: 700;
+  margin-top: 7px;
+}
+.cart-pane__logo i {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+  float: left;
+}
+.cart-pane__item {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 11px;
+  line-height: 21px;
+  color: #ffa115;
+  text-transform: uppercase;
+  margin-left: 6%;
+  margin-top: 10px;
+}
+.cart-pane__item .js-toggle-tooltip {
+  cursor: pointer;
+}
+.cart-pane__item:first-child {
+  margin-left: 0;
+}
+.cart-pane__number {
+  line-height: 17px;
+  box-sizing: border-box;
+  width: 21px;
+  font-size: 10px;
+  color: #ffa115;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  border: 2px solid #ffa115;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+.cart-pane__sum {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  font-weight: 600;
+  transform: translateY(-2px);
 }
 /* Страница ресторана */
 /* Косметический слой */
